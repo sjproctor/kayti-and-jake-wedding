@@ -1,15 +1,31 @@
-# Jake and Kayti
+# 🥂 Jake and Kayti's Wedding Website
 
-### Spin Up the App
+### ✅ Onboarding to the App
 
-- React + Vite
-- yarn
-- yarn dev
-- http://localhost:5173/
+This is a React app that was creating by Vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- To run the app in a development environment, clone the repository and run `yarn`
+- To spin up a local server run the command `yarn dev`
+- The application will run locally at `http://localhost:5173/`
 
-Currently, two official plugins are available:
+### 🤝 Application Dependencies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+All dependencies are installed with yarn.
+
+- [React Tailwind](https://tailwindcss.com/docs/guides/create-react-app)
+- [Flowbite React](https://www.flowbite-react.com/)
+- [React router dom](https://reactrouter.com/en/main)
+- [React router hash link](https://classic.yarnpkg.com/en/package/@xzar90/react-router-hash-link)
+
+### 💄 Styling Notes
+
+- There is a custom font used for headers
+  - Font is called Moontime located in `public/fonts` and configured in `index.css`
+  - Can be referenced in Tailwind as `font-moontime`
+- Default font-family:
+- Background color: cream `#f9f5f2`
+- Font color: terracotta `#9a3911`
+
+### 🚀 Deployment
+
+- The application is deployed on Render.com and available at [this url](https://jake-and-kayti.onrender.com/)

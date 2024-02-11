@@ -1,16 +1,30 @@
-import "./App.css"
-import downtown from "./assets/downtown.jpeg"
+import Landing from "./pages/Landing"
+import Celebration from "./pages/Celebration"
+import Contact from "./pages/Contact"
+import OurStory from "./pages/OurStory"
+import Photos from "./pages/Photos"
+import Navigation from "./components/Navigation"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
     <>
-      <h1 className="text">Jake + Kayti</h1>
-      <img
-        src={downtown}
-        alt="Jake and Kayti kissing under an artistic structure in downtown Boise"
-        className="downtown"
-      />
-      <h3 className="text">06.08.2024</h3>
+      <div className="sm:flex hover:cursor-pointer">
+        <Navigation />
+      </div>
+      <Landing />
+      <hr className="m-8" />
+      <OurStory />
+      <hr className="m-8" />
+      <Celebration />
+      <hr className="m-8" />
+      <Contact />
+      <hr className="m-8" />
+      <Photos />
+      <hr className="m-8" />
+      <div className="flex justify-center">
+        <Footer />
+      </div>
     </>
   )
 }
