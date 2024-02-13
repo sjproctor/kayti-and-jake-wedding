@@ -9,7 +9,7 @@ import Footer from "./components/Footer"
 const App = () => {
   return (
     <>
-      <div className="sm:flex hover:cursor-pointer">
+      <div className="hover:cursor-pointer sm:flex">
         <Navigation />
       </div>
       <Landing />
