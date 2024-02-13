@@ -55,7 +55,7 @@ const OurStory = () => {
         walk to catch up on life. The two talked about life, love, where they
         are in their journeys and where they hope to be in the future. Not
         surprisingly, their quick walk lasted over three hours. Neither had
-        expected this to be the start of a lief-changing relationship. They both
+        expected this to be the start of a life-changing relationship. They both
         indented to continue on their own paths, but there was no denying it.
         They were smitten.
       </p>
