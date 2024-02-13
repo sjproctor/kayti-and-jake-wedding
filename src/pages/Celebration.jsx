@@ -1,10 +1,10 @@
-import { HashLink } from "@xzar90/react-router-hash-link"
+import { HashLink } from "react-router-hash-link"
 
 const Celebration = () => {
   return (
     <div className="m-4" id="celebration">
       <HashLink smooth to="#" className="hover:cursor-pointer">
-        <h2 className="font-moontime m-3 text-6xl text-center">Celebration</h2>
+        <h2 className="m-3 text-center font-moontime text-6xl">Celebration</h2>
       </HashLink>
       <p className="">
         You are cordially invited to celebrate with Jake and Kayti this fall at

@@ -1,5 +1,5 @@
 import footerLogo from "../assets/logo-footer.png"
-import { HashLink } from "@xzar90/react-router-hash-link"
+import { HashLink } from "react-router-hash-link"
 
 const Footer = () => {
   return (

@@ -1,5 +1,5 @@
 import { Navbar } from "flowbite-react"
-import { HashLink } from "@xzar90/react-router-hash-link"
+import { HashLink } from "react-router-hash-link"
 import logo from "../assets/logo.png"
 
 const Navigation = () => {
@@ -43,3 +43,6 @@ const Navigation = () => {
 }
 
 export default Navigation
+
+
+class="bg-white px-2 py-2.5 dark:border-gray-700 dark:bg-gray-800 sm:px-4 rounded"
