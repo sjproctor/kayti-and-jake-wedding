@@ -1,18 +1,17 @@
 name: Web Tests
 
-on: push
-
-env:
-  NODE_OPTIONS: --max_old_space_size=4096
+on:
+  push:
+    branches: [main]
 
 jobs:
   web_test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: "21"
+          node-version: "20"
 
       - name: Restore workspace cache
         uses: actions/cache@v3
@@ -29,10 +28,10 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: "21"
+          node-version: "20"
 
       - name: Restore workspace cache
         uses: actions/cache@v3
