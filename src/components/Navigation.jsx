@@ -43,6 +43,3 @@ const Navigation = () => {
 }
 
 export default Navigation
-
-
-class="bg-white px-2 py-2.5 dark:border-gray-700 dark:bg-gray-800 sm:px-4 rounded"
