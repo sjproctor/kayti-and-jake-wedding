@@ -9,7 +9,7 @@ const Landing = () => {
         <img
           src={downtown}
           alt="Jake and Kayti kissing under an artistic structure in downtown Boise"
-          className="dark:shadow-black/30 h-auto max-w-full rounded-lg shadow-lg"
+          className="dark:shadow-black/30 h-auto max-w-full shadow-lg lg:rounded-lg"
         />
       </div>
     </main>
