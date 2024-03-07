@@ -1,5 +1,6 @@
 import Landing from "./pages/Landing"
 import Celebration from "./pages/Celebration"
+import Ceremony from "./pages/Ceremony"
 import Contact from "./pages/Contact"
 import OurStory from "./pages/OurStory"
 import Photos from "./pages/Photos"
@@ -14,9 +15,11 @@ const App = () => {
       </div>
       <Landing />
       <hr className="m-8" />
+      <Celebration />
+      <hr className="m-8" />
       <OurStory />
       <hr className="m-8" />
-      <Celebration />
+      <Ceremony />
       <hr className="m-8" />
       <Contact />
       <hr className="m-8" />
