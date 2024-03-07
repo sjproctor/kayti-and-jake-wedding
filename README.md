@@ -1,4 +1,4 @@
-# 🥂 Jake and Kayti's Wedding Website
+# 🥂 Kayti and Jake's Wedding Website
 
 ### ✅ Onboarding to the App
 
@@ -15,17 +15,19 @@ All dependencies are installed with yarn.
 - [React Tailwind](https://tailwindcss.com/docs/guides/create-react-app)
 - [Flowbite React](https://www.flowbite-react.com/)
 - [React router dom](https://reactrouter.com/en/main)
-- [React router hash link](https://classic.yarnpkg.com/en/package/@xzar90/react-router-hash-link)
+- [React anchor link smooth scroll](https://classic.yarnpkg.com/en/package/react-anchor-link-smooth-scroll)
 
 ### 💄 Styling Notes
 
 - Styling is handled with Tailwind
   - Tailwind classnames will format on save
-- There is a custom font used for headers
-  - Font is called Moontime located in `public/fonts` and configured in `index.css`
+- Fonts
+  - Header font is Moontime located in `public/fonts` and configured in `index.css`
   - Can be referenced in Tailwind as `font-moontime`
-- Background color: cream `#f9f5f2`
-- Font color: terracotta `#9a3911`
+  - Body font is Garamond located in `public/fonts` and configured in `index.css`
+  - Can be referenced in Tailwind as `font-garamond`
+- Font color: black `#121f32`
+- Accent color: gold `#b2935b`
 
 ### 🫧 Linting
 
@@ -55,7 +57,7 @@ yarn eslint <filename> --fix
 
 ### 🚀 Deployment
 
-- The application is deployed on Render.com and available at [this url](https://jake-and-kayti.onrender.com/)
+- The application is deployed on Render.com and available at [this url](https://kj-party-time.com/)
 
 ### ⚙️ Testing
 
