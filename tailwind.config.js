@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        moontime: ["Moontime", "sans-serif"]
+        moontime: ["Moontime", "sans-serif"],
+        alice: ["Alice", "sans-serif"]
       },
       screens: {
         sm: "640px",
@@ -26,7 +27,8 @@ export default {
     },
     colors: {
       cream: "#f9f5f2",
-      terracotta: "#9a3911"
+      terracotta: "#9a3911",
+      blackFont: "#121f32"
     }
   },
   plugins: []
