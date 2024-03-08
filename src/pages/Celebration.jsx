@@ -7,8 +7,8 @@ const Celebration = () => {
         <h2 className="m-3 text-center font-moontime text-6xl">Celebration</h2>
       </AnchorLink>
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
-        You are cordially invited to friends and family gathering to celebrate
-        with Kayti and Jake on August 31, 2024.
+        You are invited to friends and family gathering to celebrate with Kayti
+        and Jake on August 31, 2024.
       </p>
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
         Location: Basque Center, 601 W Grove St, Boise, Idaho 83702

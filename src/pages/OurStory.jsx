@@ -79,10 +79,10 @@ const OurStory = () => {
         className="dark:shadow-black/30 m-5 mx-auto w-64 rounded-full shadow-lg"
       />
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
-        In January 2023, the Dahlgren and Proctor families spend a beautiful
+        In January 2023, the Dahlgren and Proctor families spent a beautiful
         seven days in Belize. The whole nine-person crew of parents, siblings,
         and partners got along beautifully! While this was quite the adventure
-        in itself, Jake had surprise. During a tour of the Mayan ruin
+        in itself, Jake had a surprise. During a tour of the Mayan ruin
         Xunantunich in western Belize, the crew climbed to the top of the
         largest monument that afforded views all the way to Guatemala. On the
         top of the structure, 130 feet from the valley floor, Jake proposed.
@@ -95,10 +95,10 @@ const OurStory = () => {
       />
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
         Kayti and Jake will have a small wedding ceremony in the mountains near
-        Crouch, Idaho in June. This will be followed by a celebratory gathering
-        with extended family and friends on August 31, 2024 in Boise, Idaho.
-        They&apos;re so grateful for the love and support their friends and
-        family have shown through the years. Every twist and turn has led to
+        Garden Valley, Idaho in June. This will be followed by a celebratory
+        gathering with extended family and friends on August 31, 2024 in Boise,
+        Idaho. They&apos;re so grateful for the love and support their friends
+        and family have shown through the years. Every twist and turn has led to
         this moment and they could not be more excited for the next chapter of
         their lives. It is all very nice.
       </p>
