@@ -1,11 +1,12 @@
-import Landing from "./pages/Landing"
+import Footer from "./components/Footer"
+import Navigation from "./components/Navigation"
 import Celebration from "./pages/Celebration"
 import Ceremony from "./pages/Ceremony"
 import Contact from "./pages/Contact"
+import Landing from "./pages/Landing"
 import OurStory from "./pages/OurStory"
 import Photos from "./pages/Photos"
-import Navigation from "./components/Navigation"
-import Footer from "./components/Footer"
+import Postcard from "./pages/Postcard"
 
 const App = () => {
   return (
@@ -24,6 +25,8 @@ const App = () => {
       <Contact />
       <hr className="m-8" />
       <Photos />
+      <hr className="m-8" />
+      <Postcard />
       <hr className="m-8" />
       <div className="flex justify-center">
         <Footer />

@@ -46,6 +46,11 @@ const Navigation = () => {
             Photos
           </AnchorLink>
         </Navbar.Link>
+        <Navbar.Link>
+          <AnchorLink smooth href="#postcard" className="hover:cursor-pointer">
+            Postcard
+          </AnchorLink>
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   )
