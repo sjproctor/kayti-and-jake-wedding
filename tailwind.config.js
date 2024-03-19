@@ -27,7 +27,7 @@ export default {
     },
     colors: {
       cream: "#f9f5f2",
-      terracotta: "#9a3911",
+      greenGold: "#b2935b",
       blackFont: "#121f32"
     }
   },
