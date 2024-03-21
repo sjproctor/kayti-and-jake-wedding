@@ -10,7 +10,7 @@ import proposal from "../assets/proposal.jpeg"
 const OurStory = () => {
   return (
     <div className="m-4" id="our-story">
-      <AnchorLink smooth href="#home" className="hover:cursor-pointer">
+      <AnchorLink href="#home" className="hover:cursor-pointer">
         <h2 className="m-3 text-center font-moontime text-6xl ">Our Story</h2>
       </AnchorLink>
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">

@@ -16,6 +16,7 @@ All dependencies are installed with yarn.
 - [Flowbite React](https://www.flowbite-react.com/)
 - [React router dom](https://reactrouter.com/en/main)
 - [React anchor link smooth scroll](https://classic.yarnpkg.com/en/package/react-anchor-link-smooth-scroll)
+- [PDF Download](https://classic.yarnpkg.com/en/package/jspdf-html2canvas)
 
 ### 💄 Styling Notes
 
@@ -63,7 +64,6 @@ yarn eslint <filename> --fix
 
 - The structure of this app requires Vitest, Jest, and React Testing Library
 - Testing configs are a WIP
-- GitHub Actions are a WIP
 
 ```yml
 web_test:

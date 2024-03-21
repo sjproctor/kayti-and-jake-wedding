@@ -3,13 +3,20 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const Footer = () => {
   return (
-    <AnchorLink smooth href="#home" className=" hover:cursor-pointer">
-      <img
-        src={footerLogo}
-        alt="Kayti and Jake logo"
-        className="mb-6 max-h-80"
-      />
-    </AnchorLink>
+    <>
+      <div className="flex justify-center">
+        <AnchorLink href="#home" className=" hover:cursor-pointer">
+          <img
+            src={footerLogo}
+            alt="Kayti and Jake logo"
+            className="mb-6 max-h-80"
+          />
+        </AnchorLink>
+      </div>
+      <p className="text-center">
+        Handcrafted with love by Sarah | &copy; 2024
+      </p>
+    </>
   )
 }
 

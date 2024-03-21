@@ -7,8 +7,10 @@ import tableRock from "../assets/table-rock.jpeg"
 const Photos = () => {
   return (
     <div className="m-4" id="photos">
-      <AnchorLink smooth href="#home" className="hover:cursor-pointer">
-        <h2 className="m-3 text-center font-moontime text-6xl">Photos</h2>
+      <AnchorLink href="#home" className="hover:cursor-pointer">
+        <h2 className="m-3 text-center font-moontime text-6xl">
+          Photo Gallery
+        </h2>
       </AnchorLink>
       <div className="lg:flex">
         <img

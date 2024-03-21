@@ -1,10 +1,11 @@
+import NavigationButton from "../components/NavigationButton"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import hikingLola from "../assets/hiking-lola.jpeg"
 
 const Contact = () => {
   return (
     <div className="m-4" id="contact">
-      <AnchorLink smooth href="#home" className="hover:cursor-pointer">
+      <AnchorLink href="#home" className="hover:cursor-pointer">
         <h2 className="m-3 text-center font-moontime text-6xl">Contact Us</h2>
       </AnchorLink>
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
@@ -39,6 +40,7 @@ const Contact = () => {
       <div className="mt-4 sm:mx-4 md:mx-12 lg:mx-48">Kayti and Jake</div>
       <div className="sm:mx-4 md:mx-12 lg:mx-48">2707 Malibu Drive</div>
       <div className="sm:mx-4 md:mx-12 lg:mx-48">Boise, Idaho 83705</div>
+      <NavigationButton linkName="View Postcard Mailer" location="/postcard" />
     </div>
   )
 }
