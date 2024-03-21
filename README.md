@@ -18,6 +18,14 @@ All dependencies are installed with yarn.
 - [React anchor link smooth scroll](https://classic.yarnpkg.com/en/package/react-anchor-link-smooth-scroll)
 - [PDF Download](https://classic.yarnpkg.com/en/package/jspdf-html2canvas)
 
+### 🗄️ Useful Resources
+
+A few of the many resources that helped me on my way.
+
+- [React Router Scroll to Top](https://v5.reactrouter.com/web/guides/scroll-restoration)
+- [Embed a Google Map](https://www.youtube.com/watch?v=2NNA2kHcAHg)
+- [React Suspense](https://blog.logrocket.com/async-rendering-react-suspense-hooks-other-methods/)
+
 ### 💄 Styling Notes
 
 - Styling is handled with Tailwind
