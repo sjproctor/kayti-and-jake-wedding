@@ -1,11 +1,12 @@
-import AnchorLink from "react-anchor-link-smooth-scroll"
 import bench from "../assets/bench.jpeg"
+import festival from "../assets/festival.jpeg"
 import graduation from "../assets/graduation.jpeg"
 import greenField from "../assets/green-field.jpeg"
-import festival from "../assets/festival.jpeg"
 import jasmine from "../assets/jasmine.jpeg"
 import patio from "../assets/patio.jpeg"
 import proposal from "../assets/proposal.jpeg"
+import NavigationButton from "../components/NavigationButton"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const OurStory = () => {
   return (
@@ -106,6 +107,10 @@ const OurStory = () => {
         src={patio}
         alt="Kayti and Jake sitting on a patio with a mountain view in the background"
         className="dark:shadow-black/30 m-5 mx-auto w-64 rounded-full shadow-lg"
+      />
+      <NavigationButton
+        linkName="See More Adorable Photos"
+        location="/photos"
       />
     </div>
   )
