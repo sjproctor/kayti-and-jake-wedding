@@ -1,5 +1,5 @@
-import AnchorLink from "react-anchor-link-smooth-scroll"
 import NavigationButton from "../components/NavigationButton"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const Celebration = () => {
   return (
@@ -13,7 +13,7 @@ const Celebration = () => {
         You are invited to a gathering of friends and family to celebrate with
         Kayti and Jake on August 31, 2024.
       </p>
-      <NavigationButton linkName="More Information" location="/party" />
+      <NavigationButton linkName="More Party Information" location="/party" />
     </div>
   )
 }

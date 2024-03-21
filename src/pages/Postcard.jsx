@@ -1,6 +1,6 @@
-import NavigationHome from "../components/NavigationHome"
-import postcardFront from "../assets/postcard-front.png"
 import postcardBack from "../assets/postcard-back.png"
+import postcardFront from "../assets/postcard-front.png"
+import NavigationHome from "../components/NavigationHome"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import jsPDF from "jspdf"
 

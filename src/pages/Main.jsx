@@ -4,7 +4,6 @@ import Ceremony from "../sections/Ceremony"
 import Contact from "../sections/Contact"
 import Landing from "../sections/Hero"
 import OurStory from "../sections/OurStory"
-import Photos from "../sections/Photos"
 
 const Main = () => {
   return (
@@ -21,8 +20,6 @@ const Main = () => {
       <Ceremony />
       <hr className="m-8" />
       <Contact />
-      <hr className="m-8" />
-      <Photos />
       <hr className="m-8" />
     </>
   )

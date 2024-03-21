@@ -1,7 +1,7 @@
 import React, { Suspense } from "react"
 import NavigationPages from "../components/NavigationHome"
-import { Link } from "react-router-dom"
 const GoogleMap = React.lazy(() => import("../components/GoogleMap"))
+import { Link } from "react-router-dom"
 
 const PartTime = () => {
   return (

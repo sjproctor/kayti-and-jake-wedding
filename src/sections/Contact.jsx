@@ -1,6 +1,6 @@
+import hikingLola from "../assets/hiking-lola.jpeg"
 import NavigationButton from "../components/NavigationButton"
 import AnchorLink from "react-anchor-link-smooth-scroll"
-import hikingLola from "../assets/hiking-lola.jpeg"
 
 const Contact = () => {
   return (

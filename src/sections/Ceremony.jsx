@@ -1,3 +1,4 @@
+import NavigationButton from "../components/NavigationButton"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const Ceremony = () => {
@@ -16,6 +17,12 @@ const Ceremony = () => {
         follow Kayti and Jake on socials and search for the hashtag #lorem-ipsum
         for more content.
       </p>
+      <br />
+      <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
+        You are invited to a gathering of friends and family to celebrate with
+        Kayti and Jake on August 31, 2024.
+      </p>
+      <NavigationButton linkName="More Party Information" location="/party" />
     </div>
   )
 }
