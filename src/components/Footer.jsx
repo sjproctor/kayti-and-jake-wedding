@@ -9,7 +9,7 @@ const Footer = () => {
           <img
             src={footerLogo}
             alt="Kayti and Jake logo"
-            className="mb-6 max-h-80"
+            className="mb-6 h-28 lg:h-44"
           />
         </AnchorLink>
       </div>

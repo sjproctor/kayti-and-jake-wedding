@@ -6,7 +6,7 @@ const HeaderLogo = () => {
     <Link to="/" className="hover:cursor-pointer">
       <img
         src={logo}
-        className="mr-2 w-16 md:w-16 lg:w-16"
+        className="mr-2 w-12 md:w-16"
         id="home"
         alt="Kayti and Jake wedding logo"
       />
