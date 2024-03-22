@@ -3,7 +3,7 @@ import downtown from "../assets/downtown.jpeg"
 const Landing = () => {
   return (
     <main className="m-auto text-center">
-      <h1 className="m-3 font-moontime text-8xl">Kayti and Jake</h1>
+      <h1 className="m-3 font-moontime text-6xl md:text-8xl">Kayti and Jake</h1>
       <div className="flex justify-center">
         <img
           src={downtown}
