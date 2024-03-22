@@ -5,8 +5,8 @@ import greenField from "../assets/green-field.jpeg"
 import jasmine from "../assets/jasmine.jpeg"
 import patio from "../assets/patio.jpeg"
 import proposal from "../assets/proposal.jpeg"
-import Photo from "../components/Photo"
 import NavigationButton from "../components/NavigationButton"
+import Photo from "../components/Photo"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const OurStory = () => {

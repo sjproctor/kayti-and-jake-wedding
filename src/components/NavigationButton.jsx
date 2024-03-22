@@ -5,7 +5,7 @@ const NavigationButton = ({ linkName, location }) => {
   return (
     <div className="text-center">
       <Link to={location}>
-        <button className="border-gray-400 m-2 rounded-full border px-4 py-2 shadow-2xl hover:text-greenGold">
+        <button className="m-2 rounded-full border px-4 py-2 shadow-2xl hover:text-greenGold">
           {linkName}
         </button>
       </Link>

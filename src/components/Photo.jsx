@@ -5,7 +5,7 @@ const Photo = ({ source, altText }) => {
     <img
       src={source}
       alt={altText}
-      className="dark:shadow-black/30 border-gray-400 m-5 mx-auto w-64 rounded-full shadow-2xl"
+      className="dark:shadow-black/30 m-5 mx-auto w-64 rounded-full shadow-2xl"
     />
   )
 }
