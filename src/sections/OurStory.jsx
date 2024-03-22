@@ -5,6 +5,7 @@ import greenField from "../assets/green-field.jpeg"
 import jasmine from "../assets/jasmine.jpeg"
 import patio from "../assets/patio.jpeg"
 import proposal from "../assets/proposal.jpeg"
+import Photo from "../components/Photo"
 import NavigationButton from "../components/NavigationButton"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 
@@ -21,10 +22,9 @@ const OurStory = () => {
         <em>they are so nice</em>? Well, turns out their story is pretty nice,
         too.
       </p>
-      <img
-        src={greenField}
-        alt="Kayti in Jake's arms in a field of green grass"
-        className="dark:shadow-black/30 m-5 mx-auto w-64 rounded-full shadow-lg"
+      <Photo
+        source={greenField}
+        altText="Kayti in Jake's arms in a field of green grass"
       />
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
         Kayti and Jake started dating in the summer of 2021. While that kicks
@@ -34,10 +34,9 @@ const OurStory = () => {
         many other tots, was invited to the Dahlgren house for a Halloween party
         in 1993. Kayti attended in her most favorite costume, Princess Jasmine.
       </p>
-      <img
-        src={jasmine}
-        alt="Kayti in a Princess Jasmine halloween costume"
-        className="dark:shadow-black/30 m-5 mx-auto w-64 rounded-full shadow-lg"
+      <Photo
+        source={jasmine}
+        altText="Kayti in a Princess Jasmine halloween costume"
       />
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
         Since Kayti and Jake are very nice people, they naturally have many,
@@ -47,11 +46,7 @@ const OurStory = () => {
         other around town. Kayti loved seeing Jake and getting one of his
         signature hugs.
       </p>
-      <img
-        src={festival}
-        alt="Kayti and Jake at a music festival"
-        className="dark:shadow-black/30 m-5 mx-auto w-64 rounded-full shadow-lg"
-      />
+      <Photo source={festival} altText="Kayti and Jake at a music festival" />
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
         In 2021, Jake had back surgery and Kayti reached out during his
         convalescence with an invitation for a short walk to catch up and chat.
@@ -61,10 +56,9 @@ const OurStory = () => {
         life-changing relationship. They both indented to continue on their own
         paths, but there was no denying it. They were smitten.
       </p>
-      <img
-        src={bench}
-        alt="Kayti and Jake on Dad's bench on the Boise greenbelt"
-        className="dark:shadow-black/30 m-5 mx-auto w-64 rounded-full shadow-lg"
+      <Photo
+        source={bench}
+        altText="Kayti and Jake on Dad's bench on the Boise greenbelt"
       />
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
         Fluttery feelings aside, they took it slow and allowed their
@@ -74,10 +68,9 @@ const OurStory = () => {
         happily merging their lives. In the summer of 2022, Kayti finished her
         graduate degree and moved into Jake&apos;s house.
       </p>
-      <img
-        src={graduation}
-        alt="Kayti and Jake at BSU after Kayti's graduation ceremony"
-        className="dark:shadow-black/30 m-5 mx-auto w-64 rounded-full shadow-lg"
+      <Photo
+        source={graduation}
+        altText="Kayti and Jake at BSU after Kayti's graduation ceremony"
       />
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
         In January 2023, the Dahlgren and Proctor families spent a beautiful
@@ -89,10 +82,9 @@ const OurStory = () => {
         top of the structure, 130 feet from the valley floor, Jake proposed.
         Kayti, of course, said yes!
       </p>
-      <img
-        src={proposal}
-        alt="Jake on one knee proposing to Kayti on the top of the Xunantunich monument"
-        className="dark:shadow-black/30 m-5 mx-auto w-64 rounded-full shadow-lg"
+      <Photo
+        source={proposal}
+        altText="Jake on one knee proposing to Kayti on the top of the Xunantunich monument"
       />
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
         Kayti and Jake will have a small wedding ceremony in the mountains near
@@ -103,10 +95,9 @@ const OurStory = () => {
         this moment and they could not be more excited for the next chapter of
         their lives. It is all very nice.
       </p>
-      <img
-        src={patio}
-        alt="Kayti and Jake sitting on a patio with a mountain view in the background"
-        className="dark:shadow-black/30 m-5 mx-auto w-64 rounded-full shadow-lg"
+      <Photo
+        source={patio}
+        altText="Kayti and Jake sitting on a patio with a mountain view in the background"
       />
       <NavigationButton
         linkName="See More Adorable Photos"

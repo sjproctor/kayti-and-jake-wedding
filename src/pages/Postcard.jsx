@@ -33,7 +33,7 @@ const Postcard = () => {
         </p>
         <div className="text-center">
           <button
-            className="m-2 rounded border px-4  py-2 hover:text-greenGold"
+            className="m-2 rounded-full border px-4 py-2 shadow-2xl hover:text-greenGold"
             onClick={downloadPDF}
           >
             Download Postcard

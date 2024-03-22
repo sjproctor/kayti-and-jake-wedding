@@ -16,7 +16,7 @@ const Contact = () => {
       <img
         src={hikingLola}
         alt="Kayti and Jake with Lola dog on a hike"
-        className="dark:shadow-black/30 m-5 mx-auto w-64 rounded-full shadow-lg"
+        className="dark:shadow-black/30 m-5 mx-auto w-64 rounded-full shadow-2xl"
       />
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
         If you would like to mark the occasion of our marriage with a gift, we
