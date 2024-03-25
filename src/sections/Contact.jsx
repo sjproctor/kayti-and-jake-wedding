@@ -9,9 +9,9 @@ const Contact = () => {
         <h2 className="m-3 text-center font-moontime text-6xl">Contact Us</h2>
       </AnchorLink>
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
-        As we are so lucky to have a home and life together, we feel there is no
-        need for any gifts beyond your well wishes. We would prefer your
-        presence at our celebratory gathering rather than presents!
+        Since we are very lucky to have a home and life together, we feel there
+        is no need for any gifts beyond your well wishes. We would prefer your
+        presence at our celebration rather than presents!
       </p>
       <img
         src={hikingLola}
@@ -23,18 +23,18 @@ const Contact = () => {
         would be more than grateful. Please do not feel obliged in any way.
       </p>
       <div className="mt-4 sm:mx-4 md:mx-12 lg:mx-48">
-        We are both on Venmo:
+        We are both on Venmo.
       </div>
       <div className="mt-4 sm:mx-4 md:mx-12 lg:mx-48">
         <div>
-          <a>Kayti Venmo placeholder</a>
+          <a>Kayti Venmo: @Kayti</a>
         </div>
         <div>
-          <a>Jake Venmo placeholder</a>
+          <a>Jake Venmo: @jake-dahlgren-1</a>
         </div>
       </div>
       <div className="mt-4 sm:mx-4 md:mx-12 lg:mx-48">
-        Amazon Wishlist placeholder
+        Amazon Wishlist lorem ipsum
       </div>
       <div className="mt-4 sm:mx-4 md:mx-12 lg:mx-48">Mailing address:</div>
       <div className="mt-4 sm:mx-4 md:mx-12 lg:mx-48">Kayti and Jake</div>

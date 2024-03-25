@@ -16,13 +16,11 @@ const PartyTime = () => {
             Party Information
           </h2>
         </Link>
-        <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
+        <div className="mb-3 md:mx-10 lg:mx-40 lg:max-w-5xl">
           You are invited to a gathering of friends and family to celebrate with
           Kayti and Jake on August 31, 2024.
-        </p>
-      </div>
-      <div className="mb-7">
-        <div className="m-4">
+        </div>
+        <div className="mb-3 md:mx-10 lg:mx-40 lg:max-w-5xl">
           <p>Location: Basque Center</p>
           <p>Address: 601 W Grove St, Boise, Idaho 83702</p>
           <p>Date: Saturday, August 31, 2024</p>
@@ -31,6 +29,7 @@ const PartyTime = () => {
             Dress code: Casual, please wear whatever makes you feel most
             comfortable.
           </p>
+          <p>What to expect: Lorem ipsum.</p>
           <p>What to bring: Yourself!</p>
           <p>Parking: Lorem ipsum.</p>
           <p>Transportation: Lorem ipsum.</p>
