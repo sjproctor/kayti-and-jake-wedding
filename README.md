@@ -17,6 +17,7 @@ All dependencies are installed with yarn.
 - [React router dom](https://reactrouter.com/en/main)
 - [React anchor link smooth scroll](https://classic.yarnpkg.com/en/package/react-anchor-link-smooth-scroll)
 - [PDF Download](https://classic.yarnpkg.com/en/package/jspdf-html2canvas)
+- [React Hook Form](https://react-hook-form.com/get-started)
 
 ### 🗄️ Useful Resources
 
