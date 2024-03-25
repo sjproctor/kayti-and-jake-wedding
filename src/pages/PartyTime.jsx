@@ -1,9 +1,10 @@
 import React, { Suspense } from "react"
+import NavigationButton from "../components/NavigationButton"
 import NavigationPages from "../components/NavigationHome"
 const GoogleMap = React.lazy(() => import("../components/GoogleMap"))
 import { Link } from "react-router-dom"
 
-const PartTime = () => {
+const PartyTime = () => {
   return (
     <>
       <div className="hover:cursor-pointer">
@@ -34,6 +35,7 @@ const PartTime = () => {
           <p>Parking: Lorem ipsum.</p>
           <p>Transportation: Lorem ipsum.</p>
         </div>
+        <NavigationButton linkName="RSVP For the Party" location="/rsvp" />
         <div className="w-screen">
           <Suspense fallback={<p>loading...</p>}>
             <GoogleMap />
@@ -44,4 +46,4 @@ const PartTime = () => {
   )
 }
 
-export default PartTime
+export default PartyTime
