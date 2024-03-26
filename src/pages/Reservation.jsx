@@ -40,8 +40,8 @@ const Reservation = () => {
         message
       }
       await emailjs.send(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
+        "service_izpa2uz",
+        "template_6y4jg0s",
         templateParams,
         "opwB1tSgZJHytVdTC"
         // emailjs docs say this is okay to do, still feels weird
