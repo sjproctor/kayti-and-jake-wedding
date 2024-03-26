@@ -34,12 +34,12 @@ const PartyTime = () => {
           <p>Parking: Lorem ipsum.</p>
           <p>Transportation: Lorem ipsum.</p>
         </div>
-        <NavigationButton linkName="RSVP For the Party" location="/rsvp" />
-        <div className="w-screen">
-          <Suspense fallback={<p>loading...</p>}>
-            <GoogleMap />
-          </Suspense>
-        </div>
+      </div>
+      <NavigationButton linkName="RSVP For the Party" location="/rsvp" />
+      <div className="w-screen">
+        <Suspense fallback={<p>loading...</p>}>
+          <GoogleMap />
+        </Suspense>
       </div>
     </>
   )
