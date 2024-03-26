@@ -7,11 +7,15 @@ import emailjs from "@emailjs/browser"
 const Reservation = () => {
   const [yesStatus, setYesStatus] = useState("hidden")
   const [noStatus, setNoStatus] = useState("hidden")
+  const [submissionAlert, setSubmissionAlert] = useState({
+    visibility: "hidden",
+    header: "",
+    body: ""
+  })
   const [selectedStatus, setSelectedState] = useState({
     visibility: "hidden",
     buttonLabel: ""
   })
-  const [submission, setSubmission] = useState(null)
 
   const {
     register,
@@ -39,12 +43,21 @@ const Reservation = () => {
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
         templateParams,
-        import.meta.env.VITE_PUBLIC_KEY
+        "opwB1tSgZJHytVdTC"
+        // emailjs docs say this is okay to do, still feels weird
       )
-      setSubmission("Form submission was successful!")
+      setSubmissionAlert({
+        visibility: "",
+        header: "Success!",
+        body: "Thank you for your RSVP."
+      })
     } catch (e) {
       console.log(e)
-      setSubmission("Uh oh. Something went wrong.")
+      setSubmissionAlert({
+        visibility: "",
+        header: "Oops!",
+        body: "Something went wrong."
+      })
     } finally {
       setYesStatus("hidden")
       setNoStatus("hidden")
@@ -97,6 +110,33 @@ const Reservation = () => {
         </p>
         <br />
         <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">* required fields</p>
+        <div className={submissionAlert.visibility}>
+          <div
+            className="bg-greenGoldLight relative m-1 rounded border border-greenGold bg-opacity-50 px-4 py-3 md:mx-10 md:w-80 lg:mx-40"
+            role="alert"
+          >
+            <strong className="font-bold">{submissionAlert.header}</strong>
+            <span className="block">{submissionAlert.body}</span>
+            <span className="absolute bottom-0 right-0 top-0 px-4 py-3">
+              <svg
+                className="fill-current h-6 w-6"
+                role="button"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                onClick={() =>
+                  setSubmissionAlert({
+                    visibility: "hidden",
+                    header: "",
+                    body: ""
+                  })
+                }
+              >
+                <title>Close</title>
+                <path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152 2.758 3.15a1.2 1.2 0 0 1 0 1.698z" />
+              </svg>
+            </span>
+          </div>
+        </div>
         <form
           className="w-full md:mx-10 lg:mx-40"
           onSubmit={handleSubmit(onSubmit)}
@@ -155,7 +195,6 @@ const Reservation = () => {
             />
             <label htmlFor="no">No, sending well wishes and regrets.</label>
           </div>
-
           <div className={yesStatus}>
             <br />
             <p>Yay we are excited to see you!</p>
@@ -177,12 +216,10 @@ const Reservation = () => {
               )}
             </div>
           </div>
-
           <div className={noStatus}>
             <br />
             <p>Thanks for letting us know!</p>
           </div>
-
           <div className={selectedStatus.visibility}>
             <div className="my-2">
               <textarea
