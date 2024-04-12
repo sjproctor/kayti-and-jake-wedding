@@ -53,7 +53,7 @@ const OurStory = () => {
         The two talked about life, love, where they were in their journeys, and
         where they hope to be in the future. Their short walk ended up lasting
         over three hours. Neither had expected this to be the start of a
-        life-changing relationship. They both indented to continue on their own
+        life-changing relationship. They both intended to continue on their own
         paths, but there was no denying it. They were smitten.
       </p>
       <Photo
