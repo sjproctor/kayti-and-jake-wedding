@@ -13,7 +13,7 @@ export default {
       },
       screens: {
         sm: "640px",
-        md: "768px",
+        md: "1000px",
         lg: "1024px",
         xl: "1280px",
         "2xl": "1536px"
@@ -30,7 +30,11 @@ export default {
       greenGold: "#b2935b",
       greenGoldLight: "#ded1b8",
       blackFont: "#121f32",
-      error: "#cc0000"
+      error: "#cc0000",
+      champagne: "#f7e7ce",
+      eucalyptus: "#465c47",
+      white: "#ffffff",
+      gray: "#6c6868"
     },
     opacity: {
       50: ".50"

@@ -12,6 +12,10 @@
     font-family: "Garamond";
     src: url("../fonts/EBGaramond-Medium.ttf");
   }
+  @font-face {
+    font-family: "Alice";
+    src: url("../fonts/Alice-Regular.ttf");
+  }
 }
 
 :root {
@@ -19,7 +23,4 @@
   font-family: Garamond;
   font-size: 16pt;
   width: 100vw;
-  color: #121f32;
-  background-image: url(./assets/background.png);
-  background-attachment: fixed;
 }

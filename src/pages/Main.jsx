@@ -1,24 +1,24 @@
-import NavigationMain from "../components/NavigationMain"
+import NavigationBarScroll from "../components/NavigationBarScroll"
+import AboveTheFold from "../sections/AboveTheFold"
 import Celebration from "../sections/Celebration"
-import Ceremony from "../sections/Ceremony"
 import Contact from "../sections/Contact"
-import Landing from "../sections/Hero"
+import HelpfulInfo from "../sections/HelpfulInfo"
 import OurStory from "../sections/OurStory"
+import PhotoGallery from "../sections/PhotoGallery"
+import SummaryText from "../sections/SummaryText"
 
 const Main = () => {
   return (
     <>
-      <div className="hover:cursor-pointer">
-        <NavigationMain />
+      <div className="sticky top-0 z-10">
+        <NavigationBarScroll />
       </div>
-      <Landing />
-      <hr className="m-8" />
+      <AboveTheFold />
+      <SummaryText />
       <Celebration />
-      <hr className="m-8" />
+      <HelpfulInfo />
       <OurStory />
-      <hr className="m-8" />
-      <Ceremony />
-      <hr className="m-8" />
+      <PhotoGallery />
       <Contact />
       <hr className="m-8" />
     </>
