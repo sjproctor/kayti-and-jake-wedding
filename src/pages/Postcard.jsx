@@ -1,7 +1,6 @@
 import postcardBack from "../assets/postcard-back.png"
 import postcardFront from "../assets/postcard-front.png"
 import NavigationHome from "../components/NavigationHome"
-import AnchorLink from "react-anchor-link-smooth-scroll"
 import jsPDF from "jspdf"
 
 const Postcard = () => {
@@ -22,9 +21,7 @@ const Postcard = () => {
         <NavigationHome />
       </div>
       <div className="m-4" id="postcard">
-        <AnchorLink href="#home" className="hover:cursor-pointer">
-          <h2 className="m-3 text-center font-moontime text-6xl">Postcard</h2>
-        </AnchorLink>
+        <h2 className="m-3 text-center font-moontime text-6xl">Postcard</h2>
         <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
           Here is the digital version of our postcard mailer. If you didn&apos;t
           receive our postcard or you would like an additional copy please reach

@@ -1,13 +1,10 @@
 import hikingLola from "../assets/hiking-lola.jpeg"
 import NavigationButton from "../components/NavigationButton"
-import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const Contact = () => {
   return (
     <div className="m-4" id="contact">
-      <AnchorLink href="#home" className="hover:cursor-pointer">
-        <h2 className="m-3 text-center font-moontime text-6xl">Contact Us</h2>
-      </AnchorLink>
+      <h2 className="m-3 text-center font-moontime text-6xl">Contact Us</h2>
       <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
         Since we are very lucky to have a home and life together, we feel there
         is no need for any gifts beyond your well wishes. We would prefer your
