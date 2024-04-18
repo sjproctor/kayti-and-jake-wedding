@@ -25,8 +25,9 @@ All dependencies are installed with yarn.
 A few of the many resources that helped me on my way.
 
 - [React Router Scroll to Top](https://v5.reactrouter.com/web/guides/scroll-restoration)
+- [Scroll Button](https://levelup.gitconnected.com/how-to-create-a-scroll-to-top-button-in-reactjs-7b2f2563d6b0)
 - [Embed a Google Map](https://www.youtube.com/watch?v=2NNA2kHcAHg)
-- [React Suspense](https://blog.logrocket.com/async-rendering-react-suspense-hooks-other-methods/)
+- [React Suspense Hook](https://blog.logrocket.com/async-rendering-react-suspense-hooks-other-methods/)
 - [How to Create Forms in React using react-hook-form](https://www.freecodecamp.org/news/how-to-create-forms-in-react-using-react-hook-form/)
 - [Simple React Contact Form Without Back-End](https://medium.com/weekly-webtips/simple-react-contact-form-without-back-end-9fa06eff52d9)
 
