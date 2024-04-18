@@ -24,3 +24,7 @@
   font-size: 14pt;
   width: 100vw;
 }
+
+a {
+  text-decoration: underline;
+}

@@ -5,7 +5,7 @@ const ScrollLink = ({ linkName, location }) => {
   return (
     <AnchorLink
       href={location}
-      className="md:hover:bg-transparent text-gray block border-b px-3 py-2 font-alice text-xs uppercase hover:cursor-pointer md:border-0 md:p-0"
+      className="md:hover:bg-transparent text-gray block border-b px-3 py-2 font-alice text-xs uppercase no-underline hover:cursor-pointer md:border-0 md:p-0"
     >
       {linkName}
     </AnchorLink>
