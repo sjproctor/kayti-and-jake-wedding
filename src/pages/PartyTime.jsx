@@ -59,6 +59,24 @@ const PartyTime = () => {
           <p>Transportation: Lorem ipsum.</p>
         </div>
       </div>
+      <div className="w-1/3">
+        <h3 className="text-center text-lg font-extrabold">When</h3>
+        <p>Saturday, August 31, 2024</p>
+        <p>4 pm to 9 pm</p>
+      </div>
+      <div className="w-1/3">
+        <h3 className="text-center text-lg font-extrabold ">Where</h3>
+        <p>Kayti and Jake&apos;s backyard</p>
+      </div>
+      <div className="w-1/3">
+        <h3 className="text-center text-lg font-extrabold ">Details</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, enim
+          laboriosam quasi recusandae nulla quia, debitis incidunt commodi
+          aliquam magni eaque esse blanditiis suscipit assumenda voluptate
+          vitae! Optio, harum at!
+        </p>
+      </div>
       <NavigationButton linkName="RSVP For the Party" location="/rsvp" />
       <div className="w-screen">
         <Suspense fallback={<p>loading...</p>}>
