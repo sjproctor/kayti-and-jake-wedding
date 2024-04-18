@@ -1,3 +1,4 @@
+import leafLogo from "../assets/leaf-decoration.png"
 import { Link } from "react-router-dom"
 
 const Celebration = () => {
@@ -23,6 +24,13 @@ const Celebration = () => {
         <Link to="/party" className="!decoration-solid">
           See More Information
         </Link>
+      </div>
+      <div className="flex justify-center py-4">
+        <img
+          src={leafLogo}
+          className="mr-2 w-28 hover:cursor-pointer"
+          alt="Kayti and Jake wedding logo"
+        />
       </div>
     </div>
   )
