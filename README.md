@@ -43,6 +43,13 @@ A few of the many resources that helped me on my way.
 - Font color: black `#121f32`
 - Accent color: gold `#b2935b`
 
+### ✨ Inspiration
+
+- [Examples of Beautiful Wedding Websites](https://www.sitebuilderreport.com/inspiration/wedding-websites-examples)
+- [Our Dumb Wedding Site](https://www.benandcaseygetmarried.com/)
+- [Chris & Jessica](http://jessandchrisforevz.com/#OurStory)
+- [Danielle & Bradford](https://therussellfords.webflow.io/)
+
 ### 🫧 Linting
 
 To check for linting errors in the entire project:
