@@ -3,8 +3,8 @@ import flowerLogo from "../assets/flower-logo.png"
 const SummaryText = () => {
   return (
     <>
-      <div className="mx-4 mt-16 md:mx-40 md:max-w-5xl">
-        <p className="text-center text-3xl md:text-4xl">
+      <div className="mx-4 mt-4 md:mx-40 md:mt-16 md:max-w-5xl">
+        <p className="text-gray text-center text-2xl uppercase md:text-4xl">
           Kayti and Jake are getting married!
         </p>
         <br />
