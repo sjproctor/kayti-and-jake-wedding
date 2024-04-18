@@ -34,7 +34,9 @@ export default {
       champagne: "#f7e7ce",
       eucalyptus: "#465c47",
       white: "#ffffff",
-      gray: "#6c6868"
+      gray: "#6c6868",
+      poppy: "#CA4E46",
+      brightGold: "#ECBB80"
     },
     opacity: {
       50: ".50"
