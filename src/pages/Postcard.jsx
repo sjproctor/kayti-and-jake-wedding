@@ -1,5 +1,5 @@
-import postcardBack from "../assets/postcard-back.png"
-import postcardFront from "../assets/postcard-front.png"
+import postcardBack from "../assets/postcard-mailer/postcard-back.png"
+import postcardFront from "../assets/postcard-mailer/postcard-front.png"
 import NavigationHome from "../components/NavigationHome"
 import jsPDF from "jspdf"
 

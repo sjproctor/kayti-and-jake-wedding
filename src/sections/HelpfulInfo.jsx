@@ -1,6 +1,6 @@
 import PhotoWithText from "../components/PhotoWithText"
 import belize from "../assets/belize.jpeg"
-import flowerLogo from "../assets/flower-logo.png"
+import flowerLogo from "../assets/graphics/flower-logo.png"
 
 const HelpfulInfo = () => {
   return (
