@@ -9,18 +9,22 @@
     src: url("../fonts/moontime-regular.ttf");
   }
   @font-face {
-    font-family: "Garamond";
-    src: url("../fonts/EBGaramond-Medium.ttf");
-  }
-  @font-face {
     font-family: "Alice";
     src: url("../fonts/Alice-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat.ttf");
+  }
+  @font-face {
+    font-family: "Garamond";
+    src: url("../fonts/EBGaramond-Medium.ttf");
   }
 }
 
 :root {
   margin: 0;
-  font-family: Alice;
+  font-family: Montserrat;
   font-size: 14pt;
   width: 100vw;
 }
