@@ -1,4 +1,4 @@
-import leafLogo from "../assets/leaf-decoration.png"
+import leafLogo from "../assets/graphics/leaf-decoration.png"
 
 const NavigationScrollLogo = () => {
   const handleScrollToTop = () => {
