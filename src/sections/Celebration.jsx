@@ -6,7 +6,7 @@ const Celebration = () => {
     <div className="bg-gray p-4 text-center text-white" id="celebration">
       <h2 className="m-3 font-moontime text-6xl">Celebration</h2>
       <p className="md:mx-4">
-        Please join us for fun, food, drinks, music and general merriment.
+        Please join us for fun, food, drinks, music, and general merriment.
       </p>
       <br />
       <div>
