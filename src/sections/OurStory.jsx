@@ -1,4 +1,3 @@
-import PhotoWithText from "../components/PhotoWithText"
 import bench from "../assets/bench.jpeg"
 import festival from "../assets/festival.jpeg"
 import graduation from "../assets/graduation.jpeg"
@@ -13,11 +12,9 @@ import Photo from "../components/Photo"
 const OurStory = () => {
   return (
     <div id="our-story">
-      <PhotoWithText
-        fullScreen={hikingLola}
-        mobile={hikingLola}
-        altText="Kayti and Jake hiking in the Boise foothills with Lola dog"
-        heading="Our Story"
+      <img
+        src={hikingLola}
+        alt="Kayti and Jake hiking in the Boise foothills with Lola dog"
       />
       <div className="text-center md:hidden" id="small-screen">
         <p className="px-3 text-justify">
