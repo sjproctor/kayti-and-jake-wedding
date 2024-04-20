@@ -16,19 +16,58 @@ const HelpfulInfo = () => {
           </h1>
         </div>
       </div>
-      <div className="py-8">
+      <div className="m-auto w-11/12 py-8 md:w-1/2">
+        <h3 className="text-lg font-extrabold">
+          Hey Sarah, I have some questions.
+        </h3>
+        <p>Great, I have some answers.</p>
+        <br />
+        <h3 className="text-lg font-extrabold">So, when is the wedding?</h3>
+        <p>
+          Kayti and Jake are officially tying the knot in a small ceremony in
+          early June. They are throwing a party to celebrate with family and
+          friends on August 31st, 2024.
+        </p>
+        <br />
+        <h3 className="text-lg font-extrabold">
+          I am invited to the celebration?
+        </h3>
+        <p>Heck yes you are!</p>
+        <br />
+        <h3 className="text-lg font-extrabold">What&apos;s the party vibe?</h3>
+        <p>
+          The celebration will be in Kayti and Jake&apos;s backyard. There will
+          be beverages, food, music, music and dancing. Kayti and Jake just want
+          to hang out with all the people they love and have some fun. Think
+          more summer BBQ vibes less traditional wedding reception.
+        </p>
+        <br />
+        <h3 className="text-lg font-extrabold">Can I bring my kiddos?</h3>
+        <p>Bring the fam! Humans of all age are welcome.</p>
+        <br />
+        <h3 className="text-lg font-extrabold">What about my dog?</h3>
+        <p>
+          As you know, Kayti and Jake love dogs. But, there are going to be a
+          lot of people and open gates in the yard so Kayti and Jake have asked
+          not to have pets. Their own pitty, Lola Moon will be at doggy daycare
+          during the celebration.
+        </p>
+        <br />
+        <h3 className="text-lg font-extrabold">What time should I arrive?</h3>
+        <p>Answer</p>
+        <br />
+        <h3 className="text-lg font-extrabold">What should I wear?</h3>
+        <p>Answer</p>
+        <br />
+        <h3 className="text-lg font-extrabold">What should I bring?</h3>
+        <p>Answer</p>
+        <br />
+        <h3 className="text-lg font-extrabold">Where should I park?</h3>
+        <p>Answer</p>
+        <br />
         <h3 className="text-lg font-extrabold">Question</h3>
         <p>Answer</p>
-        <h3 className="text-lg font-extrabold">Question</h3>
-        <p>Answer</p>
-        <h3 className="text-lg font-extrabold">Question</h3>
-        <p>Answer</p>
-        <h3 className="text-lg font-extrabold">Question</h3>
-        <p>Answer</p>
-        <h3 className="text-lg font-extrabold">Question</h3>
-        <p>Answer</p>
-        <h3 className="text-lg font-extrabold">Question</h3>
-        <p>Answer</p>
+        <br />
       </div>
       <div className="flex justify-center">
         <img
