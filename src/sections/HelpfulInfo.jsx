@@ -11,9 +11,9 @@ const HelpfulInfo = () => {
           className="opacity-50"
         />
         <div className="absolute left-0 right-0 top-4 md:top-12">
-          <h1 className="font-moontime text-5xl md:text-9xl">
+          <h2 className="font-moontime text-5xl md:text-9xl">
             Helpful Information
-          </h1>
+          </h2>
         </div>
       </div>
       <div className="m-auto w-11/12 pt-8 md:w-1/2">
@@ -131,7 +131,6 @@ const HelpfulInfo = () => {
           person vibe along with your respect and consideration of other guests
           and neighbors, and we will all have a great time.
         </p>
-        <br />
       </div>
       <div className="flex justify-center">
         <img

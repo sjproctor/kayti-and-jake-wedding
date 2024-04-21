@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const Celebration = () => {
   return (
     <div className="bg-gray p-4 text-center text-white" id="celebration">
-      <h2 className="m-3 font-moontime text-6xl">Celebration</h2>
+      <h2 className="font-moontime text-5xl md:text-9xl">Celebration</h2>
       <p className="md:mx-4">
         Please join us for fun, food, drinks, music, and general merriment.
       </p>
