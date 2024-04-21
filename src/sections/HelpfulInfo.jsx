@@ -30,7 +30,7 @@ const HelpfulInfo = () => {
         </p>
         <br />
         <h3 className="text-lg font-extrabold">
-          I am invited to the celebration?
+          I am invited to the celebration in August?
         </h3>
         <p>Heck yes you are!</p>
         <p>
@@ -49,9 +49,9 @@ const HelpfulInfo = () => {
         <h3 className="text-lg font-extrabold">What&apos;s the party vibe?</h3>
         <p>
           The celebration will be in Kayti and Jake&apos;s backyard. There will
-          be beverages, food, music, music, and dancing. Kayti and Jake just
-          want to hang out with all the people they love and have some fun.
-          Think more summer BBQ vibes less traditional wedding reception.
+          be beverages, food, music, and dancing. Kayti and Jake just want to be
+          with all the people they love and have some fun. Think more summer BBQ
+          hang less traditional wedding reception.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">Can I bring my kiddos?</h3>
@@ -79,7 +79,7 @@ const HelpfulInfo = () => {
         <p>
           The party will be held outdoors in Kayti and Jake&apos;s backyard. We
           will have shade tents and misters, but expect it to be hot. August
-          days in Boise typically hit 90 degrees. With that, please wear
+          days in Boise typically hit 90 degrees. With that in mind, please wear
           whatever makes you feel comfortable. We will be on grass and gravel
           surfaces so choose your footwear accordingly.
         </p>
