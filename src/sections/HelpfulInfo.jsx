@@ -1,4 +1,5 @@
 import AnchorLink from "react-anchor-link-smooth-scroll"
+import { Link } from "react-router-dom"
 import belize from "../assets/belize.jpeg"
 import treeLogo from "../assets/graphics/tree-logo.png"
 
@@ -77,7 +78,10 @@ const HelpfulInfo = () => {
           We&apos;ll kick things off around 5 pm with beverages, snacks, and
           music. Dinner will be available from 6 pm to 8 pm. We&apos;ll do a
           toast to the bride and groom around 7 pm. The party will wind down
-          around 9 pm out of respect for Kayti and Jake&apos;s neighbors.
+          around 9 pm out of respect for Kayti and Jake&apos;s neighbors.{" "}
+          <AnchorLink href="#party" className="px-1">
+            Click here for details.
+          </AnchorLink>
         </p>
         <br />
         <h3 className="text-lg font-extrabold">What should I wear?</h3>
@@ -85,8 +89,9 @@ const HelpfulInfo = () => {
           The party will be held outdoors in Kayti and Jake&apos;s backyard. We
           will have shade tents and misters, but expect it to be hot. August
           days in Boise typically hit 90 degrees. With that in mind, please wear
-          whatever makes you feel comfortable. We will be on grass and gravel
-          surfaces so choose your footwear accordingly.
+          whatever makes you feel comfortable. Think loose button up shirts,
+          sundresses, flipflops. We will be on grass and gravel surfaces so
+          choose your footwear accordingly.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">What should I bring?</h3>
@@ -108,7 +113,11 @@ const HelpfulInfo = () => {
         </p>
         <p>
           If you would like to mark the occasion of their marriage with a gift,
-          they would be more than grateful. Check out this link for more info.
+          they would be more than grateful.
+          <Link to="/registry" className="px-1">
+            Check out this link
+          </Link>
+          for more info.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">Where should I park?</h3>
@@ -127,7 +136,10 @@ const HelpfulInfo = () => {
         <p>
           First of all, thanks for coming all the way to Boise to celebrate with
           Kayti and Jake. Secondly, we have a bunch of info for you to help you
-          plan your travel and stay in Boise. Check out this link.
+          plan your travel and stay in Boise.
+          <Link to="/travel" className="px-1">
+            Check out this link.
+          </Link>
         </p>
         <br />
         <h3 className="text-lg font-extrabold">Anything else?</h3>
