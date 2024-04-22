@@ -1,18 +1,22 @@
+import { Routes, Route } from "react-router-dom"
 import Footer from "./components/Footer"
 import Main from "./pages/Main"
-import PartyTime from "./pages/PartyTime"
+import PhotoGallery from "./pages/PhotoGallery"
 import Postcard from "./pages/Postcard"
-import Reservation from "./pages/Reservation"
-import { Routes, Route } from "react-router-dom"
+import Registry from "./pages/Registry"
+import TheirStory from "./pages/TheirStory"
+import Travel from "./pages/Travel"
 
 const App = () => {
   return (
     <>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/party" element={<PartyTime />} />
         <Route path="/postcard" element={<Postcard />} />
-        <Route path="/rsvp" element={<Reservation />} />
+        <Route path="/about" element={<TheirStory />} />
+        <Route path="/photos" element={<PhotoGallery />} />
+        <Route path="/travel" element={<Travel />} />
+        <Route path="/registry" element={<Registry />} />
       </Routes>
       <Footer />
     </>

@@ -1,5 +1,5 @@
 import leafLogo from "../assets/graphics/leaf-decoration.png"
-import { Link } from "react-router-dom"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const Celebration = () => {
   return (
@@ -21,9 +21,9 @@ const Celebration = () => {
       </div>
       <br />
       <div className="mx-4">
-        <Link to="/party" className="!decoration-solid">
-          See More Information
-        </Link>
+        <AnchorLink href="#party" className="px-1">
+          Click here for more information
+        </AnchorLink>
       </div>
       <div className="flex justify-center py-4">
         <img

@@ -1,3 +1,4 @@
+import AnchorLink from "react-anchor-link-smooth-scroll"
 import belize from "../assets/belize.jpeg"
 import treeLogo from "../assets/graphics/tree-logo.png"
 
@@ -43,15 +44,19 @@ const HelpfulInfo = () => {
         <h3 className="text-lg font-extrabold">Should I RSVP?</h3>
         <p>
           Please do! We want to make sure we plan for the right number of
-          guests. Please click here to RSVP by July 15, 2024.
+          guests.
+          <AnchorLink href="#rsvp" className="px-1">
+            Please click here to RSVP
+          </AnchorLink>
+          by July 1, 2024. (IYKYK 🎂)
         </p>
         <br />
         <h3 className="text-lg font-extrabold">What&apos;s the party vibe?</h3>
         <p>
           The celebration will be in Kayti and Jake&apos;s backyard. There will
-          be beverages, food, music, and dancing. Kayti and Jake just want to be
-          with all the people they love and have some fun. Think more summer BBQ
-          hang less traditional wedding reception.
+          be beverages, food, music, and dancing. Kayti and Jake want to be with
+          all the people they love and have some fun. Think more summer BBQ hang
+          less traditional wedding reception.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">Can I bring my kiddos?</h3>
@@ -61,7 +66,7 @@ const HelpfulInfo = () => {
         <p>
           As you know, Kayti and Jake love dogs. But, there are going to be a
           lot of people and open gates in the yard so Kayti and Jake have asked
-          not to have pets. Their own pitty, Lola Moon will be at doggy daycare
+          not to have pets. Their own pup, Lola Moon will be at doggy daycare
           during the celebration.
         </p>
         <br />
@@ -88,8 +93,9 @@ const HelpfulInfo = () => {
         <p>
           Yourself, your people, and your party pants! We will provide dinner,
           snacks, water, non-alcoholic drinks, beer, wine, cocktails, and other
-          party amenities. Feel free to bring your own drinks or food if you
-          prefer but we can&apos;t guarantee kitchen or fridge space.
+          party amenities. Beverage contributions would be very much
+          appreciated. If you have dietary concerns and prefer to bring your own
+          food we will have some extra cooler space.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">
