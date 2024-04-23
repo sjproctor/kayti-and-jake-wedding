@@ -37,6 +37,7 @@ export default {
       eucalyptus: "#465c47",
       white: "#ffffff",
       gray: "#6c6868",
+      lightGray: "#c4c2c2",
       poppy: "#CA4E46",
       brightGold: "#ECBB80"
     },
