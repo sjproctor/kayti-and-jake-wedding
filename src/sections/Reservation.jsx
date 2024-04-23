@@ -82,7 +82,7 @@ const Reservation = () => {
         setNoStatus("")
         setSelectedState({
           visibility: "",
-          buttonLabel: "Submit Regrets"
+          buttonLabel: "Submit"
         })
       }
     }, 100)
@@ -100,7 +100,7 @@ const Reservation = () => {
         </div>
       </div>
       <div className="mx-4 my-8 md:mx-40 md:max-w-5xl">
-        <div className="md:tex bg-champagne px-2 py-2 text-center md:p-8">
+        <div className="bg-champagne px-2 py-2 text-center md:p-8">
           <p className="p-1">We hope you can join us for the celebration!</p>
           <p className="p-1">
             However, we know life is busy. Kayti and Jake don&apos;t want anyone
@@ -114,9 +114,12 @@ const Reservation = () => {
         Please respond by July 1, 2024 so we can plan for the appropriate number
         of guests.
       </p>
-      <div className="bg-gray p-4 text-center text-white">
+      <div className="bg-lightGray p-4">
         <div className={submissionAlert.visibility}>
-          <div className="relative m-1  border bg-opacity-50" role="alert">
+          <div
+            className="relative m-1 border bg-opacity-50 p-1 md:mx-auto md:w-1/3"
+            role="alert"
+          >
             <strong className="font-bold">{submissionAlert.header}</strong>
             <span className="block">{submissionAlert.body}</span>
             <span className="absolute bottom-0 right-0 top-0 px-4 py-3">
@@ -139,16 +142,18 @@ const Reservation = () => {
             </span>
           </div>
         </div>
-        <form className="" onSubmit={handleSubmit(onSubmit)}>
-          <div className="">
-            <label htmlFor="name">Your name(s)*</label>
+        <form className="md:mx-auto md:w-1/3" onSubmit={handleSubmit(onSubmit)}>
+          <div>
+            <label htmlFor="name" className="font-alice uppercase">
+              Your name(s) *
+            </label>
             <br />
             <input
               id="name"
               type="text"
               name="name"
               autoComplete="name"
-              className="w-4/5 px-2 md:w-1/2 lg:w-1/4"
+              className="w-full p-2"
               {...register("name", {
                 required: true
               })}
@@ -158,14 +163,16 @@ const Reservation = () => {
             )}
           </div>
           <div className="my-2">
-            <label htmlFor="email">Your contact email*</label>
+            <label htmlFor="email" className="font-alice uppercase">
+              Your preferred email *
+            </label>
             <br />
             <input
               id="email"
               type="email"
               name="email"
               autoComplete="email"
-              className="w-4/5 px-2 md:w-1/2 lg:w-1/4"
+              className="w-full p-2"
               {...register("email", {
                 required: true
               })}
@@ -175,7 +182,7 @@ const Reservation = () => {
             )}
           </div>
           <div className="my-2">
-            <p>Will you attend?*</p>
+            <p className="font-alice uppercase">Will you attend? *</p>
             <input
               id="yes"
               type="radio"
@@ -192,11 +199,11 @@ const Reservation = () => {
               className="mr-2 h-4 w-4"
               onClick={() => handleStatus("no")}
             />
-            <label htmlFor="no">No, sending well wishes and regrets.</label>
+            <label htmlFor="no">No, sending well wishes.</label>
           </div>
           <div className={yesStatus}>
             <br />
-            <p>Yay we are excited to see you!</p>
+            <p>Yay, we are excited to see you!</p>
             <div className="my-2">
               <input
                 id="guests"
@@ -204,10 +211,12 @@ const Reservation = () => {
                 name="guests"
                 min="1"
                 max="10"
-                className="rounde mr-2 w-10 pl-3"
+                className="mr-1 w-16 p-2"
                 {...register("guests")}
               />
-              <label htmlFor="guests">Number in your party*</label>
+              <label htmlFor="guests" className="font-alice uppercase">
+                Number in your party *
+              </label>
               {errors.name && errors.name.type === "required" && (
                 <p className=" text-sm text-error">
                   Please enter a valid number.
@@ -223,7 +232,7 @@ const Reservation = () => {
             <div className="my-2">
               <textarea
                 name="message"
-                className="w-full resize-x px-4 py-3 md:w-3/4 lg:w-1/2"
+                className="w-full resize-x px-4 py-3"
                 placeholder="Include an optional message for Kayti and Jake..."
                 rows="4"
                 cols="27"
@@ -232,7 +241,7 @@ const Reservation = () => {
             </div>
             <div className="text-center">
               <button
-                className="m-2 border bg-poppy px-4 py-2 shadow-2xl"
+                className="m-2 border bg-brightGold px-4 py-2 text-white shadow-2xl"
                 onClick={handleSubmit}
               >
                 {selectedStatus.buttonLabel}
