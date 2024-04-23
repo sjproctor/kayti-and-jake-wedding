@@ -19,6 +19,7 @@ All dependencies are installed with yarn.
 - [PDF Download](https://classic.yarnpkg.com/en/package/jspdf-html2canvas)
 - [React Hook Form](https://react-hook-form.com/get-started)
 - [EmailJS](https://www.emailjs.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
 ### 🗄️ Useful Resources
 
@@ -40,8 +41,14 @@ A few of the many resources that helped me on my way.
   - Can be referenced in Tailwind as `font-moontime`
   - Body font is Garamond located in `public/fonts` and configured in `index.css`
   - Can be referenced in Tailwind as `font-garamond`
-- Font color: black `#121f32`
-- Accent color: gold `#b2935b`
+- Font color: black `#121F32`
+- Accent color: gold `#B2935B`
+- Error: `#CC0000`
+- Champagne: `#f7E7CE`
+- Charcoal gray: `#6C6868`
+- Light Gray: `#C4C2C2`
+- Poppy: `#CA4E46`
+- Bright Gold: `#ECBB80`
 
 ### ✨ Inspiration
 
