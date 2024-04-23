@@ -212,7 +212,7 @@ const Reservation = () => {
                 name="guests"
                 min="1"
                 max="10"
-                className="mr-1 w-16 p-2"
+                className="mr-2 w-16 p-2"
                 {...register("guests")}
               />
               <label htmlFor="guests" className="font-alice uppercase">
@@ -239,6 +239,16 @@ const Reservation = () => {
                 cols="27"
                 {...register("message")}
               ></textarea>
+            </div>
+            <div className={yesStatus}>
+              <p className="text-xs text-gray">
+                COA! By submitting this RSVP, you agree to be a courteous guest
+                of Kayti and Jake. This includes self-regulating alcohol
+                consumption, prioritizing the safety and well being of all
+                guests, and respecting the property of others. DO NOT drive if
+                you will be consuming alcohol. Thanks friends!
+              </p>
+              <br />
             </div>
             <div className="text-center">
               <button
