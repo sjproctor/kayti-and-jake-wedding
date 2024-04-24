@@ -1,43 +1,70 @@
-import hikingLola from "../assets/hiking-lola.jpeg"
-import NavigationButton from "../components/NavigationButton"
+import NavigationHome from "../components/NavigationHome"
+import airplane from "../assets/airplane.jpeg"
 
 const Registry = () => {
   return (
-    <div className="m-4" id="contact">
-      <h2 className="m-3 text-center font-moontime text-6xl">Contact Us</h2>
-      <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
-        Since we are very lucky to have a home and life together, we feel there
-        is no need for any gifts beyond your well wishes. We would prefer your
-        presence at our celebration rather than presents!
-      </p>
-      <img
-        src={hikingLola}
-        alt="Kayti and Jake with Lola dog on a hike"
-        className="dark:shadow-black/30 m-5 mx-auto w-64 rounded-full shadow-2xl"
-      />
-      <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
-        If you would like to mark the occasion of our marriage with a gift, we
-        would be more than grateful. Please do not feel obliged in any way.
-      </p>
-      <div className="mt-4 sm:mx-4 md:mx-12 lg:mx-48">
-        We are both on Venmo.
-      </div>
-      <div className="mt-4 sm:mx-4 md:mx-12 lg:mx-48">
-        <div>
-          <a>Kayti Venmo: @Kayti</a>
-        </div>
-        <div>
-          <a>Jake Venmo: @jake-dahlgren-1</a>
+    <div id="registry">
+      <NavigationHome />
+      <div className="relative text-center">
+        <img
+          src={airplane}
+          alt="Kayti and Jake with Lola dog on a hike"
+          className="opacity-50"
+        />
+        <div className="absolute left-0 right-0 top-1 md:top-7">
+          <h2 className="font-moontime text-4xl md:text-9xl">Registry</h2>
         </div>
       </div>
-      <div className="mt-4 sm:mx-4 md:mx-12 lg:mx-48">
-        Amazon Wishlist lorem ipsum
+      <div className="m-auto w-11/12 pt-8 md:w-1/2">
+        <p className="m-2 text-center font-alice text-xl uppercase text-gray md:text-2xl">
+          Presence Over Presents
+        </p>
+        <div className=" bg-champagne px-2 py-4 text-center md:p-8 md:text-lg">
+          <p className="p-1">
+            Kayti and Jake are very lucky to have a home and life together so
+            there is no need for any gifts beyond your well wishes. They would
+            prefer your presence at the August celebration rather than presents.
+          </p>
+          <p className="p-1">
+            If you would like to mark the occasion of their marriage with a
+            gift, they would be more than grateful. Please do not feel obliged
+            in any way.
+          </p>
+        </div>
       </div>
-      <div className="mt-4 sm:mx-4 md:mx-12 lg:mx-48">Mailing address:</div>
-      <div className="mt-4 sm:mx-4 md:mx-12 lg:mx-48">Kayti and Jake</div>
-      <div className="sm:mx-4 md:mx-12 lg:mx-48">2707 Malibu Drive</div>
-      <div className="sm:mx-4 md:mx-12 lg:mx-48">Boise, Idaho 83705</div>
-      <NavigationButton linkName="View Postcard Mailer" location="/postcard" />
+      <br />
+      <div className="text-center md:mx-10 lg:mx-40 lg:max-w-5xl">
+        <h3 className="text-lg font-extrabold">Venmo</h3>
+        <p>
+          Kayti Venmo: @
+          <a href="https://account.venmo.com/u/Kayti" target="blank">
+            Kayti
+          </a>
+        </p>
+        <p>
+          Jake Venmo: @
+          <a href="https://account.venmo.com/u/jake-dahlgren-1" target="blank">
+            jake-dahlgren-1
+          </a>
+        </p>
+        <br />
+      </div>
+      <div className="text-center md:mx-10 lg:mx-40 lg:max-w-5xl">
+        <h3 className="text-lg font-extrabold">Amazon Wishlist</h3>
+        <p>
+          <a href="" target="blank">
+            Placeholder
+          </a>
+        </p>
+        <br />
+      </div>
+      <div className="text-center md:mx-10 lg:mx-40 lg:max-w-5xl">
+        <h3 className="text-lg font-extrabold">Mailing Address</h3>
+        <p>Kayti Proctor and Jake Dahlgren</p>
+        <p>2707 Malibu Drive</p>
+        <p>Boise, Idaho 83705</p>
+        <br />
+      </div>
     </div>
   )
 }
