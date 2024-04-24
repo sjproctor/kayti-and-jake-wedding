@@ -2,6 +2,7 @@ import React, { Suspense } from "react"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import Timeline from "../components/Timeline"
 import dlWedding from "../assets/dl-wedding.jpeg"
+import treeLogo from "../assets/graphics/tree-logo.png"
 const GoogleMap = React.lazy(() => import("../components/GoogleMap"))
 
 const PartyTime = () => {
@@ -89,8 +90,11 @@ const PartyTime = () => {
           </AnchorLink>
         </p>
         <br />
+        <p className="m-2 text-center font-alice text-xl uppercase text-gray md:text-2xl">
+          Resources
+        </p>
         <h3 className="text-lg font-extrabold" id="map">
-          Current Seven Day Forecast
+          Current seven day weather forecast
         </h3>
         <Suspense fallback={<p>loading...</p>}>
           <a
@@ -127,6 +131,13 @@ const PartyTime = () => {
         <Suspense fallback={<p>loading...</p>}>
           <GoogleMap />
         </Suspense>
+      </div>
+      <div className="flex justify-center">
+        <img
+          src={treeLogo}
+          className="m-8 w-28"
+          alt="Kayti and Jake wedding logo"
+        />
       </div>
     </div>
   )

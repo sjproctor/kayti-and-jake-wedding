@@ -22,10 +22,10 @@ const Timeline = () => {
           <h3 className="text-lg font-semibold">Start the Party!</h3>
           <p>
             We will be in the backyard of Kayti and Jake&apos;s at{" "}
-            <b>2707 Malibu Road, Boise, Idaho 83705</b>.{" "}
-            <AnchorLink href="#map" className="px-1">
-              See the map.
-            </AnchorLink>
+            <b>2707 Malibu Road, Boise, Idaho 83705</b>.
+          </p>
+          <p>
+            <AnchorLink href="#map">See the map</AnchorLink>.
           </p>
           <p className="mb-2">Drinks, snacks, and music will commence.</p>
         </li>

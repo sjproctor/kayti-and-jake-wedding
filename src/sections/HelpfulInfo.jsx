@@ -148,6 +148,11 @@ const HelpfulInfo = () => {
           friend of Kayti and Jake you are a pretty cool person. Bring that cool
           person vibe along with your respect and consideration of other guests
           and neighbors, and we will all have a great time.
+          <p>
+            <Link to="/contact" className="px-1">
+              Contact me with questions or issues.
+            </Link>
+          </p>
         </p>
       </div>
       <div className="flex justify-center">
