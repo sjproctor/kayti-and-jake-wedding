@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom"
+import Contact from "./pages/Contact"
 import Footer from "./components/Footer"
 import Main from "./pages/Main"
 import PhotoGallery from "./pages/PhotoGallery"
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/photos" element={<PhotoGallery />} />
         <Route path="/travel" element={<Travel />} />
         <Route path="/registry" element={<Registry />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </>
