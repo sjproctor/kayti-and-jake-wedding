@@ -8,22 +8,23 @@ const Footer = () => {
   return (
     <>
       <hr className="text-lightGray mx-4 mb-4" />
-      <div className="ml-8 flex justify-between">
-        <div className="mt-4 text-gray">
+
+      <div className="flex justify-between">
+        <div className="mx-4 my-2 ml-8 text-xs text-gray md:text-base">
           <p>
             Created with 💜 by the sister of the bride | Sarah Proctor &copy;
             2024
           </p>
           <p>
             Issues, questions, feedback?
-            <Link to="/contact" className="px-1">
+            <Link to="/contact" className="md:px-1">
               Contact me.
             </Link>
           </p>
         </div>
         <img
           src={babyDog}
-          className="mb-1 h-28 hover:cursor-pointer"
+          className="mb-4 h-20 hover:cursor-pointer md:h-28"
           alt="Baby Dog with yellow and red flowers"
           onClick={handleScrollToTop}
         />
