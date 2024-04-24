@@ -17,7 +17,7 @@ const Footer = () => {
           </p>
           <p>
             Issues, questions, feedback?
-            <Link to="/contact" className="md:px-1">
+            <Link to="/contact" className="px-1">
               Contact me.
             </Link>
           </p>

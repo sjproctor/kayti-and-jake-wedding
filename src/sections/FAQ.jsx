@@ -3,18 +3,18 @@ import { Link } from "react-router-dom"
 import belize from "../assets/belize.jpeg"
 import treeLogo from "../assets/graphics/tree-logo.png"
 
-const HelpfulInfo = () => {
+const FAQ = () => {
   return (
-    <div id="info" className="text-center">
+    <div id="faq" className="text-center">
       <div className="relative text-center">
         <img
           src={belize}
           alt="Kayti and Jake in the back of a golf cart in Belize"
           className="opacity-50"
         />
-        <div className="absolute left-0 right-0 top-4 md:top-12">
-          <h2 className="font-moontime text-5xl md:text-9xl">
-            Helpful Information
+        <div className="absolute left-0 right-0 top-1 md:top-7">
+          <h2 className="font-moontime text-4xl md:text-8xl">
+            Frequently Asked Questions
           </h2>
         </div>
       </div>
@@ -84,7 +84,7 @@ const HelpfulInfo = () => {
         </p>
         <p>
           <AnchorLink href="#party" className="px-1">
-            Click here for details.
+            Click here for party information.
           </AnchorLink>
         </p>
         <br />
@@ -172,4 +172,4 @@ const HelpfulInfo = () => {
   )
 }
 
-export default HelpfulInfo
+export default FAQ

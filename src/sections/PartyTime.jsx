@@ -85,7 +85,7 @@ const PartyTime = () => {
       </div>
       <div className="text-center">
         <p>
-          <AnchorLink href="#info" className="px-1">
+          <AnchorLink href="#faq" className="px-1">
             Click here for FAQs.
           </AnchorLink>
         </p>

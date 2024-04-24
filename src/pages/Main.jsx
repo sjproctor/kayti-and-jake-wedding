@@ -1,7 +1,7 @@
 import NavigationBarScroll from "../components/NavigationBarScroll"
 import AboveTheFold from "../sections/AboveTheFold"
 import Celebration from "../sections/Celebration"
-import HelpfulInfo from "../sections/HelpfulInfo"
+import FAQ from "../sections/FAQ"
 import NoteFromSarah from "../sections/NoteFromSarah"
 import PartyTime from "../sections/PartyTime"
 import Reservation from "../sections/Reservation"
@@ -17,7 +17,7 @@ const Main = () => {
       <Welcome />
       <NoteFromSarah />
       <Celebration />
-      <HelpfulInfo />
+      <FAQ />
       <Reservation />
       <PartyTime />
     </>
