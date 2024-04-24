@@ -1,6 +1,6 @@
 import NavigationLogo from "./NavigationScrollLogo"
-import { Navbar } from "flowbite-react"
 import PageLink from "./PageLink"
+import { Navbar } from "flowbite-react"
 
 const NavigationHome = () => {
   return (
