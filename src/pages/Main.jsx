@@ -20,7 +20,6 @@ const Main = () => {
       <HelpfulInfo />
       <Reservation />
       <PartyTime />
-      <hr className="text-lightGray mb-4" />
     </>
   )
 }

@@ -46,6 +46,8 @@ const HelpfulInfo = () => {
         <p>
           Please do! We want to make sure we plan for the right number of
           guests.
+        </p>
+        <p>
           <AnchorLink href="#rsvp" className="px-1">
             Please click here to RSVP
           </AnchorLink>
@@ -78,7 +80,9 @@ const HelpfulInfo = () => {
           We&apos;ll kick things off around 5 pm with beverages, snacks, and
           music. Dinner will be available from 6 pm to 8 pm. We&apos;ll do a
           toast to the bride and groom around 7 pm. The party will wind down
-          around 9 pm out of respect for Kayti and Jake&apos;s neighbors.{" "}
+          around 9 pm out of respect for Kayti and Jake&apos;s neighbors.
+        </p>
+        <p>
           <AnchorLink href="#party" className="px-1">
             Click here for details.
           </AnchorLink>
@@ -114,6 +118,8 @@ const HelpfulInfo = () => {
         <p>
           If you would like to mark the occasion of their marriage with a gift,
           they would be more than grateful.
+        </p>
+        <p>
           <Link to="/registry" className="px-1">
             Check out this link
           </Link>
