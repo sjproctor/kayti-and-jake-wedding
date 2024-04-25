@@ -82,11 +82,11 @@ const FAQ = () => {
           toast to the bride and groom around 7 pm. The party will wind down
           around 9 pm out of respect for Kayti and Jake&apos;s neighbors.
         </p>
-        <p>
+        <div>
           <AnchorLink href="#party" className="px-1">
             Click here for party information.
           </AnchorLink>
-        </p>
+        </div>
         <br />
         <h3 className="text-lg font-extrabold">What should I wear?</h3>
         <p>
@@ -119,12 +119,12 @@ const FAQ = () => {
           If you would like to mark the occasion of their marriage with a gift,
           they would be more than grateful.
         </p>
-        <p>
+        <div>
           <Link to="/registry" className="px-1">
             Check out this link
           </Link>
           for more info.
-        </p>
+        </div>
         <br />
         <h3 className="text-lg font-extrabold">Where should I park?</h3>
         <p>
@@ -149,17 +149,17 @@ const FAQ = () => {
         </p>
         <br />
         <h3 className="text-lg font-extrabold">Anything else?</h3>
-        <p>
+        <div>
           We are all looking forward to this event. I know that if you are a
           friend of Kayti and Jake you are a pretty cool person. Bring that cool
           person vibe along with your respect and consideration of other guests
           and neighbors, and we will all have a great time.
-          <p>
+          <div>
             <Link to="/contact" className="px-1">
               Contact me with questions or issues.
             </Link>
-          </p>
-        </p>
+          </div>
+        </div>
       </div>
       <div className="flex justify-center">
         <img
