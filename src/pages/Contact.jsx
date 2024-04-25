@@ -195,7 +195,7 @@ const Contact = () => {
           >
             read more here
           </a>
-          . If you want to chat about code you can{" "}
+          . If you want to chat about code, let&apos;s f*cking chat! You can{" "}
           <a
             href="https://www.linkedin.com/in/sarahproctor-dev/"
             target="blank"
@@ -223,12 +223,12 @@ const Contact = () => {
         <br />
         <h3 className="text-lg font-extrabold">Permissions</h3>
         <p>
-          The code and the written copy are the creation and intellectual
-          property of me, Sarah Proctor. The logos and graphics were created by
-          me using Canva. All pictures are owned by a member of my family and
-          are being used with permission by the photographer and the permission
-          of those pictured. Nothing on this site can be used without permission
-          from me, Sarah Proctor.
+          The code and the written copy on this website are the creation and
+          intellectual property of me, Sarah Proctor. The logos and graphics
+          were created by me using Canva. All pictures are owned by a member of
+          my family and are being used with permission by the photographer and
+          the permission of those pictured. Nothing on this site can be used
+          without permission from me, Sarah Proctor.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">Privacy</h3>

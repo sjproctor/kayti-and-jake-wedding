@@ -57,8 +57,7 @@ const FAQ = () => {
         <h3 className="text-lg font-extrabold">What&apos;s the party vibe?</h3>
         <p>
           The celebration will be in Kayti and Jake&apos;s backyard. There will
-          be beverages, food, music, and dancing. Kayti and Jake want to be with
-          all the people they love and have some fun. Think more summer BBQ hang
+          be beverages, food, music, and dancing. Think more summer BBQ hang
           less traditional wedding reception.
         </p>
         <br />
