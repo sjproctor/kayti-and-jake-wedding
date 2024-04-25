@@ -1,4 +1,4 @@
-import NavigationLogo from "./NavigationScrollLogo"
+import NavigationPageLogo from "./NavigationPageLogo"
 import PageLink from "./PageLink"
 import { Navbar } from "flowbite-react"
 
@@ -6,7 +6,7 @@ const NavigationBarPage = () => {
   return (
     <div className="sticky top-0 z-10">
       <Navbar fluid>
-        <NavigationLogo />
+        <NavigationPageLogo />
         <div>
           <Navbar.Toggle />
         </div>
