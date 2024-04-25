@@ -5,7 +5,6 @@ const Ceremony = () => {
   return (
     <div id="ceremony">
       <NavigationBarPage />
-
       <img
         src={marryMe}
         alt="Kayti and Jake in Belize with palm fronds spelling out 'Marry Me'"
@@ -20,12 +19,11 @@ const Ceremony = () => {
           June.
         </p>
         <br />
-        <h3 className="text-lg font-extrabold">Officionator Erik</h3>
+        <h3 className="text-lg font-extrabold">Officiant Erik</h3>
         <p>
           Kayti and Jake asked long time friend and partner-in-law, Erik
-          Engstrom to perform the marriage ceremony. Erik was very honored to
-          accept and was ordained by whatever site was returned from a Google
-          search.
+          Engstrom, to perform the marriage ceremony. Erik was very honored to
+          accept and was ordained by the top Google search result.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">Updates Coming!</h3>
