@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import NavigationBarPage from "../components/NavigationBarPage"
 import bench from "../assets/bench.jpeg"
 import beach from "../assets/beach.jpeg"
@@ -7,10 +8,11 @@ import greenField from "../assets/green-field.jpeg"
 import jasmine from "../assets/jasmine.jpeg"
 import patio from "../assets/patio.jpeg"
 import proposal from "../assets/proposal.jpeg"
+import ring from "../assets/ring.jpeg"
 
 const TheirStory = () => {
   return (
-    <div id="our-story">
+    <>
       <NavigationBarPage />
       <div className="relative text-center">
         <img
@@ -23,16 +25,14 @@ const TheirStory = () => {
         </div>
       </div>
       <div>
-        <p className="m-2 text-center font-alice text-2xl uppercase text-gray md:text-4xl">
-          All About Kayti + Jake
-        </p>
-        <div className="m-auto md:w-1/2">
+        <p className="gray-header-text">All About Kayti + Jake</p>
+        <div className="m-auto w-4/5 md:w-2/3">
           <img
             src={greenField}
             alt="Kayti in Jake's arms in a field of green grass"
-            className="float-right mx-2 h-64 w-auto"
+            className="float-right mb-2 ml-4 w-64"
           />
-          <p>
+          <p className="text-justify">
             You know when you think of Kayti, or when you think of Jake, or when
             you think of Kayti and Jake together, and the thing that comes to
             mind is,&nbsp;
@@ -40,12 +40,18 @@ const TheirStory = () => {
             nice, too.
           </p>
           <br />
-          <img
-            src={jasmine}
-            alt="Kayti in a Princess Jasmine halloween costume"
-            className="float-left mx-2 h-64 w-auto"
-          />
-          <p>
+          <div className="float-left mb-2 mr-4 w-64">
+            <img
+              src={jasmine}
+              alt="Kayti in a Princess Jasmine halloween costume on the Dahlgren's porch"
+              className="w-64"
+            />
+            <p className="text-xs text-gray">
+              Picture: Kayti on the Dahlgren&apos;s porch in her favorite
+              costume.
+            </p>
+          </div>
+          <p className="text-justify">
             Kayti and Jake started dating in the summer of 2021. While that
             kicks off this part of the story, their paths had crossed a few
             times before that summer. In fact, they first met over 30 years ago.
@@ -58,9 +64,9 @@ const TheirStory = () => {
           <img
             src={festival}
             alt="Kayti and Jake at a music festival"
-            className="float-left mx-2 h-64 w-auto"
+            className="float-right mb-2 ml-4 w-64"
           />
-          <p>
+          <p className="text-justify">
             Since Kayti and Jake are very nice people, they naturally have many,
             many friends. An overlap in their friend groups found Kayti as a
             roommate to Jake&apos;s college girlfriend in 2011. Kayti and Jake
@@ -69,12 +75,17 @@ const TheirStory = () => {
             signature hugs.
           </p>
           <br />
-          <img
-            src={bench}
-            alt="Kayti and Jake on Dad's bench on the Boise greenbelt"
-            className="float-right mx-2 h-64 w-auto"
-          />
-          <p>
+          <div className="float-left mb-2 mr-4 w-64">
+            <img
+              src={bench}
+              alt="Kayti and Jake on Dad's bench on the Boise greenbelt"
+              className="w-64"
+            />
+            <p className="text-xs text-gray">
+              Picture: Kayti and Jake on David&apos;s memorial bench.
+            </p>
+          </div>
+          <p className="text-justify">
             In 2021, Jake had back surgery and Kayti reached out during his
             convalescence with an invitation for a short walk to catch up and
             chat. The two talked about life, love, where they were in their
@@ -85,12 +96,18 @@ const TheirStory = () => {
             smitten.
           </p>
           <br />
-          <img
-            src={graduation}
-            alt="Kayti and Jake at BSU after Kayti's graduation ceremony"
-            className="float-left mx-2 h-64 w-auto"
-          />
-          <p>
+          <div className="float-right mb-2 ml-4 w-64">
+            <img
+              src={graduation}
+              alt="Kayti and Jake at BSU after Kayti's graduation commencement"
+              className="w-64"
+            />
+            <p className="text-xs text-gray">
+              Picture: Kayti and Jake at BSU after Kayti&apos;s graduation
+              commencement.
+            </p>
+          </div>
+          <p className="text-justify">
             Fluttery feelings aside, they took it slow and allowed their
             relationship to develop organically. They were both determined to
             honor their own paths, goals, friends, and family. But they knew
@@ -99,12 +116,18 @@ const TheirStory = () => {
             Kayti finished her graduate degree and moved into Jake&apos;s house.
           </p>
           <br />
-          <img
-            src={proposal}
-            alt="Jake on one knee proposing to Kayti on the top of the Xunantunich monument"
-            className="float-right mx-2 h-64 w-auto"
-          />
-          <p>
+          <div className="float-left mb-2 mr-4 w-64">
+            <img
+              src={proposal}
+              alt="Jake on one knee proposing to Kayti on the top of the Xunantunich monument"
+              className="w-64"
+            />
+            <p className="text-xs text-gray">
+              Picture: Jake proposing to Kayti on the top of the Xunantunich
+              monument in Belize.
+            </p>
+          </div>
+          <p className="text-justify">
             In January 2023, the Dahlgren and Proctor families spent a beautiful
             seven days in Belize. The whole nine-person crew of parents,
             siblings, and partners got along beautifully! While this was quite
@@ -118,11 +141,12 @@ const TheirStory = () => {
           <img
             src={patio}
             alt="Kayti and Jake sitting on a patio with a mountain view in the background"
-            className="float-left mx-2 h-64 w-auto"
+            className="float-right mb-2 ml-4 w-64"
           />
-          <p>
-            Kayti and Jake will have a small wedding ceremony in the mountains
-            near Garden Valley, Idaho in June. This will be followed by a
+          <p className="text-justify">
+            Kayti and Jake will have a{" "}
+            <Link to="/ceremony">small wedding ceremony</Link> in the mountains
+            near Garden Valley, Idaho in early June. This will be followed by a
             celebratory gathering with extended family and friends on August 31,
             2024 in Boise, Idaho. They&apos;re so grateful for the love and
             support their friends and family have shown through the years. Every
@@ -131,8 +155,20 @@ const TheirStory = () => {
           </p>
           <br />
         </div>
+        <div className="mb-8 flex justify-center">
+          <div>
+            <img
+              src={ring}
+              alt="Jake on one knee proposing to Kayti on the top of the Xunantunich monument"
+              className="w-64"
+            />
+            <p className="w-64 text-xs text-gray">
+              Picture: Kayti&apos;s engagement ring was hand made by Jake.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 
