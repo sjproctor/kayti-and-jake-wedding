@@ -1,4 +1,4 @@
-import NavigationHome from "../components/NavigationHome"
+import NavigationBarPage from "../components/NavigationBarPage"
 import bench from "../assets/bench.jpeg"
 import beach from "../assets/beach.jpeg"
 import festival from "../assets/festival.jpeg"
@@ -11,7 +11,7 @@ import proposal from "../assets/proposal.jpeg"
 const TheirStory = () => {
   return (
     <div id="our-story">
-      <NavigationHome />
+      <NavigationBarPage />
       <div className="relative text-center">
         <img
           src={beach}

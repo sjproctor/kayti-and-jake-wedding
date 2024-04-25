@@ -1,10 +1,10 @@
-import NavigationHome from "../components/NavigationHome"
+import NavigationBarPage from "../components/NavigationBarPage"
 import airplane from "../assets/airplane.jpeg"
 
 const Registry = () => {
   return (
     <div id="registry">
-      <NavigationHome />
+      <NavigationBarPage />
       <div className="relative text-center">
         <img
           src={airplane}

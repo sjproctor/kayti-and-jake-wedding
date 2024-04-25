@@ -17,8 +17,6 @@ const NavigationBarScroll = () => {
         <ScrollLink linkName="party information" location="#party" />
         <PageLink linkName="their story" location="/about" />
         <PageLink linkName="registry" location="/registry" />
-        <PageLink linkName="travel" location="/travel" />
-        <PageLink linkName="ceremony" location="/ceremony" />
       </Navbar.Collapse>
     </Navbar>
   )

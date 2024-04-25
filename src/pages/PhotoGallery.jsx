@@ -1,13 +1,15 @@
+import NavigationBarPage from "../components/NavigationBarPage"
 import bolo from "../assets/bolo.jpeg"
 import camping from "../assets/camping.jpeg"
 import goth from "../assets/goth.jpeg"
 import tableRock from "../assets/table-rock.jpeg"
-import Photo from "../components/Photo"
 import hikingLola from "../assets/hiking-lola.jpeg"
+import Photo from "../components/Photo"
 
 const PhotoGallery = () => {
   return (
     <div className="bg-gray p-4 text-center text-white" id="photos">
+      <NavigationBarPage />
       <h2 className="m-3 text-center font-moontime text-6xl">Photo Gallery</h2>
       <div className="lg:flex">
         <Photo

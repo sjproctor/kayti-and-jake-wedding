@@ -1,10 +1,10 @@
-import NavigationHome from "../components/NavigationHome"
+import NavigationBarPage from "../components/NavigationBarPage"
 import marryMe from "../assets/marry-me.jpeg"
 
 const Ceremony = () => {
   return (
     <div id="ceremony">
-      <NavigationHome />
+      <NavigationBarPage />
 
       <img
         src={marryMe}
