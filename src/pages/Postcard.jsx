@@ -1,6 +1,6 @@
 import postcardBack from "../assets/postcard-mailer/postcard-back.png"
 import postcardFront from "../assets/postcard-mailer/postcard-front.png"
-import NavigationHome from "../components/NavigationHome"
+import NavigationBarPage from "../components/NavigationBarPage"
 import jsPDF from "jspdf"
 
 const Postcard = () => {
@@ -16,40 +16,48 @@ const Postcard = () => {
     doc.save("postcard.pdf")
   }
   return (
-    <>
+    <div id="postcard">
       <div className="hover:cursor-pointer">
-        <NavigationHome />
+        <NavigationBarPage />
       </div>
-      <div className="m-4" id="postcard">
-        <h2 className="m-3 text-center font-moontime text-6xl">Postcard</h2>
-        <p className="md:mx-10 lg:mx-40 lg:max-w-5xl">
-          Here is the digital version of our postcard mailer. If you didn&apos;t
-          receive our postcard or you would like an additional copy please reach
-          out to Kayti and Jake. If you would like a digital copy you can
-          download the postcard here.
+
+      <h2 className="text-center font-moontime text-8xl md:text-9xl">
+        Postcard
+      </h2>
+      <div className="mx-2 text-center md:mx-10 lg:mx-40 lg:max-w-5xl">
+        <p>
+          Here is the digital version of Kayti and Jake&apos;s invitation
+          postcard mailer. You are welcome to download a copy using the button
+          below.
         </p>
-        <div className="text-center">
-          <button
-            className="m-2 rounded-full border px-4 py-2 shadow-2xl hover:text-greenGold"
-            onClick={downloadPDF}
-          >
-            Download Postcard
-          </button>
-        </div>
-        <div className="lg:mx-auto lg:w-1/2">
-          <img
-            src={postcardFront}
-            alt="Front of Kayti and Jake's postcard invitation"
-            className="mb-5 border-2"
-          />
-          <img
-            src={postcardBack}
-            alt="Back of Kayti and Jake's postcard invitation"
-            className="border-2"
-          />
-        </div>
+        <p>
+          If you didn&apos;t receive a postcard or you would like an additional
+          print copy{" "}
+          <a href="mailto:kj.partytime@gmail.com?cc=sproctor950@gmail.com &subject=Postcard Mailer">
+            please reach out here
+          </a>
+          .
+        </p>
+        <button
+          className="m-8 border px-4 py-2 shadow-2xl hover:text-greenGold"
+          onClick={downloadPDF}
+        >
+          Download Postcard
+        </button>
       </div>
-    </>
+      <div className="m-2 mb-8 lg:mx-auto lg:w-1/2">
+        <img
+          src={postcardFront}
+          alt="Front of Kayti and Jake's postcard invitation"
+          className="mb-5 border-2"
+        />
+        <img
+          src={postcardBack}
+          alt="Back of Kayti and Jake's postcard invitation"
+          className="border-2"
+        />
+      </div>
+    </div>
   )
 }
 
