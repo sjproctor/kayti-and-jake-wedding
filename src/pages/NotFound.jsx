@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import NavigationBarPage from "../components/NavigationBarPage"
 import treeLogo from "../assets/graphics/tree-logo.png"
+import lola from "../assets/lola.png"
 
 const NotFound = () => {
   return (
@@ -10,30 +11,28 @@ const NotFound = () => {
         Not Found
       </h2>
       <div className="m-auto w-11/12 text-center md:w-1/2">
-        <p className="gray-header-text">
-          Ooops, looks like this walk in the woods went the wrong way.
+        <p className="gray-header-text">Oops, you look lost.</p>
+        <p className="font-extrabold">Lola Moon can help you!</p>
+        <div className="flex justify-center">
+          <img src={lola} alt="Lola Moon" className="m-2 w-24" />
+        </div>
+        <p className="mb-2">
+          <Link to="/">Click here</Link> to head back to the main page.
         </p>
-        <br />
-        <p>
-          <Link to="/">Click here </Link> to head back to the main page.
-        </p>
-        <br />
-        <p>
+        <p className="mb-2">
           You can read more about Kayti and Jake by{" "}
           <Link to="/about">clicking here</Link>.
         </p>
-        <br />
-        <p>
+        <p className="mb-4">
           Something not working correctly? <Link to="/contact">Click here</Link>
           .
         </p>
-        <br />
       </div>
       <div className="flex justify-center">
         <img
           src={treeLogo}
-          className="m-8 w-28"
           alt="Kayti and Jake wedding logo"
+          className="mb-8 w-28"
         />
       </div>
     </>
