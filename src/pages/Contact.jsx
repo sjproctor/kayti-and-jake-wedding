@@ -65,9 +65,7 @@ const Contact = () => {
           <h2 className="font-moontime text-6xl md:text-9xl">Contact Me</h2>
         </div>
       </div>
-      <p className="m-4 text-center font-alice text-xl uppercase text-gray md:text-2xl">
-        Well, Hey There!
-      </p>
+      <p className="gray-header-text">Well, Hey There!</p>
       <div className="m-auto w-11/12 text-center md:w-1/2">
         <h3 className="text-lg font-extrabold">Questions and Feedback</h3>
         <p>
@@ -77,7 +75,7 @@ const Contact = () => {
         <br />
         <div className={submissionAlert.visibility}>
           <div
-            className="bg-lightGold relative m-1 border bg-opacity-50 p-1 md:mx-auto"
+            className="relative m-1 border bg-lightGold bg-opacity-50 p-1 md:mx-auto"
             role="alert"
           >
             <strong className="font-bold">{submissionAlert.header}</strong>
@@ -161,7 +159,7 @@ const Contact = () => {
 
           <div className="text-center">
             <button
-              className="hover:bg-lightGold m-2 border bg-brightGold px-4 py-2 shadow-2xl active:translate-y-0.5"
+              className="m-2 border bg-brightGold px-4 py-2 shadow-2xl hover:bg-lightGold active:translate-y-0.5"
               onClick={handleSubmit}
             >
               Submit
@@ -205,9 +203,7 @@ const Contact = () => {
           .
         </p>
         <br />
-        <p className="m-2 text-center font-alice text-xl uppercase text-gray md:text-2xl">
-          Some Obligatory Stuff
-        </p>
+        <p className="gray-header-text">Some Obligatory Stuff</p>
         <h3 className="text-lg font-extrabold">
           The &ldquo;Be Cool&rdquo; Reminder
         </h3>

@@ -22,6 +22,12 @@
   }
 }
 
+@layer components {
+  .gray-header-text {
+    @apply m-2 text-center font-alice text-xl uppercase text-gray md:text-2xl;
+  }
+}
+
 :root {
   margin: 0;
   font-family: Montserrat;

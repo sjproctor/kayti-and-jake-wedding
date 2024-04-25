@@ -111,13 +111,11 @@ const Reservation = () => {
           </p>
         </div>
       </div>
-      <p className="m-2 text-center font-alice text-xl text-gray md:text-2xl">
-        Please respond by July 1, 2024
-      </p>
+      <p className="gray-header-text">Please respond by July 1, 2024</p>
       <div className="bg-lightGray p-4">
         <div className={submissionAlert.visibility}>
           <div
-            className="bg-lightGold relative m-1 border bg-opacity-50 p-4 md:mx-auto md:w-1/3"
+            className="relative m-1 border bg-lightGold bg-opacity-50 p-4 md:mx-auto md:w-1/3"
             role="alert"
           >
             <strong className="font-bold">{submissionAlert.header}</strong>
@@ -251,7 +249,7 @@ const Reservation = () => {
             </div>
             <div className="text-center">
               <button
-                className="hover:bg-lightGold m-2 border bg-brightGold px-4 py-2 text-white shadow-2xl active:translate-y-0.5"
+                className="m-2 border bg-brightGold px-4 py-2 text-white shadow-2xl hover:bg-lightGold active:translate-y-0.5"
                 onClick={handleSubmit}
               >
                 {selectedStatus.buttonLabel}
