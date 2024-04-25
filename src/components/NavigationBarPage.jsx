@@ -13,6 +13,7 @@ const NavigationBarPage = () => {
         <Navbar.Collapse>
           <PageLink linkName="home" location="/" />
           <PageLink linkName="their story" location="/about" />
+          <PageLink linkName="photo gallery" location="/photos" />
           <PageLink linkName="travel" location="/travel" />
           <PageLink linkName="ceremony" location="/ceremony" />
           <PageLink linkName="contact" location="/contact" />

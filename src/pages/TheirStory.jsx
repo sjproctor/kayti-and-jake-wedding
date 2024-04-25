@@ -171,8 +171,9 @@ const TheirStory = () => {
         <div className="m-auto mb-8 w-11/12 text-center md:w-1/2">
           <p className="gray-header-text">Photo Gallery</p>
           <p>
-            These two are so adorable, right? <Link to="/">Click here</Link> for
-            more pictures of the lovely couple.
+            These two are so adorable, right?{" "}
+            <Link to="/photos">Click here</Link> for more pictures of the lovely
+            couple.
           </p>
         </div>
       </div>
