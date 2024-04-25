@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import flowerLogo from "../assets/graphics/flower-logo.png"
 import sarah from "../assets/sarah.jpeg"
 
@@ -27,8 +28,8 @@ const NoteFromSarah = () => {
           </p>
           <br />
           <p className="px-4 text-xs">
-            --Made with love by Sarah, Kayti&apos;s beautiful and wise older
-            sister
+            --Made with love by <Link to="/contact">Sarah</Link>, Kayti&apos;s
+            beautiful and wise older sister
           </p>
         </div>
       </div>
