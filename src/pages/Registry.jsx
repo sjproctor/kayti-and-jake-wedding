@@ -1,5 +1,5 @@
 import NavigationBarPage from "../components/NavigationBarPage"
-import airplane from "../assets/airplane.jpeg"
+import mountain from "../assets/mountain.jpeg"
 
 const Registry = () => {
   return (
@@ -7,9 +7,9 @@ const Registry = () => {
       <NavigationBarPage />
       <div className="relative text-center">
         <img
-          src={airplane}
-          alt="Kayti and Jake with Lola dog on a hike"
-          className="opacity-50"
+          src={mountain}
+          alt="Kayti and Jake taking a selfie in front of tree covered mountains"
+          className="w-full opacity-50"
         />
         <div className="absolute left-0 right-0 top-1 md:top-7">
           <h2 className="font-moontime text-4xl md:text-9xl">Registry</h2>
