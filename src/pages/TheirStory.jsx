@@ -30,7 +30,7 @@ const TheirStory = () => {
           <img
             src={greenField}
             alt="Kayti in Jake's arms in a field of green grass"
-            className="float-right mb-2 ml-4 w-64"
+            className="mb-2 w-64 md:float-right md:ml-4"
           />
           <p className="text-justify">
             You know when you think of Kayti, or when you think of Jake, or when
@@ -40,7 +40,7 @@ const TheirStory = () => {
             nice, too.
           </p>
           <br />
-          <div className="float-left mb-2 mr-4 w-64">
+          <div className="mb-2 w-64 md:float-left md:mr-4">
             <img
               src={jasmine}
               alt="Kayti in a Princess Jasmine halloween costume on the Dahlgren's porch"
@@ -64,7 +64,7 @@ const TheirStory = () => {
           <img
             src={festival}
             alt="Kayti and Jake at a music festival"
-            className="float-right mb-2 ml-4 w-64"
+            className="mb-2 w-64 md:float-right md:ml-4"
           />
           <p className="text-justify">
             Since Kayti and Jake are very nice people, they naturally have many,
@@ -75,7 +75,7 @@ const TheirStory = () => {
             signature hugs.
           </p>
           <br />
-          <div className="float-left mb-2 mr-4 w-64">
+          <div className="mb-2 w-64 md:float-left md:mr-4">
             <img
               src={bench}
               alt="Kayti and Jake on Dad's bench on the Boise greenbelt"
@@ -96,7 +96,7 @@ const TheirStory = () => {
             smitten.
           </p>
           <br />
-          <div className="float-right mb-2 ml-4 w-64">
+          <div className="mb-2 w-64 md:float-right md:ml-4">
             <img
               src={graduation}
               alt="Kayti and Jake at BSU after Kayti's graduation commencement"
@@ -116,7 +116,7 @@ const TheirStory = () => {
             Kayti finished her graduate degree and moved into Jake&apos;s house.
           </p>
           <br />
-          <div className="float-left mb-2 mr-4 w-64">
+          <div className="mb-2 w-64 md:float-left md:mr-4">
             <img
               src={proposal}
               alt="Jake on one knee proposing to Kayti on the top of the Xunantunich monument"
@@ -141,7 +141,7 @@ const TheirStory = () => {
           <img
             src={patio}
             alt="Kayti and Jake sitting on a patio with a mountain view in the background"
-            className="float-right mb-2 ml-4 w-64"
+            className="mb-2 w-64 md:float-right md:ml-4"
           />
           <p className="text-justify">
             Kayti and Jake will have a{" "}
@@ -163,9 +163,17 @@ const TheirStory = () => {
               className="w-64"
             />
             <p className="w-64 text-xs text-gray">
-              Picture: Kayti&apos;s engagement ring was hand made by Jake.
+              Picture: Kayti&apos;s moss agate engagement ring was hand made by
+              Jake.
             </p>
           </div>
+        </div>
+        <div className="m-auto mb-8 w-11/12 text-center md:w-1/2">
+          <p className="gray-header-text">Photo Gallery</p>
+          <p>
+            These two are so adorable, right? <Link to="/">Click here</Link> for
+            more pictures of the lovely couple.
+          </p>
         </div>
       </div>
     </>
