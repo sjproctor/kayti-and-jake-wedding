@@ -53,7 +53,7 @@ const Contact = () => {
   }
 
   return (
-    <div id="contact">
+    <>
       <NavigationBarPage />
       <div className="relative text-center">
         <img
@@ -241,7 +241,7 @@ const Contact = () => {
           alt="Kayti and Jake wedding logo"
         />
       </div>
-    </div>
+    </>
   )
 }
 
