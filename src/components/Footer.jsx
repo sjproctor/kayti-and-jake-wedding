@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import babyDog from "../assets/baby.png"
+import babyDog from "../assets/pets/baby.png"
 
 const Footer = () => {
   const handleScrollToTop = () => {

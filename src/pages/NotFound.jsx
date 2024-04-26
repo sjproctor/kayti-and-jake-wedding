@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import NavigationBarPage from "../components/NavigationBarPage"
 import treeLogo from "../assets/graphics/tree-logo.png"
-import lola from "../assets/lola.png"
+import lola from "../assets/pets/lola.png"
 
 const NotFound = () => {
   return (
@@ -14,7 +14,9 @@ const NotFound = () => {
         <p className="gray-header-text">Oops, you look lost.</p>
         <p className="font-extrabold">Lola Moon can help you!</p>
         <div className="flex justify-center">
-          <img src={lola} alt="Lola Moon" className="m-2 w-24" />
+          <Link to="/pets">
+            <img src={lola} alt="Lola Moon" className="m-2 w-24" />
+          </Link>
         </div>
         <p className="mb-2">
           <Link to="/">Click here</Link> to head back to the main page.
