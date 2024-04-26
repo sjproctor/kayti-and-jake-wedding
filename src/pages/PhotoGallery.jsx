@@ -1,6 +1,7 @@
 import NavigationBarPage from "../components/NavigationBarPage"
 import flowerLogo from "../assets/graphics/flower-logo.png"
 import belizeBoat from "../assets/belize-boat.jpeg"
+import bench from "../assets/bench.jpeg"
 import boiseRiver from "../assets/boise-river.jpeg"
 import bolo from "../assets/bolo.jpeg"
 import christmas from "../assets/christmas.jpeg"
@@ -94,17 +95,22 @@ const PhotoGallery = () => {
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={lolaCar} alt="Kayti and Jake and Lola in the car" />
           </div>
-
-          <div
-            className="w-40 px-2
-              pb-2 text-center md:w-80"
-          >
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={engagement}
               alt="Kayti and Jake kissing on the top of Xunantunich monument in Belize"
             />
             <p className="text-xs text-gray">
               Newly engaged on the Xunantunich monument in Belize.
+            </p>
+          </div>
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
+            <img
+              src={bench}
+              alt="Kayti and Jake on Dad's bench on the Boise greenbelt"
+            />
+            <p className="text-xs text-gray">
+              Kayti and Jake on David&apos;s memorial bench.
             </p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
