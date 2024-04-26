@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import NavigationBarPage from "../components/NavigationBarPage"
+import flowerLogo from "../assets/graphics/flower-logo.png"
 import bench from "../assets/bench.jpeg"
 import beach from "../assets/beach.jpeg"
 import festival from "../assets/festival.jpeg"
@@ -25,7 +26,9 @@ const TheirStory = () => {
         </div>
       </div>
       <div>
-        <p className="gray-header-text">All About Kayti + Jake</p>
+        <div className="py-8">
+          <p className="gray-header-text">All About Kayti + Jake</p>
+        </div>
         <div className="m-auto w-4/5 md:w-2/3">
           <img
             src={greenField}
@@ -47,8 +50,7 @@ const TheirStory = () => {
               className="w-64"
             />
             <p className="text-xs text-gray">
-              Picture: Kayti on the Dahlgren&apos;s porch in her favorite
-              costume.
+              Kayti on the Dahlgren&apos;s porch in her favorite costume.
             </p>
           </div>
           <p className="text-justify">
@@ -82,7 +84,7 @@ const TheirStory = () => {
               className="w-64"
             />
             <p className="text-xs text-gray">
-              Picture: Kayti and Jake on David&apos;s memorial bench.
+              Kayti and Jake on David&apos;s memorial bench.
             </p>
           </div>
           <p className="text-justify">
@@ -103,8 +105,7 @@ const TheirStory = () => {
               className="w-64"
             />
             <p className="text-xs text-gray">
-              Picture: Kayti and Jake at BSU after Kayti&apos;s graduation
-              commencement.
+              Kayti and Jake at BSU after Kayti&apos;s graduation commencement.
             </p>
           </div>
           <p className="text-justify">
@@ -123,8 +124,8 @@ const TheirStory = () => {
               className="w-64"
             />
             <p className="text-xs text-gray">
-              Picture: Jake proposing to Kayti on the top of the Xunantunich
-              monument in Belize.
+              Jake proposing to Kayti on the top of the Xunantunich monument in
+              Belize.
             </p>
           </div>
           <p className="text-justify">
@@ -155,7 +156,7 @@ const TheirStory = () => {
           </p>
           <br />
         </div>
-        <div className="mb-8 flex justify-center">
+        <div className="m-auto mb-8 w-4/5 md:flex md:justify-center">
           <div>
             <img
               src={ring}
@@ -163,18 +164,24 @@ const TheirStory = () => {
               className="w-64"
             />
             <p className="w-64 text-xs text-gray">
-              Picture: Kayti&apos;s moss agate engagement ring was hand made by
-              Jake.
+              Kayti&apos;s moss agate engagement ring was handmade by Jake.
             </p>
           </div>
         </div>
-        <div className="m-auto mb-8 w-11/12 text-center md:w-1/2">
+        <div className="m-auto w-11/12 text-center md:w-1/2">
           <p className="gray-header-text">Photo Gallery</p>
           <p>
             These two are so adorable, right?{" "}
             <Link to="/photos">Click here</Link> for more pictures of the lovely
             couple.
           </p>
+        </div>
+        <div className="flex justify-center">
+          <img
+            src={flowerLogo}
+            className="m-8 w-28"
+            alt="Kayti and Jake wedding logo"
+          />
         </div>
       </div>
     </>

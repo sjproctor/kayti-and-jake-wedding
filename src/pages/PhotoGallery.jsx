@@ -22,7 +22,9 @@ const PhotoGallery = () => {
   return (
     <>
       <NavigationBarPage />
-      <h2 className="m-3 text-center font-moontime text-6xl">Photo Gallery</h2>
+      <h2 className="m-3 text-center font-moontime text-7xl md:text-9xl">
+        Photo Gallery
+      </h2>
       <div className="flex justify-center">
         <div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
