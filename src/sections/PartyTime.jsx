@@ -34,11 +34,11 @@ const PartyTime = () => {
           changes, please resubmit the form and add a note.
         </p>
         <p className="py-2">
-          <b>Attire: </b>We&apos;re gonna be outside on the grass and it&apos;s
-          gonna be hot, y&apos;all. Temperatures in August in Boise regularly
-          hit 90 degrees. Please wear what will make you feel comfortable. As a
-          guide, think: sundresses, flipflops, rompers, linen button-ups. Not so
-          much: swimwear or suits.
+          <b>Attire: </b>We&apos;ll be outside on the grass and it&apos;s gonna
+          be hot, y&apos;all. August temps in Boise regularly hit 90 degrees.
+          Please wear whatever makes you feel comfortable. As a guide, think:
+          sundresses, flipflops, rompers, linen button-ups. Not so much: formal
+          wear or swimwear.
         </p>
         <p className="py-2">
           <b>What to bring: </b>We will have everything needed for a fun party.
@@ -61,11 +61,10 @@ const PartyTime = () => {
         <br />
         <h3 className="text-lg font-extrabold">What to know during...</h3>
         <p className="py-2">
-          <b>Drinks: </b>We are doing drinks self-serve style. Alcohol is
+          <b>Drinks: </b>We are doing drinks self-serve style. We will have
+          water, non-alcoholic beverages, beer, wine, and cocktails. Alcohol is
           available only to adults of legal drinking age. Please regulate your
-          alcohol consumption. We will have water, non-alcoholic beverages,
-          beer, wine, and cocktails. Beverage contributions are very
-          appreciated.
+          alcohol consumption.
         </p>
         <p className="py-2">
           <b>Food: </b>We&apos;ll have a variety of options for dinner as well

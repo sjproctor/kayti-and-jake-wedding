@@ -7,7 +7,7 @@ const Footer = () => {
   }
   return (
     <>
-      <hr className="text-lightGray mx-4 mb-4" />
+      <hr className="mx-4 mb-4 text-lightGray" />
 
       <div className="flex justify-between">
         <div className="mx-4 my-2 ml-8 text-xs text-gray md:text-base">
@@ -17,9 +17,10 @@ const Footer = () => {
           </p>
           <p>
             Issues, questions, feedback?
-            <Link to="/contact" className="px-1">
-              Contact me.
+            <Link to="/contact" className="pl-1">
+              Contact me
             </Link>
+            .
           </p>
         </div>
         <img

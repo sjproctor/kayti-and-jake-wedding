@@ -13,18 +13,17 @@ const NoteFromSarah = () => {
         />
         <div>
           <p className="px-2 text-xs">
-            When Kayti and Jake started planning this whole wedding shindig they
-            only wanted two things. They wanted to throw a party to celebrate
-            with family and friends, and they wanted to make as few decisions as
-            possible about said party.
+            When Kayti and Jake decided to get married they only wanted two
+            things. They wanted to throw a party to celebrate with family and
+            friends, and they wanted to make very few decisions about said
+            party.
           </p>
           <p className="px-2 text-xs">
             So here we are. This website is full of decisions not made by Kayti
             and Jake for which they are very grateful.
           </p>
           <p className="px-2 text-xs">
-            I will continue to add updates as the event grows nearer. Please
-            continue to check back!
+            I will continue to add updates so please check back!
           </p>
           <br />
           <p className="px-4 text-xs">

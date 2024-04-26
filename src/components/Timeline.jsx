@@ -40,8 +40,7 @@ const Timeline = () => {
           </time>
           <h3 className="text-lg font-semibold">Dinner is Available</h3>
           <p>
-            We will have Kanak Attack and Taco food trucks with a variety of
-            dining options.
+            We will have Kanak Attack and Taco trucks with a variety of options.
           </p>
           <p className="mb-2">Dinner will be available from 6 pm to 8 pm.</p>
         </li>
@@ -56,8 +55,7 @@ const Timeline = () => {
           </time>
           <h3 className="text-lg font-semibold">Toast to Kayti and Jake</h3>
           <p>
-            We will provide a variety of bubbly beverages to toast to the bride
-            and groom.
+            We will provide bubbly beverages to toast to the bride and groom.
           </p>
           <p className="mb-2">Short speeches are welcome. But no pressure!</p>
         </li>

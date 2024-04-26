@@ -26,9 +26,9 @@ const FAQ = () => {
         <br />
         <h3 className="text-lg font-extrabold">So, when is the wedding?</h3>
         <p>
-          Kayti and Jake are officially tying the knot in a small ceremony in
-          early June. They are throwing a party to celebrate with family and
-          friends on August 31st, 2024.
+          Kayti and Jake are tying the knot in a small ceremony in early June.
+          They are throwing a party to celebrate with family and friends on
+          August 31st, 2024.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">
@@ -37,9 +37,9 @@ const FAQ = () => {
         <p>Heck yes you are!</p>
         <p>
           If you are excited about celebrating with Kayti and Jake, you are
-          invited. We are expecting a pretty big turn out. That being said, we
-          know life is busy and Kayti and Jake don&apos;t want anyone to feel
-          obligated to attend if it creates a hardship in any way.
+          invited. That being said, we know life is busy and Kayti and Jake
+          don&apos;t want anyone to feel obligated to attend if it creates a
+          hardship in any way.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">Should I RSVP?</h3>
@@ -49,9 +49,9 @@ const FAQ = () => {
         </p>
         <p>
           <AnchorLink href="#rsvp" className="px-1">
-            Please click here to RSVP
+            Click here
           </AnchorLink>
-          by July 1, 2024. (IYKYK 🎂)
+          to RSVP by July 1, 2024. (IYKYK 🎂)
         </p>
         <br />
         <h3 className="text-lg font-extrabold">What&apos;s the party vibe?</h3>
@@ -81,20 +81,20 @@ const FAQ = () => {
           toast to the bride and groom around 7 pm. The party will wind down
           around 9 pm out of respect for Kayti and Jake&apos;s neighbors.
         </p>
-        <div>
+        <p>
           <AnchorLink href="#party" className="px-1">
-            Click here for party information.
+            Click here
           </AnchorLink>
-        </div>
+          for more party information.
+        </p>
         <br />
         <h3 className="text-lg font-extrabold">What should I wear?</h3>
         <p>
           The party will be held outdoors in Kayti and Jake&apos;s backyard. We
           will have shade tents and misters, but expect it to be hot. August
           days in Boise typically hit 90 degrees. With that in mind, please wear
-          whatever makes you feel comfortable. Think loose button up shirts,
-          sundresses, flipflops. We will be on grass and gravel surfaces so
-          choose your footwear accordingly.
+          whatever makes you feel comfortable. We will be on grass and gravel
+          surfaces so choose your footwear accordingly.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">What should I bring?</h3>
@@ -118,20 +118,20 @@ const FAQ = () => {
           If you would like to mark the occasion of their marriage with a gift,
           they would be more than grateful.
         </p>
-        <div>
+        <p>
           <Link to="/registry" className="px-1">
             Check out this link
           </Link>
           for more info.
-        </div>
+        </p>
         <br />
         <h3 className="text-lg font-extrabold">Where should I park?</h3>
         <p>
-          Kayti and Jake live in the neighborhood near Hillcrest. All parking
-          will be on the street. You should expect to park a couple blocks away
-          and walk. Please be respectful of Kayti and Jake&apos;s neighbors and
-          do not block driveways. If you are going to be drinking alcohol, DO
-          NOT DRIVE. We recommend carpooling and using ride shares.
+          Parking will be on the street in Kayti and Jake&apos;s neighborhood.
+          You should expect to park a couple blocks away and walk. Please be
+          respectful of Kayti and Jake&apos;s neighbors and do not block
+          driveways. If you are going to be drinking alcohol, DO NOT DRIVE. We
+          recommend carpooling and using ride shares.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">
@@ -142,23 +142,26 @@ const FAQ = () => {
           First of all, thanks for coming all the way to Boise to celebrate with
           Kayti and Jake. Secondly, we have a bunch of info for you to help you
           plan your travel and stay in Boise.
+        </p>
+        <p>
           <Link to="/travel" className="px-1">
             Check out this link.
           </Link>
         </p>
         <br />
         <h3 className="text-lg font-extrabold">Anything else?</h3>
-        <div>
+        <p>
           We are all looking forward to this event. I know that if you are a
           friend of Kayti and Jake you are a pretty cool person. Bring that cool
           person vibe along with your respect and consideration of other guests
           and neighbors, and we will all have a great time.
-          <div>
-            <Link to="/contact" className="px-1">
-              Contact me with questions or issues.
-            </Link>
-          </div>
-        </div>
+        </p>
+        <p>
+          <Link to="/contact" className="px-1">
+            Contact me
+          </Link>
+          with questions or issues.
+        </p>
       </div>
       <div className="flex justify-center">
         <img

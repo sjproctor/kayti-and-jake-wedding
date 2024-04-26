@@ -1,5 +1,6 @@
 import NavigationBarPage from "../components/NavigationBarPage"
 import marryMe from "../assets/marry-me.jpeg"
+import treeLogo from "../assets/graphics/tree-logo.png"
 
 const Ceremony = () => {
   return (
@@ -29,6 +30,13 @@ const Ceremony = () => {
         <h3 className="text-lg font-extrabold">Updates Coming!</h3>
         <p>Check back in mid-June for details and photos from the ceremony.</p>
         <br />
+      </div>
+      <div className="flex justify-center">
+        <img
+          src={treeLogo}
+          alt="Kayti and Jake wedding logo"
+          className="mb-8 w-28"
+        />
       </div>
     </div>
   )
