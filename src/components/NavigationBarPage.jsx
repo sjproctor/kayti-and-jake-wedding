@@ -12,10 +12,10 @@ const NavigationBarPage = () => {
         </div>
         <Navbar.Collapse>
           <PageLink linkName="home" location="/" />
-          <PageLink linkName="their story" location="/about" />
-          <PageLink linkName="photo gallery" location="/photos" />
-          <PageLink linkName="travel" location="/travel" />
           <PageLink linkName="ceremony" location="/ceremony" />
+          <PageLink linkName="photo gallery" location="/photos" />
+          <PageLink linkName="their story" location="/about" />
+          <PageLink linkName="travel" location="/travel" />
           <PageLink linkName="registry" location="/registry" />
         </Navbar.Collapse>
       </Navbar>

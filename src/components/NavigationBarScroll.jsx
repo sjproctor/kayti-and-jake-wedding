@@ -11,11 +11,11 @@ const NavigationBarScroll = () => {
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-        <ScrollLink linkName="celebration" location="#celebration" />
         <ScrollLink linkName="faqs" location="#faq" />
         <ScrollLink linkName="rsvp" location="#rsvp" />
         <ScrollLink linkName="party information" location="#party" />
         <PageLink linkName="their story" location="/about" />
+        <PageLink linkName="travel" location="/travel" />
         <PageLink linkName="registry" location="/registry" />
       </Navbar.Collapse>
     </Navbar>
