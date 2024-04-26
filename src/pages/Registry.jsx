@@ -20,20 +20,20 @@ const Registry = () => {
           Presence Over Presents
         </p>
         <div className=" bg-champagne px-2 py-4 text-center md:p-8 md:text-lg">
-          <p className="p-1">
+          <p>
             Kayti and Jake are very lucky to have a home and life together so
             there is no need for any gifts beyond your well wishes. They would
             prefer your presence at the August celebration rather than presents.
-          </p>
-          <p className="p-1">
-            If you would like to mark the occasion of their marriage with a
-            gift, they would be more than grateful. Please do not feel obliged
-            in any way.
           </p>
         </div>
       </div>
       <br />
       <div className="text-center md:mx-10 lg:mx-40 lg:max-w-5xl">
+        <p className="py-4">
+          If you would like to mark the occasion of their marriage with a gift,
+          they would be more than grateful. Please do not feel obliged in any
+          way.
+        </p>
         <h3 className="text-lg font-extrabold">Venmo</h3>
         <p>
           Kayti Venmo: @
@@ -50,10 +50,13 @@ const Registry = () => {
         <br />
       </div>
       <div className="text-center md:mx-10 lg:mx-40 lg:max-w-5xl">
-        <h3 className="text-lg font-extrabold">Amazon Wishlist</h3>
+        <h3 className="text-lg font-extrabold">Amazon List</h3>
         <p>
-          <a href="" target="blank">
-            Placeholder
+          <a
+            href="https://www.amazon.com/hz/wishlist/ls/31MTRVFFBOV4Q?ref_=wl_share"
+            target="blank"
+          >
+            Wedding Registry
           </a>
         </p>
         <br />
