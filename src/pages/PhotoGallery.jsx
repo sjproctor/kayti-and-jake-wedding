@@ -22,7 +22,7 @@ const PhotoGallery = () => {
   return (
     <>
       <NavigationBarPage />
-      <h2 className="m-3 text-center font-moontime text-7xl md:text-9xl">
+      <h2 className="m-3 text-center font-moontime text-6xl md:text-9xl">
         Photo Gallery
       </h2>
       <div className="flex justify-center">
@@ -32,11 +32,10 @@ const PhotoGallery = () => {
               src={bolo}
               alt="Jake in a bolo tie and Kayti in a green dress"
             />
-            <p className="text-xs text-gray">Wedding snazz.</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={goth} alt="Kayti and Jake in goth Halloween costumes" />
-            <p className="text-xs text-gray">Goth Halloween 2022</p>
+            <p className="text-xs text-gray">Goth Halloween</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={belizeBoat} alt="Kayti and Jake on a boat in Belize" />
@@ -47,36 +46,35 @@ const PhotoGallery = () => {
               src={tableRock}
               alt="Kayti a nd Jake with Lola on the top of Table Rock in Boise"
             />
-            <p className="text-xs text-gray">Table Rock with Lola.</p>
+            <p className="text-xs text-gray">
+              Top of Table Rock with Lola Moon
+            </p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={riverBend}
               alt="Kayti and Jake in front of a winding river"
             />
-            <p className="text-xs text-gray">****need description.</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={punch} alt="Kayti and Jake in front of a winding river" />
-            <p className="text-xs text-gray">****need description.</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={boiseRiver}
               alt="Jake and Kayti wearing sunglasses floating the river"
             />
-            <p className="text-xs text-gray">Floating the Boise River.</p>
+            <p className="text-xs text-gray">Floating the Boise River</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={fancy} alt="Kayti and Jake all dressed up for an event" />
-            <p className="text-xs text-gray">****need description.</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={christmas}
               alt="Kayti and Jake in front of a lit Christmas tree"
             />
-            <p className="text-xs text-gray">****need description.</p>
+            <p className="text-xs text-gray">Happy holidays!</p>
           </div>
         </div>
         <div>
@@ -85,19 +83,16 @@ const PhotoGallery = () => {
               src={downtown}
               alt="Kayti and Jake kissing under a structure at Treefort"
             />
-            <p className="text-xs text-gray">Smooching at Treefort.</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={lolaBaby} alt="Kayti and Jake with new pup Lola Moon" />
-            <p className="text-xs text-gray">Lola Moon.</p>
+            <p className="text-xs text-gray">Lola Moon</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={mccall} alt="Kayti and Jake on the shore of a lake" />
-            <p className="text-xs text-gray">McCall.</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={lolaCar} alt="Kayti and Jake and Lola in the car" />
-            <p className="text-xs text-gray">****need description.</p>
           </div>
 
           <div
@@ -117,18 +112,15 @@ const PhotoGallery = () => {
               src={hikingLola}
               alt="Kayti and Jake with Lola in the foothills"
             />
-            <p className="text-xs text-gray">Hiking with Lola.</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={lights}
               alt="Kayti and Jake in front of a web of Christmas lights"
             />
-            <p className="text-xs text-gray">****need description.</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={river} alt="Kayti and Jake camping in front of a river" />
-            <p className="text-xs text-gray">****need description.</p>
           </div>
         </div>
       </div>

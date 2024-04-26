@@ -16,7 +16,7 @@ const NavigationBarPage = () => {
           <PageLink linkName="photo gallery" location="/photos" />
           <PageLink linkName="travel" location="/travel" />
           <PageLink linkName="ceremony" location="/ceremony" />
-          <PageLink linkName="contact" location="/contact" />
+          <PageLink linkName="registry" location="/registry" />
         </Navbar.Collapse>
       </Navbar>
     </div>
