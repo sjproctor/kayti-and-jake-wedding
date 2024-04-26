@@ -4,6 +4,7 @@ import Contact from "./pages/Contact"
 import Footer from "./components/Footer"
 import Main from "./pages/Main"
 import NotFound from "./pages/NotFound"
+import Pets from "./pages/Pets"
 import PhotoGallery from "./pages/PhotoGallery"
 import Postcard from "./pages/Postcard"
 import Registry from "./pages/Registry"
@@ -15,13 +16,14 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/postcard" element={<Postcard />} />
         <Route path="/about" element={<TheirStory />} />
-        <Route path="/photos" element={<PhotoGallery />} />
-        <Route path="/travel" element={<Travel />} />
-        <Route path="/registry" element={<Registry />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/ceremony" element={<Ceremony />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/pets" element={<Pets />} />
+        <Route path="/photos" element={<PhotoGallery />} />
+        <Route path="/postcard" element={<Postcard />} />
+        <Route path="/registry" element={<Registry />} />
+        <Route path="/travel" element={<Travel />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
