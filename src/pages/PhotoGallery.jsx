@@ -1,4 +1,5 @@
 import NavigationBarPage from "../components/NavigationBarPage"
+import flowerLogo from "../assets/graphics/flower-logo.png"
 import belizeBoat from "../assets/belize-boat.jpeg"
 import boiseRiver from "../assets/boise-river.jpeg"
 import bolo from "../assets/bolo.jpeg"
@@ -22,142 +23,119 @@ const PhotoGallery = () => {
     <>
       <NavigationBarPage />
       <h2 className="m-3 text-center font-moontime text-6xl">Photo Gallery</h2>
-      <div className="flex flex-wrap justify-center">
-        <div className="flex flex-col flex-wrap">
-          <div className="w-80 px-2">
-            <img src={belizeBoat} alt="Kayti and Jake on a boat in Belize" />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              Snorkel adventure in Belize
-            </p>
-          </div>
-          <div className="w-80 px-2">
+      <div className="flex justify-center">
+        <div>
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={bolo}
               alt="Jake in a bolo tie and Kayti in a green dress"
             />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              Wedding snazz.
-            </p>
+            <p className="text-xs text-gray">Wedding snazz.</p>
           </div>
-          <div className="w-80 px-2">
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
+            <img src={goth} alt="Kayti and Jake in goth Halloween costumes" />
+            <p className="text-xs text-gray">Goth Halloween 2022</p>
+          </div>
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
+            <img src={belizeBoat} alt="Kayti and Jake on a boat in Belize" />
+            <p className="text-xs text-gray">Snorkel adventure in Belize</p>
+          </div>
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={tableRock}
-              alt="Kayti and Jake with Lola on the top of Table Rock in Boise"
+              alt="Kayti a nd Jake with Lola on the top of Table Rock in Boise"
             />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              Table Rock with Lola.
-            </p>
+            <p className="text-xs text-gray">Table Rock with Lola.</p>
           </div>
-          <div className="w-80 px-2">
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={riverBend}
               alt="Kayti and Jake in front of a winding river"
             />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              ****need description.
-            </p>
+            <p className="text-xs text-gray">****need description.</p>
           </div>
-          <div className="w-80 px-2">
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={punch} alt="Kayti and Jake in front of a winding river" />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              ****need description.
-            </p>
+            <p className="text-xs text-gray">****need description.</p>
           </div>
-        </div>
-        <div className="flex flex-col flex-wrap">
-          <div className="w-80 px-2">
-            <img src={goth} alt="Kayti and Jake in goth Halloween costumes" />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              Goth Halloween 2022
-            </p>
-          </div>
-          <div className="w-80 px-2">
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={boiseRiver}
               alt="Jake and Kayti wearing sunglasses floating the river"
             />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              Floating the Boise River.
-            </p>
+            <p className="text-xs text-gray">Floating the Boise River.</p>
           </div>
-          <div className="w-80 px-2">
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={fancy} alt="Kayti and Jake all dressed up for an event" />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              ****need description.
-            </p>
+            <p className="text-xs text-gray">****need description.</p>
           </div>
-          <div className="w-80 px-2">
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={christmas}
               alt="Kayti and Jake in front of a lit Christmas tree"
             />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              ****need description.
-            </p>
+            <p className="text-xs text-gray">****need description.</p>
           </div>
         </div>
-        <div className="flex flex-col flex-wrap">
-          <div className="w-80 px-2">
+        <div>
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={downtown}
               alt="Kayti and Jake kissing under a structure at Treefort"
             />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              Smooching at Treefort.
-            </p>
+            <p className="text-xs text-gray">Smooching at Treefort.</p>
           </div>
-          <div className="w-80 px-2">
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={lolaBaby} alt="Kayti and Jake with new pup Lola Moon" />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              Lola Moon.
-            </p>
+            <p className="text-xs text-gray">Lola Moon.</p>
           </div>
-          <div className="w-80 px-2">
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={mccall} alt="Kayti and Jake on the shore of a lake" />
-            <p className="w-80 pb-2 text-center text-xs text-gray">McCall.</p>
+            <p className="text-xs text-gray">McCall.</p>
           </div>
-          <div className="w-80 px-2">
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={lolaCar} alt="Kayti and Jake and Lola in the car" />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              ****need description.
-            </p>
+            <p className="text-xs text-gray">****need description.</p>
           </div>
-        </div>
-        <div className="flex flex-col flex-wrap">
-          <div className="w-80 px-2">
+
+          <div
+            className="w-40 px-2
+              pb-2 text-center md:w-80"
+          >
             <img
               src={engagement}
               alt="Kayti and Jake kissing on the top of Xunantunich monument in Belize"
             />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
+            <p className="text-xs text-gray">
               Newly engaged on the Xunantunich monument in Belize.
             </p>
           </div>
-          <div className="w-80 px-2">
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={hikingLola}
               alt="Kayti and Jake with Lola in the foothills"
             />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              Hiking with Lola.
-            </p>
+            <p className="text-xs text-gray">Hiking with Lola.</p>
           </div>
-          <div className="w-80 px-2">
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={lights}
               alt="Kayti and Jake in front of a web of Christmas lights"
             />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              ****need description.
-            </p>
+            <p className="text-xs text-gray">****need description.</p>
           </div>
-          <div className="w-80 px-2">
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img src={river} alt="Kayti and Jake camping in front of a river" />
-            <p className="w-80 pb-2 text-center text-xs text-gray">
-              ****need description.
-            </p>
+            <p className="text-xs text-gray">****need description.</p>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center">
+        <img
+          src={flowerLogo}
+          className="m-4 w-28"
+          alt="Kayti and Jake wedding logo"
+        />
       </div>
     </>
   )
