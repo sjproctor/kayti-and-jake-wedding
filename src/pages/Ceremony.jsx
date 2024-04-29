@@ -9,6 +9,7 @@ const Ceremony = () => {
       <img
         src={marryMe}
         alt="Kayti and Jake in Belize with palm fronds spelling out 'Marry Me'"
+        className="h-auto w-max"
       />
       <h2 className="text-center font-moontime text-7xl md:text-9xl">
         Ceremony
@@ -35,7 +36,7 @@ const Ceremony = () => {
         <img
           src={treeLogo}
           alt="Kayti and Jake wedding logo"
-          className="mb-8 w-28"
+          className="mb-8 h-auto w-28"
         />
       </div>
     </div>

@@ -9,7 +9,7 @@ const Registry = () => {
         <img
           src={mountain}
           alt="Kayti and Jake taking a selfie in front of tree covered mountains"
-          className="w-full opacity-50"
+          className="h-auto w-full opacity-50"
         />
         <div className="absolute left-0 right-0 top-1 md:top-7">
           <h2 className="font-moontime text-4xl md:text-9xl">Registry</h2>

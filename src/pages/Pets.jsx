@@ -26,7 +26,7 @@ const Pets = () => {
         <img
           src={treeLogo}
           alt="Kayti and Jake wedding logo"
-          className="mb-8 w-28"
+          className="mb-8 h-auto w-28"
         />
       </div>
     </>

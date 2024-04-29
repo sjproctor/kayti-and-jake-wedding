@@ -10,7 +10,7 @@ const FAQ = () => {
         <img
           src={belize}
           alt="Kayti and Jake in the back of a golf cart in Belize"
-          className="opacity-50"
+          className="h-auto w-max opacity-50"
         />
         <div className="absolute left-0 right-0 top-1 md:top-7">
           <h2 className="font-moontime text-4xl md:text-8xl">
@@ -166,7 +166,7 @@ const FAQ = () => {
       <div className="flex justify-center">
         <img
           src={treeLogo}
-          className="m-8 w-28"
+          className="m-8 h-auto w-28"
           alt="Kayti and Jake wedding logo"
         />
       </div>

@@ -12,7 +12,7 @@ const PartyTime = () => {
         <img
           src={dlWedding}
           alt="Kayti and Jake looking snazzy at Dan and Laura's wedding"
-          className="opacity-50"
+          className="h-auto w-max opacity-50"
         />
         <div className="absolute left-0 right-0 top-4 md:top-12">
           <h2 className="font-moontime text-5xl md:text-9xl">
@@ -128,7 +128,7 @@ const PartyTime = () => {
       <div className="flex justify-center">
         <img
           src={treeLogo}
-          className="m-8 w-28"
+          className="m-8 h-auto w-28"
           alt="Kayti and Jake wedding logo"
         />
       </div>

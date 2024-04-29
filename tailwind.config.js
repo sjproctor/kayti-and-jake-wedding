@@ -8,10 +8,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        moontime: ["Moontime", "serif"],
-        alice: ["Alice", "serif"],
+        moontime: ["Moontime", "Brush Script MT", "serif"],
+        alice: ["Alice", "Times New Roman", "serif"],
         garamond: ["Garamond", "serif"],
-        montserrat: ["Montserrat", "sans-serif"]
+        montserrat: ["Montserrat", "Garamond", "sans-serif"]
       },
       screens: {
         sm: "640px",

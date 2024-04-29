@@ -59,7 +59,7 @@ const Contact = () => {
         <img
           src={belizeGolfCart}
           alt="Jake, Sarah, Erik, and Kayti and Jake in a golf cart in Belize"
-          className="opacity-50"
+          className="h-auto w-max opacity-50"
         />
         <div className="absolute left-0 right-0 top-1 md:top-7">
           <h2 className="font-moontime text-6xl md:text-9xl">Contact Me</h2>
@@ -70,7 +70,8 @@ const Contact = () => {
         <h3 className="text-lg font-extrabold">Questions and Feedback</h3>
         <p>
           If you are having issues with the website, need technical help, have
-          general questions, or any feedback please fill out this form.
+          general questions, need travel advice, or any other feedback please
+          fill out this form.
         </p>
         <br />
         <div className={submissionAlert.visibility}>
@@ -237,7 +238,7 @@ const Contact = () => {
       <div className="flex justify-center">
         <img
           src={flowerLogo}
-          className="m-8 w-28"
+          className="m-8 h-auto w-28"
           alt="Kayti and Jake wedding logo"
         />
       </div>

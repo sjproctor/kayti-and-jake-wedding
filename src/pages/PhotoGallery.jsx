@@ -32,20 +32,30 @@ const PhotoGallery = () => {
             <img
               src={bolo}
               alt="Jake in a bolo tie and Kayti in a green dress"
+              className="h-auto w-max"
             />
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
-            <img src={goth} alt="Kayti and Jake in goth Halloween costumes" />
+            <img
+              src={goth}
+              alt="Kayti and Jake in goth Halloween costumes"
+              className="h-auto w-max"
+            />
             <p className="text-xs text-gray">Goth Halloween</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
-            <img src={belizeBoat} alt="Kayti and Jake on a boat in Belize" />
+            <img
+              src={belizeBoat}
+              alt="Kayti and Jake on a boat in Belize"
+              className="h-auto w-max"
+            />
             <p className="text-xs text-gray">Snorkel adventure in Belize</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={tableRock}
-              alt="Kayti a nd Jake with Lola on the top of Table Rock in Boise"
+              alt="Kayti and Jake with Lola on the top of Table Rock in Boise"
+              className="h-auto w-max"
             />
             <p className="text-xs text-gray">
               Top of Table Rock with Lola Moon
@@ -55,25 +65,36 @@ const PhotoGallery = () => {
             <img
               src={riverBend}
               alt="Kayti and Jake in front of a winding river"
+              className="h-auto w-max"
             />
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
-            <img src={punch} alt="Kayti and Jake in front of a winding river" />
+            <img
+              src={punch}
+              alt="Kayti and Jake sharing a large cup of red drink with two crazy straws"
+              className="h-auto w-max"
+            />
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={boiseRiver}
               alt="Jake and Kayti wearing sunglasses floating the river"
+              className="h-auto w-max"
             />
             <p className="text-xs text-gray">Floating the Boise River</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
-            <img src={fancy} alt="Kayti and Jake all dressed up for an event" />
+            <img
+              src={fancy}
+              alt="Kayti and Jake all dressed up for an event"
+              className="h-auto w-max"
+            />
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={christmas}
               alt="Kayti and Jake in front of a lit Christmas tree"
+              className="h-auto w-max"
             />
             <p className="text-xs text-gray">Happy holidays!</p>
           </div>
@@ -83,22 +104,36 @@ const PhotoGallery = () => {
             <img
               src={downtown}
               alt="Kayti and Jake kissing under a structure at Treefort"
+              className="h-auto w-max"
             />
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
-            <img src={lolaBaby} alt="Kayti and Jake with new pup Lola Moon" />
+            <img
+              src={lolaBaby}
+              alt="Kayti and Jake with new pup Lola Moon"
+              className="h-auto w-max"
+            />
             <p className="text-xs text-gray">Lola Moon</p>
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
-            <img src={mccall} alt="Kayti and Jake on the shore of a lake" />
+            <img
+              src={mccall}
+              alt="Kayti and Jake on the shore of a lake"
+              className="h-auto w-max"
+            />
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
-            <img src={lolaCar} alt="Kayti and Jake and Lola in the car" />
+            <img
+              src={lolaCar}
+              alt="Kayti and Jake and Lola in the car"
+              className="h-auto w-max"
+            />
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={engagement}
               alt="Kayti and Jake kissing on the top of Xunantunich monument in Belize"
+              className="h-auto w-max"
             />
             <p className="text-xs text-gray">
               Newly engaged on the Xunantunich monument in Belize.
@@ -107,7 +142,8 @@ const PhotoGallery = () => {
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={bench}
-              alt="Kayti and Jake on Dad's bench on the Boise greenbelt"
+              alt="Kayti and Jake on David's bench on the Boise greenbelt"
+              className="h-auto w-max"
             />
             <p className="text-xs text-gray">
               Kayti and Jake on David&apos;s memorial bench.
@@ -117,23 +153,29 @@ const PhotoGallery = () => {
             <img
               src={hikingLola}
               alt="Kayti and Jake with Lola in the foothills"
+              className="h-auto w-max"
             />
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
               src={lights}
               alt="Kayti and Jake in front of a web of Christmas lights"
+              className="h-auto w-max"
             />
           </div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
-            <img src={river} alt="Kayti and Jake camping in front of a river" />
+            <img
+              src={river}
+              alt="Kayti and Jake camping in front of a river"
+              className="h-auto w-max"
+            />
           </div>
         </div>
       </div>
       <div className="flex justify-center">
         <img
           src={flowerLogo}
-          className="m-4 w-28"
+          className="m-4 h-auto w-28"
           alt="Kayti and Jake wedding logo"
         />
       </div>

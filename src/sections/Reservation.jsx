@@ -94,7 +94,7 @@ const Reservation = () => {
         <img
           src={camping}
           alt="Kayti and Jake in the car on their way to Garden Valley"
-          className="opacity-50"
+          className="h-auto w-max opacity-50"
         />
         <div className="absolute left-0 right-0 top-4 md:top-12">
           <h2 className="font-moontime text-7xl md:text-9xl">RSVP</h2>
@@ -261,7 +261,7 @@ const Reservation = () => {
       <div className="flex justify-center">
         <img
           src={flowerLogo}
-          className="m-8 w-28"
+          className="m-8 h-auto w-28"
           alt="Kayti and Jake wedding logo"
         />
       </div>

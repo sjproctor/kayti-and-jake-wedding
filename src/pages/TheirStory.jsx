@@ -18,7 +18,7 @@ const TheirStory = () => {
         <img
           src={beach}
           alt="Jake kissing Kayti on the cheek on a beach"
-          className="opacity-50"
+          className="h-auto w-max opacity-50"
         />
         <div className="absolute left-0 right-0 top-4 md:top-12">
           <h2 className="font-moontime text-7xl md:text-9xl">Their Story</h2>
@@ -39,7 +39,7 @@ const TheirStory = () => {
           <img
             src={greenField}
             alt="Kayti in Jake's arms in a field of green grass"
-            className="w-64"
+            className="h-auto w-64"
           />
         </div>
         <p className="mb-4 text-justify">
@@ -56,7 +56,7 @@ const TheirStory = () => {
             <img
               src={jasmine}
               alt="Kayti in a Princess Jasmine halloween costume on the Dahlgren's porch"
-              className="w-64"
+              className="h-auto w-64"
             />
             <p className="w-64 text-xs text-gray">
               Kayti on the Dahlgren&apos;s porch in her favorite Halloween
@@ -76,7 +76,7 @@ const TheirStory = () => {
           <img
             src={festival}
             alt="Kayti and Jake at a music festival"
-            className="w-64"
+            className="h-auto w-64"
           />
         </div>
         <p className="mb-4 text-justify">
@@ -108,7 +108,7 @@ const TheirStory = () => {
             <img
               src={graduation}
               alt="Kayti and Jake at BSU after Kayti's graduation commencement"
-              className="w-64"
+              className="h-auto w-64"
             />
             <p className="w-64 text-xs text-gray">
               Kayti and Jake at BSU after Kayti&apos;s graduation commencement,
@@ -131,7 +131,7 @@ const TheirStory = () => {
             <img
               src={proposal}
               alt="Jake on one knee proposing to Kayti on the top of the Xunantunich monument"
-              className="w-64"
+              className="h-auto w-64"
             />
             <p className="w-64 text-xs text-gray">
               Jake proposing to Kayti on the top of the Xunantunich monument in
@@ -154,7 +154,7 @@ const TheirStory = () => {
             <img
               src={ring}
               alt="Jake on one knee proposing to Kayti on the top of the Xunantunich monument"
-              className="w-64"
+              className="h-auto w-64"
             />
             <p className="w-64 text-xs text-gray">
               Kayti&apos;s moss agate engagement ring was handmade by Jake.
@@ -172,7 +172,7 @@ const TheirStory = () => {
       <div className="flex justify-center">
         <img
           src={flowerLogo}
-          className="m-8 w-28"
+          className="m-8 h-auto w-28"
           alt="Kayti and Jake wedding logo"
         />
       </div>

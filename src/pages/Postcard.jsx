@@ -16,11 +16,8 @@ const Postcard = () => {
     doc.save("postcard.pdf")
   }
   return (
-    <div id="postcard">
-      <div className="hover:cursor-pointer">
-        <NavigationBarPage />
-      </div>
-
+    <>
+      <NavigationBarPage />
       <h2 className="text-center font-moontime text-8xl md:text-9xl">
         Postcard
       </h2>
@@ -49,15 +46,15 @@ const Postcard = () => {
         <img
           src={postcardFront}
           alt="Front of Kayti and Jake's postcard invitation"
-          className="mb-5 border-2"
+          className="mb-5 h-auto w-max border-2"
         />
         <img
           src={postcardBack}
           alt="Back of Kayti and Jake's postcard invitation"
-          className="border-2"
+          className="h-auto w-max border-2"
         />
       </div>
-    </div>
+    </>
   )
 }
 

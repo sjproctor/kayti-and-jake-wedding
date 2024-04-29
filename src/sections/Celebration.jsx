@@ -28,7 +28,7 @@ const Celebration = () => {
       <div className="flex justify-center py-4">
         <img
           src={leafLogo}
-          className="mr-2 w-28 hover:cursor-pointer"
+          className="mr-2 h-auto w-28"
           alt="Kayti and Jake wedding logo"
         />
       </div>

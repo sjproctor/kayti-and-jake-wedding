@@ -9,7 +9,7 @@ const Travel = () => {
         <img
           src={airplane}
           alt="Kayti and Jake wearing headphones on a plane"
-          className="opacity-50"
+          className="h-auto w-max opacity-50"
         />
         <div className="absolute left-0 right-0 top-1 md:top-7">
           <h2 className="font-moontime text-6xl md:text-9xl">Travel Info</h2>

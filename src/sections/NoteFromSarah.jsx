@@ -35,7 +35,7 @@ const NoteFromSarah = () => {
       <div className="flex justify-center">
         <img
           src={flowerLogo}
-          className="m-8 w-28"
+          className="m-8 h-auto w-28"
           alt="Kayti and Jake wedding logo"
         />
       </div>
