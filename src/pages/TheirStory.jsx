@@ -45,11 +45,11 @@ const TheirStory = () => {
         <p className="mb-4 text-justify">
           Kayti and Jake started dating in the summer of 2021. While that kicks
           off this part of the story, their paths had crossed a few times before
-          that summer. Kayti and Jake first met over 30 years ago. Jake&apos;s
-          mom, Sue Dahlgren, was Kayti&apos;s preschool teacher. Kayti, along
-          with the many other tots, was invited to the Dahlgren house for a
-          Halloween party in 1993. Kayti attended in her most favorite costume,
-          Princess Jasmine.
+          that summer. Kayti and Jake met for the first time over 30 years ago.
+          Jake&apos;s mom, Sue Dahlgren, was Kayti&apos;s preschool teacher.
+          Kayti, along with many other tots, was invited to the Dahlgren house
+          for a Halloween party in 1993. Kayti attended in her most favorite
+          costume, Princess Jasmine.
         </p>
         <div className="mb-4 flex justify-center md:float-left md:mr-4 ">
           <div>
@@ -59,7 +59,8 @@ const TheirStory = () => {
               className="w-64"
             />
             <p className="w-64 text-xs text-gray">
-              Kayti on the Dahlgren&apos;s porch in her favorite costume.
+              Kayti on the Dahlgren&apos;s porch in her favorite Halloween
+              costume, 1993.
             </p>
           </div>
         </div>
@@ -82,10 +83,10 @@ const TheirStory = () => {
           In 2021, Jake had back surgery and Kayti reached out during his
           convalescence with an invitation for a short walk to catch up and
           chat. The two talked about life, love, where they were in their
-          journeys, and where they hope to be in the future. Their short walk
-          ended up lasting over three hours. Neither had expected this to be the
-          start of a life-changing relationship. They both intended to continue
-          on their own paths, but there was no denying it. They were smitten.
+          journeys, and what their futures held. Their short walk ended up
+          lasting over three hours. Neither had expected this to be the start of
+          a life-changing relationship. They both intended to continue on their
+          respective paths, but there was no denying it. They were smitten.
         </p>
         <div className="mb-4 flex justify-center md:float-left md:mr-4">
           <img
@@ -97,8 +98,8 @@ const TheirStory = () => {
         <p className="mb-4 text-justify">
           Fluttery feelings aside, they took it slow and allowed their
           relationship to develop organically. They were both determined to
-          honor their own paths, goals, friends, and family. But they knew this
-          was something special. Before too long, I love yous were said and they
+          honor their goals, friends, and family. But they knew this was
+          something special. Before too long, I love yous were said and they
           began happily merging their lives. In the summer of 2022, Kayti
           finished her graduate degree and moved into Jake&apos;s house.
         </p>
@@ -110,7 +111,8 @@ const TheirStory = () => {
               className="w-64"
             />
             <p className="w-64 text-xs text-gray">
-              Kayti and Jake at BSU after Kayti&apos;s graduation commencement.
+              Kayti and Jake at BSU after Kayti&apos;s graduation commencement,
+              May 2022.
             </p>
           </div>
         </div>
@@ -133,7 +135,7 @@ const TheirStory = () => {
             />
             <p className="w-64 text-xs text-gray">
               Jake proposing to Kayti on the top of the Xunantunich monument in
-              Belize.
+              Belize, January 2023.
             </p>
           </div>
         </div>
