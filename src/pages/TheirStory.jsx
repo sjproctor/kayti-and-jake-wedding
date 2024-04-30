@@ -9,6 +9,8 @@ import jasmine from "../assets/jasmine.jpeg"
 import patio from "../assets/patio.jpeg"
 import proposal from "../assets/proposal.jpeg"
 import ring from "../assets/ring.jpeg"
+import jakeCamping from "../assets/baby-pics/jake-camping.jpg"
+import kaytiStripes from "../assets/baby-pics/kayti-stripes.jpg"
 
 const TheirStory = () => {
   return (
@@ -168,6 +170,18 @@ const TheirStory = () => {
           These two are so adorable, right? <Link to="/photos">Click here</Link>{" "}
           for more pictures of the lovely couple.
         </p>
+      </div>
+      <div className="flex justify-center">
+        <img
+          src={jakeCamping}
+          alt="Baby Jake all dirty while camping"
+          className="h-64 w-auto p-4"
+        />
+        <img
+          src={kaytiStripes}
+          alt="Baby Kayti in a striped outfit"
+          className="h-64 w-auto p-4"
+        />
       </div>
       <div className="flex justify-center">
         <img
