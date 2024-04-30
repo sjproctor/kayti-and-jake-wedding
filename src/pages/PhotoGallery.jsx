@@ -18,6 +18,14 @@ import punch from "../assets/punch.jpeg"
 import river from "../assets/river.jpeg"
 import riverBend from "../assets/riverbend.jpeg"
 import tableRock from "../assets/table-rock.jpeg"
+import jakeBaby from "../assets/baby-pics/jake-baby.jpg"
+import jakeCasey from "../assets/baby-pics/jake-casey.jpg"
+import jakeRick from "../assets/baby-pics/jake-rick.jpg"
+import jakeSue from "../assets/baby-pics/jake-sue.jpg"
+import kaytiIceCream from "../assets/baby-pics/kayti-icecream.jpg"
+import kaytiLucy from "../assets/baby-pics/kayti-lucy.jpg"
+import kaytiSarahDad from "../assets/baby-pics/kayti-sarah-dad.jpg"
+import kaytiTub from "../assets/baby-pics/kayti-tub.jpg"
 
 const PhotoGallery = () => {
   return (
@@ -98,6 +106,13 @@ const PhotoGallery = () => {
             />
             <p className="text-xs text-gray">Happy holidays!</p>
           </div>
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
+            <img
+              src={river}
+              alt="Kayti and Jake camping in front of a river"
+              className="h-auto w-max"
+            />
+          </div>
         </div>
         <div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
@@ -163,10 +178,68 @@ const PhotoGallery = () => {
               className="h-auto w-max"
             />
           </div>
+        </div>
+      </div>
+      <p className="m-2 text-center font-alice text-xl uppercase text-gray md:text-2xl">
+        Baby Pics!
+      </p>
+      <div className="flex justify-center">
+        <div>
           <div className="w-40 px-2 pb-2 text-center md:w-80">
             <img
-              src={river}
-              alt="Kayti and Jake camping in front of a river"
+              src={jakeBaby}
+              alt="Jake in a bolo tie and Kayti in a green dress"
+              className="h-auto w-max"
+            />
+          </div>
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
+            <img
+              src={jakeCasey}
+              alt="Jake in a bolo tie and Kayti in a green dress"
+              className="h-auto w-max"
+            />
+          </div>
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
+            <img
+              src={jakeRick}
+              alt="Jake in a bolo tie and Kayti in a green dress"
+              className="h-auto w-max"
+            />
+          </div>
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
+            <img
+              src={jakeSue}
+              alt="Jake in a bolo tie and Kayti in a green dress"
+              className="h-auto w-max"
+            />
+          </div>
+        </div>
+        <div>
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
+            <img
+              src={kaytiTub}
+              alt="Jake in a bolo tie and Kayti in a green dress"
+              className="h-auto w-max"
+            />
+          </div>
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
+            <img
+              src={kaytiLucy}
+              alt="Jake in a bolo tie and Kayti in a green dress"
+              className="h-auto w-max"
+            />
+          </div>
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
+            <img
+              src={kaytiIceCream}
+              alt="Jake in a bolo tie and Kayti in a green dress"
+              className="h-auto w-max"
+            />
+          </div>
+          <div className="w-40 px-2 pb-2 text-center md:w-80">
+            <img
+              src={kaytiSarahDad}
+              alt="Jake in a bolo tie and Kayti in a green dress"
               className="h-auto w-max"
             />
           </div>
