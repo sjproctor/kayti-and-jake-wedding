@@ -142,7 +142,7 @@ const TheirStory = () => {
           </div>
         </div>
         <p className="mb-4 text-justify">
-          Kayti and Jake will have a small wedding{" "}
+          Kayti and Jake will have a small wedding&nbsp;
           <Link to="/ceremony">ceremony</Link> in the mountains near Garden
           Valley, Idaho in early June. This will be followed by a celebratory
           gathering with extended family and friends on August 31, 2024 in
@@ -167,20 +167,20 @@ const TheirStory = () => {
       <div className="m-auto w-11/12 text-center md:w-1/2">
         <p className="gray-header-text">Photo Gallery</p>
         <p>
-          These two are so adorable, right? <Link to="/photos">Click here</Link>{" "}
-          for more pictures of the lovely couple.
+          These two are so adorable, right? <Link to="/photos">Click here</Link>
+          &nbsp; for more pictures of the lovely couple.
         </p>
       </div>
-      <div className="flex justify-center">
+      <div className="flex flex-wrap justify-center">
         <img
           src={jakeCamping}
           alt="Baby Jake all dirty while camping"
-          className="h-64 w-auto p-4"
+          className="h-60 w-auto p-4"
         />
         <img
           src={kaytiStripes}
           alt="Baby Kayti in a striped outfit"
-          className="h-64 w-auto p-4"
+          className="h-60 w-auto p-4"
         />
       </div>
       <div className="flex justify-center">

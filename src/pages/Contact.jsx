@@ -176,7 +176,7 @@ const Contact = () => {
         </p>
         <p>
           If you didn&apos;t receive a postcard or you would like an additional
-          copy{" "}
+          copy&nbsp;
           <a href="mailto:kj.partytime@gmail.com?cc=sproctor950@gmail.com &subject=Postcard Mailer">
             please reach out here
           </a>
@@ -187,14 +187,15 @@ const Contact = () => {
         <p>
           This website was created by me, Sarah Proctor. It is built in React on
           Vite using Tailwind and Flowbite components. If you are interested in
-          the technical specs, you can{" "}
+          the technical specs, you can&nbsp;
           <a
             href="https://github.com/sjproctor/kayti-and-jake-wedding"
             target="blank"
           >
             read more here
           </a>
-          . If you want to chat about code, let&apos;s f*cking chat! You can{" "}
+          . If you want to chat about code, let&apos;s f*cking chat! You
+          can&nbsp;
           <a
             href="https://www.linkedin.com/in/sarahproctor-dev/"
             target="blank"

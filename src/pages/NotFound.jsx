@@ -22,7 +22,7 @@ const NotFound = () => {
           <Link to="/">Click here</Link> to head back to the main page.
         </p>
         <p className="mb-2">
-          You can read more about Kayti and Jake by{" "}
+          You can read more about Kayti and Jake by&nbsp;
           <Link to="/about">clicking here</Link>.
         </p>
         <p className="mb-4">

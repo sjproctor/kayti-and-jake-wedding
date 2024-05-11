@@ -29,7 +29,7 @@ const Postcard = () => {
         </p>
         <p>
           If you didn&apos;t receive a postcard or you would like an additional
-          print copy{" "}
+          print copy&nbsp;
           <a href="mailto:kj.partytime@gmail.com?cc=sproctor950@gmail.com &subject=Postcard Mailer">
             please reach out here
           </a>

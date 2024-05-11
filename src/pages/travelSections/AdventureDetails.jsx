@@ -1,10 +1,12 @@
+import flowerLogo from "../../assets/graphics/flower-logo.png"
+
 const AdventureDetails = () => {
   return (
     <>
       <div className="m-auto w-11/12 text-center md:w-1/2">
         <p className="gray-header-text">Boise Adventures</p>
       </div>
-      <div className="mx-8 flex flex-wrap justify-around">
+      <div className="mx-8 mt-8 flex flex-wrap justify-around">
         <div className="my-4 md:w-1/4">
           <h3 className="font-extrabold text-greenGold">Outdoors</h3>
           <p>
@@ -189,7 +191,7 @@ const AdventureDetails = () => {
           </p>
           <br />
         </div>
-        <div className="my-4 md:w-1/4">
+        <div className="mt-4 md:w-1/4">
           <h3 className="font-extrabold text-greenGold">Dining</h3>
           <p>A few Boise eateries recommended by the bride and groom.</p>
           <br />
@@ -257,6 +259,13 @@ const AdventureDetails = () => {
           </p>
           <br />
         </div>
+      </div>
+      <div className="flex justify-center">
+        <img
+          src={flowerLogo}
+          className="m-8 h-auto w-28"
+          alt="Kayti and Jake wedding logo"
+        />
       </div>
     </>
   )

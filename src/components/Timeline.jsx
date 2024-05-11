@@ -21,7 +21,7 @@ const Timeline = () => {
           </time>
           <h3 className="text-lg font-semibold">Start the Party!</h3>
           <p>
-            We will be in the backyard of Kayti and Jake&apos;s at{" "}
+            We will be in the backyard of Kayti and Jake&apos;s at&nbsp;
             <b>2707 Malibu Road, Boise, Idaho 83705</b>.
           </p>
           <p>
@@ -40,7 +40,8 @@ const Timeline = () => {
           </time>
           <h3 className="text-lg font-semibold">Dinner is Available</h3>
           <p>
-            We will have Kanak Attack and Taco trucks with a variety of options.
+            We will have Kanak Attack and Thinking Taco food trucks with a
+            variety of options.
           </p>
           <p className="mb-2">Dinner will be available from 6 pm to 8 pm.</p>
         </li>
@@ -70,7 +71,7 @@ const Timeline = () => {
           </time>
           <h3 className="text-lg font-semibold">Dinner Service Ends</h3>
           <p className="mb-2">
-            The food trucks will wrap up but snacks will be available.
+            The food trucks will wrap but snacks will be available.
           </p>
         </li>
         <li className="mb-8 ms-5">
