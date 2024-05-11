@@ -131,7 +131,7 @@ const FAQ = () => {
           You should expect to park a couple blocks away and walk. Please be
           respectful of Kayti and Jake&apos;s neighbors and do not block
           driveways. If you are going to be drinking alcohol, DO NOT DRIVE. We
-          recommend carpooling and using ride shares.
+          recommend riding your bike, carpooling, or using ride shares.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">

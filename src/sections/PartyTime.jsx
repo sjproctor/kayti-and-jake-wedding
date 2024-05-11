@@ -56,7 +56,8 @@ const PartyTime = () => {
           <b>Parking: </b>All parking is on the street in Kayti and Jake&apos;s
           neighborhood. Spots close to the house will fill up early so be
           prepared to walk a few blocks. Please be respectful of Kayti and
-          Jake&apos;s neighbors! We HIGHLY recommend using ride shares.
+          Jake&apos;s neighbors! We HIGHLY recommend carpooling, biking, or
+          using ride shares. We will have a large bike rack available.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">What to know during...</h3>
