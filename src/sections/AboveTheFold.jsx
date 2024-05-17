@@ -3,30 +3,21 @@ import heroMobile from "../assets/hero-mobile.jpeg"
 
 const AboveTheFold = () => {
   return (
-    <>
-      {/* full screen view */}
-      <div className="hidden text-center md:contents">
-        <img
-          src={hero}
-          alt="Kayti and Jake sitting outdoors in the foreground of a mountain with wispy clouds in the sky"
-          className="h-auto w-max opacity-50"
-        />
-        <div className="absolute left-0 right-0 top-12">
-          <h1 className="font-moontime md:text-9xl">Kayti and Jake</h1>
-        </div>
-      </div>
-      {/* mobile view */}
-      <div className="text-center md:hidden">
+    <div className="h-96 text-center sm:h-[32rem] md:h-[20rem] lg:h-[21rem] xl:h-[32rem] 2xl:h-[40rem]">
+      <picture>
+        <source media="(min-width:500px)" srcSet={hero} />
         <img
           src={heroMobile}
           alt="Kayti and Jake sitting outdoors in the foreground of a mountain with wispy clouds in the sky"
-          className="h-auto w-max opacity-50"
+          className="h-[calc(w-screen * 2)] w-screen opacity-50"
         />
-        <div className="absolute left-0 right-0 top-20">
-          <h1 className="font-moontime text-7xl sm:text-9xl">Kayti and Jake</h1>
-        </div>
+      </picture>
+      <div className="absolute left-0 right-0 top-20 md:top-12">
+        <h1 className="font-moontime text-6xl sm:text-7xl md:text-9xl">
+          Kayti and Jake
+        </h1>
       </div>
-    </>
+    </div>
   )
 }
 

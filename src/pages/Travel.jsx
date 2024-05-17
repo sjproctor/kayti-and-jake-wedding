@@ -8,7 +8,7 @@ const Travel = () => {
   return (
     <>
       <NavigationBarPage />
-      <div className="relative text-center">
+      <div className="relative h-44 text-center sm:h-[19rem] md:h-[25rem] lg:h-[30rem] xl:h-[36rem] 2xl:h-[48rem]">
         <img
           src={airplane}
           alt="Kayti and Jake wearing headphones on a plane"
@@ -17,7 +17,8 @@ const Travel = () => {
         <div className="absolute left-0 right-0 top-1 md:top-7">
           <h2 className="font-moontime text-6xl md:text-9xl">Travel Info</h2>
         </div>
-        <br />
+      </div>
+      <div>
         <HotelDetails />
         <TravelDetails />
         <AdventureDetails />

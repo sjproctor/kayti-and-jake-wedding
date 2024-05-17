@@ -1,6 +1,6 @@
 const HotelDetails = () => {
   return (
-    <>
+    <div className="text-center">
       <div className="m-auto w-11/12 text-center md:w-1/2">
         <p className="gray-header-text">Hotels</p>
         <p>
@@ -131,7 +131,7 @@ const HotelDetails = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

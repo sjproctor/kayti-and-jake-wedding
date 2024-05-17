@@ -4,13 +4,15 @@ import treeLogo from "../assets/graphics/tree-logo.png"
 
 const Ceremony = () => {
   return (
-    <div id="ceremony">
+    <div>
       <NavigationBarPage />
-      <img
-        src={marryMe}
-        alt="Kayti and Jake in Belize with palm fronds spelling out 'Marry Me'"
-        className="h-auto w-max"
-      />
+      <div className="h-44 text-center sm:h-[22rem] md:h-[26rem] lg:h-[34rem] xl:h-[42rem] 2xl:h-[52rem]">
+        <img
+          src={marryMe}
+          alt="Kayti and Jake in Belize with palm fronds spelling out 'Marry Me'"
+          className="h-auto w-max"
+        />
+      </div>
       <h2 className="text-center font-moontime text-7xl md:text-9xl">
         Ceremony
       </h2>

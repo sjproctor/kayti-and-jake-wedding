@@ -1,6 +1,6 @@
 const TravelDetails = () => {
   return (
-    <>
+    <div className="text-center">
       <div className="m-auto w-11/12 text-center md:w-1/2">
         <p className="gray-header-text">Travel to Boise</p>
       </div>
@@ -64,7 +64,7 @@ const TravelDetails = () => {
           <br />
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

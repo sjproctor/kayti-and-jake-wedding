@@ -14,9 +14,10 @@ export default {
         montserrat: ["Montserrat", "Garamond", "sans-serif"]
       },
       screens: {
-        sm: "640px",
-        md: "950px",
-        lg: "1024px",
+        xs: "350px",
+        sm: "500px",
+        md: "840px",
+        lg: "1000px",
         xl: "1280px",
         "2xl": "1536px"
       },

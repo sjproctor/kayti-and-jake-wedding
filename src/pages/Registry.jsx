@@ -3,16 +3,16 @@ import mountain from "../assets/mountain.jpeg"
 
 const Registry = () => {
   return (
-    <div id="registry">
+    <>
       <NavigationBarPage />
-      <div className="relative text-center">
+      <div className="relative h-48 text-center sm:h-[24rem] md:h-[28rem] lg:h-[30rem] xl:h-[37rem] 2xl:h-[48rem]">
         <img
           src={mountain}
           alt="Kayti and Jake taking a selfie in front of tree covered mountains"
           className="h-auto w-full opacity-50"
         />
         <div className="absolute left-0 right-0 top-1 md:top-7">
-          <h2 className="font-moontime text-4xl md:text-9xl">Registry</h2>
+          <h2 className="font-moontime text-7xl md:text-9xl">Registry</h2>
         </div>
       </div>
       <div className="m-auto w-11/12 pt-8 md:w-1/2">
@@ -29,7 +29,7 @@ const Registry = () => {
       </div>
       <br />
       <div className="text-center md:mx-10 lg:mx-40 lg:max-w-5xl">
-        <p className="py-4">
+        <p className="p-4">
           If you would like to mark the occasion of their marriage with a gift,
           they would be more than grateful. Please do not feel obliged in any
           way.
@@ -68,7 +68,7 @@ const Registry = () => {
         <p>Boise, Idaho 83705</p>
         <br />
       </div>
-    </div>
+    </>
   )
 }
 

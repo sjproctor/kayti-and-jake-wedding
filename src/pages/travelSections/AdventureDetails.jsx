@@ -2,7 +2,7 @@ import flowerLogo from "../../assets/graphics/flower-logo.png"
 
 const AdventureDetails = () => {
   return (
-    <>
+    <div className="text-center">
       <div className="m-auto w-11/12 text-center md:w-1/2">
         <p className="gray-header-text">Boise Adventures</p>
       </div>
@@ -267,7 +267,7 @@ const AdventureDetails = () => {
           alt="Kayti and Jake wedding logo"
         />
       </div>
-    </>
+    </div>
   )
 }
 
