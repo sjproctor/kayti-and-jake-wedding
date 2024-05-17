@@ -1,6 +1,6 @@
 const Welcome = () => {
   return (
-    <div className="mx-4 mt-4 md:mx-40 md:mt-16 md:max-w-5xl">
+    <div className="mx-4 mt-4 md:mx-40 md:mt-16">
       <p className="text-center font-alice text-2xl uppercase text-gray md:text-4xl">
         Kayti and Jake are getting married!
       </p>

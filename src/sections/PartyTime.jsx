@@ -28,10 +28,10 @@ const PartyTime = () => {
         <p className="py-2">
           <b>RSVP: </b>Please
           <AnchorLink href="#rsvp" className="px-1">
-            submit the RSVP
+            submit your RSVP
           </AnchorLink>
-          form by July 1, 2024. (Happy birthday, Kayti!) If your RSVP status
-          changes, please resubmit the form and add a note.
+          by July 1, 2024. (Happy birthday, Kayti!) If your RSVP status changes,
+          please resubmit the form and add a note.
         </p>
         <p className="py-2">
           <b>Attire: </b>We&apos;ll be outside on the grass and it&apos;s gonna
@@ -57,14 +57,15 @@ const PartyTime = () => {
           neighborhood. Spots close to the house will fill up early so be
           prepared to walk a few blocks. Please be respectful of Kayti and
           Jake&apos;s neighbors! We HIGHLY recommend carpooling, biking, or
-          using ride shares. We will have a large bike rack available.
+          using ride shares. We will have a large bike rack available for you to
+          lock up your wheels.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">What to know during...</h3>
         <p className="py-2">
           <b>Drinks: </b>We are doing drinks self-serve style. We will have
           water, non-alcoholic beverages, beer, wine, and cocktails. Alcohol is
-          available only to adults of legal drinking age. Please regulate your
+          only available to adults of legal drinking age. Please regulate your
           alcohol consumption.
         </p>
         <p className="py-2">
@@ -101,14 +102,14 @@ const PartyTime = () => {
             Seven Day Boise Weather Forecast
           </a>
           {
-            !(function (d, s, id) {
-              var js,
-                fjs = d.getElementsByTagName(s)[0]
-              if (!d.getElementById(id)) {
-                js = d.createElement(s)
-                js.id = id
-                js.src = "https://weatherwidget.io/js/widget.min.js"
-                fjs.parentNode.insertBefore(js, fjs)
+            !(function (dom, script, widget) {
+              let scriptTag,
+                scriptModule = dom.getElementsByTagName(script)[0]
+              if (!dom.getElementById(widget)) {
+                scriptTag = dom.createElement(script)
+                scriptTag.widget = widget
+                scriptTag.src = "https://weatherwidget.io/js/widget.min.js"
+                scriptModule.parentNode.insertBefore(scriptTag, scriptModule)
               }
             })(document, "script", "weatherwidget-io-js")
           }

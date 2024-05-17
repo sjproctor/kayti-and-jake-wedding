@@ -25,8 +25,7 @@ const NoteFromSarah = () => {
           <p className="px-2 text-xs">
             I will continue to add updates so please check back!
           </p>
-          <br />
-          <p className="px-4 text-xs">
+          <p className="p-4 text-xs">
             --Made with love by <Link to="/contact">Sarah</Link>, Kayti&apos;s
             beautiful and wise older sister
           </p>
