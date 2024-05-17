@@ -55,7 +55,7 @@ const Contact = () => {
   return (
     <>
       <NavigationBarPage />
-      <div className="relative text-center">
+      <div className="relative h-48 text-center sm:h-[25rem] md:h-[30rem] lg:h-[35rem] xl:h-[46rem] 2xl:h-[56rem]">
         <img
           src={belizeGolfCart}
           alt="Jake, Sarah, Erik, and Kayti and Jake in a golf cart in Belize"
@@ -103,60 +103,72 @@ const Contact = () => {
         </div>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="grid md:grid-cols-2 md:gap-6">
-            <div className="group relative z-0 mb-5 w-full">
+            <fieldset className="group relative z-0 w-full md:md:mb-5">
               <input
                 type="text"
                 name="name"
                 id="name"
                 autoComplete="name"
                 className="bg-transparent focus:border-blue-600 peer block w-full appearance-none border-0 border-b-2 px-0 py-2.5 text-sm text-gray focus:outline-none focus:ring-0"
-                placeholder="Your name"
                 {...register("name", {
                   required: true
                 })}
               />
+              <div className="text-left">
+                <label htmlFor="name" className="text-sm text-gray">
+                  Your name *
+                </label>
+              </div>
               {errors.name && errors.name.type === "required" && (
                 <p className="text-left text-sm text-error">
                   Name is required.
                 </p>
               )}
-            </div>
-            <div className="group relative z-0 mb-5 w-full">
+            </fieldset>
+            <fieldset className="group relative z-0 w-full md:mb-5">
               <input
                 type="email"
                 name="email"
                 id="email"
                 autoComplete="email"
                 className="bg-transparent focus:border-blue-600 peer block w-full appearance-none border-0 border-b-2 px-0 py-2.5 text-sm text-gray focus:outline-none focus:ring-0"
-                placeholder="Your contact email"
                 {...register("email", {
                   required: true
                 })}
               />
+              <div className="text-left">
+                <label htmlFor="email" className="text-sm text-gray">
+                  Your contact email *
+                </label>
+              </div>
               {errors.email && errors.email.type === "required" && (
                 <p className="text-left text-sm text-error">
                   Email is required.
                 </p>
               )}
-            </div>
+            </fieldset>
           </div>
-          <div className="group relative z-0 mb-5 w-full">
+          <fieldset className="group relative z-0 w-full md:mb-5">
             <input
               type="text"
               name="message"
               id="message"
-              placeholder="Message content"
               className="bg-transparent focus:border-blue-600 peer block w-full appearance-none border-0 border-b-2 px-0 py-2.5 text-sm text-gray focus:outline-none focus:ring-0"
               {...register("message", {
                 required: true
               })}
             />
+            <div className="text-left">
+              <label htmlFor="message" className="text-sm text-gray">
+                Message content *
+              </label>
+            </div>
             {errors.message && errors.message.type === "required" && (
               <p className="text-left text-sm text-error">
                 Content is required.
               </p>
             )}
-          </div>
+          </fieldset>
 
           <div className="text-center">
             <button
@@ -224,8 +236,8 @@ const Contact = () => {
           The code and the written copy on this website are the creation and
           intellectual property of me, Sarah Proctor. The logos and graphics
           were created by me using Canva. All pictures are owned by a member of
-          my family and are being used with permission by the photographer and
-          the permission of those pictured. Nothing on this site can be used
+          my family and are being used with the permission of the photographer
+          and the permission of those pictured. Nothing on this site can be used
           without permission from me, Sarah Proctor.
         </p>
         <br />

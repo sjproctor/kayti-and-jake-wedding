@@ -174,7 +174,7 @@ const PhotoGallery = () => {
           {columnOne.map((picture, index) => {
             return (
               <div className="w-40 px-2 pb-2 text-center md:w-80" key={index}>
-                <PictureModal source={picture.image} altNext={picture.alt} />
+                <PictureModal source={picture.image} altText={picture.alt} />
                 <p className="text-xs text-gray">{picture.text}</p>
               </div>
             )
@@ -184,7 +184,7 @@ const PhotoGallery = () => {
           {columnTwo.map((picture, index) => {
             return (
               <div className="w-40 px-2 pb-2 text-center md:w-80" key={index}>
-                <PictureModal source={picture.image} altNext={picture.alt} />
+                <PictureModal source={picture.image} altText={picture.alt} />
                 <p className="text-xs text-gray">{picture.text}</p>
               </div>
             )
@@ -199,7 +199,7 @@ const PhotoGallery = () => {
           {jakeBabyPics.map((picture, index) => {
             return (
               <div className="w-40 px-2 pb-2 text-center md:w-80" key={index}>
-                <PictureModal source={picture.image} altNext={picture.alt} />
+                <PictureModal source={picture.image} altText={picture.alt} />
                 <p className="text-xs text-gray">{picture.text}</p>
               </div>
             )
@@ -209,7 +209,7 @@ const PhotoGallery = () => {
           {kaytiBabyPics.map((picture, index) => {
             return (
               <div className="w-40 px-2 pb-2 text-center md:w-80" key={index}>
-                <PictureModal source={picture.image} altNext={picture.alt} />
+                <PictureModal source={picture.image} altText={picture.alt} />
                 <p className="text-xs text-gray">{picture.text}</p>
               </div>
             )

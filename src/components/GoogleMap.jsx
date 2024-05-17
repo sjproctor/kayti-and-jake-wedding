@@ -5,6 +5,7 @@ const GoogleMap = () => {
       height="450"
       className="h-80 w-screen"
       loading="lazy"
+      title="Google Map"
     ></iframe>
   )
 }

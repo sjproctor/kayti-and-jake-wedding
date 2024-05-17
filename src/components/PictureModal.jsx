@@ -9,7 +9,8 @@ const PictureModal = ({ source, altText }) => {
       <img
         src={source}
         alt={altText}
-        className="h-auto w-max"
+        className="h-auto w-max cursor-pointer"
+        loading="lazy"
         onClick={() => setOpenModal(true)}
       />
       <Modal

@@ -141,7 +141,7 @@ const Reservation = () => {
           </div>
         </div>
         <form className="md:mx-auto md:w-1/3" onSubmit={handleSubmit(onSubmit)}>
-          <div>
+          <fieldset>
             <label htmlFor="name" className="font-alice uppercase">
               Your name(s) *
             </label>
@@ -150,6 +150,7 @@ const Reservation = () => {
               id="name"
               type="text"
               name="name"
+              placeholder="Name"
               autoComplete="name"
               className="w-full p-2"
               {...register("name", {
@@ -159,8 +160,8 @@ const Reservation = () => {
             {errors.name && errors.name.type === "required" && (
               <p className=" text-sm text-error">Name is required.</p>
             )}
-          </div>
-          <div className="my-2">
+          </fieldset>
+          <fieldset className="my-2">
             <label htmlFor="email" className="font-alice uppercase">
               Your preferred email *
             </label>
@@ -169,6 +170,7 @@ const Reservation = () => {
               id="email"
               type="email"
               name="email"
+              placeholder="Email"
               autoComplete="email"
               className="w-full p-2"
               {...register("email", {
@@ -178,8 +180,8 @@ const Reservation = () => {
             {errors.email && errors.email.type === "required" && (
               <p className="px-2 text-sm text-error">Email is required.</p>
             )}
-          </div>
-          <div className="my-2">
+          </fieldset>
+          <fieldset className="my-2">
             <p className="font-alice uppercase">Will you attend? *</p>
             <input
               id="yes"
@@ -198,8 +200,8 @@ const Reservation = () => {
               onClick={() => handleStatus("no")}
             />
             <label htmlFor="no">No, sending well wishes.</label>
-          </div>
-          <div className={yesStatus}>
+          </fieldset>
+          <fieldset className={yesStatus}>
             <br />
             <p>Yay, we are excited to see you!</p>
             <div className="my-2">
@@ -221,13 +223,16 @@ const Reservation = () => {
                 </p>
               )}
             </div>
-          </div>
+          </fieldset>
           <div className={noStatus}>
             <br />
             <p>Thanks for letting us know!</p>
           </div>
           <div className={selectedStatus.visibility}>
             <div className="my-2">
+              <label htmlFor="message" className="font-alice uppercase">
+                Message
+              </label>
               <textarea
                 name="message"
                 className="w-full resize-x px-4 py-3"
