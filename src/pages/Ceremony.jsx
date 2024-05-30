@@ -1,5 +1,6 @@
 import NavigationBarPage from "../components/NavigationBarPage"
 import marryMe from "../assets/marry-me.jpeg"
+import license from "../assets/license.jpeg"
 import treeLogo from "../assets/graphics/tree-logo.png"
 
 const Ceremony = () => {
@@ -30,6 +31,13 @@ const Ceremony = () => {
           accept and was ordained by the top Google search result.
         </p>
         <br />
+        <div className="flex justify-center">
+          <img
+            src={license}
+            alt="Kayti and Jake holding their newly acquired marriage license"
+            className="mb-8 h-auto w-72"
+          />
+        </div>
         <h3 className="text-lg font-extrabold">Updates Coming!</h3>
         <p>Check back in mid-June for details and photos from the ceremony.</p>
         <br />
