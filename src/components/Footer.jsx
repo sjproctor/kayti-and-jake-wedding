@@ -2,9 +2,6 @@ import { Link } from "react-router-dom"
 import babyDog from "../assets/pets/baby.png"
 
 const Footer = () => {
-  const handleScrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" })
-  }
   return (
     <>
       <hr className="mx-4 mb-4 text-lightGray" />
@@ -20,12 +17,13 @@ const Footer = () => {
             </Link>
           </p>
         </div>
-        <img
-          src={babyDog}
-          className="mb-4 h-20 hover:cursor-pointer md:h-28"
-          alt="Baby Dog with yellow and red flowers"
-          onClick={handleScrollToTop}
-        />
+        <Link to="/pets">
+          <img
+            src={babyDog}
+            className="mb-4 h-20 hover:cursor-pointer md:h-28"
+            alt="Baby Dog with her tongue hanging out"
+          />
+        </Link>
       </div>
     </>
   )
