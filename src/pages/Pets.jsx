@@ -28,13 +28,20 @@ const Pets = () => {
           .
         </p>
       </div>
-      <div className="flex justify-center">
-        <img
-          src={toastDishwasher}
-          alt="Toast kitty in the dishwasher"
-          className="my-8 w-48"
-        />
+      <div className="mb-4 flex justify-center">
+        <div>
+          <img
+            src={toastDishwasher}
+            alt="Toast kitty in the dishwasher"
+            className="h-auto w-64"
+            loading="lazy"
+          />
+          <p className="w-64 text-center text-xs text-gray">
+            Toast kitty in the dishwasher.
+          </p>
+        </div>
       </div>
+
       <div className="flex justify-center">
         <img
           src={treeLogo}
