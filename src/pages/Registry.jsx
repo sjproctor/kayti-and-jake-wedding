@@ -36,6 +36,13 @@ const Registry = () => {
         </p>
         <h3 className="text-lg font-extrabold">Venmo</h3>
         <p>
+          Monetary contributions made to Kayti and Jake will be put towards
+          their backyard landscaping renovation! They are excited (and mildly
+          stressed) to be investing in their home while preparing for the summer
+          party.
+        </p>
+        <br />
+        <p>
           Kayti Venmo: @
           <a href="https://account.venmo.com/u/Kayti" target="blank">
             Kayti
