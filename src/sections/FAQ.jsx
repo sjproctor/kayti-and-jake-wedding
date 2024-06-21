@@ -26,9 +26,15 @@ const FAQ = () => {
         <br />
         <h3 className="text-lg font-extrabold">So, when is the wedding?</h3>
         <p>
-          Kayti and Jake are tying the knot in a small ceremony in early June.
+          Kayti and Jake tied the knot in a small ceremony on June 8th, 2024.
           They are throwing a party to celebrate with family and friends on
           August 31st, 2024.
+        </p>
+        <p>
+          <Link to="/ceremony" className="px-1">
+            Click here
+          </Link>
+          to see pictures from the wedding ceremony.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">
