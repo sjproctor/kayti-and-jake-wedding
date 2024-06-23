@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom"
 import NavigationBarPage from "../components/NavigationBarPage"
 import treeLogo from "../assets/graphics/tree-logo.png"
-import lolaWrap from "../assets/pets/lola-wrap.png"
-import toastDishwasher from "../assets/pets/toast-dishwasher.jpeg"
-import kaytiBaby from "../assets/pets/kayti-baby.jpeg"
-import sleepingLola from "../assets/pets/sleeping-lola.jpeg"
-import tuxBurrito from "../assets/pets/tux-burrito.jpg"
-import lolaPatio from "../assets/pets/lola-patio.jpg"
 import babyNecktie from "../assets/pets/baby-necktie.jpg"
+import goodDogs from "../assets/pets/good-dogs.jpg"
+import kaytiBaby from "../assets/pets/kayti-baby.jpeg"
+import lolaPatio from "../assets/pets/lola-patio.jpg"
+import lolaWrap from "../assets/pets/lola-wrap.png"
+import sleepingLola from "../assets/pets/sleeping-lola.jpeg"
+import toastDishwasher from "../assets/pets/toast-dishwasher.jpeg"
+import tuxBurrito from "../assets/pets/tux-burrito.jpg"
 
 const Pets = () => {
   return (
@@ -71,6 +72,17 @@ const Pets = () => {
           </div>
         </div>
         <div>
+          <div>
+            <img
+              src={goodDogs}
+              alt="Tux, Lola, Bowie, and Jager in their wedding neckties"
+              className="mx-2 h-auto w-64"
+              loading="lazy"
+            />
+            <p className="mb-2 w-64 text-center text-xs text-gray">
+              Good dogs in their wedding neckties.
+            </p>
+          </div>
           <div>
             <img
               src={sleepingLola}
