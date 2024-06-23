@@ -2,10 +2,11 @@ import NavigationBarPage from "../components/NavigationBarPage"
 import marryMe from "../assets/marry-me.jpeg"
 import license from "../assets/license.jpeg"
 import treeLogo from "../assets/graphics/tree-logo.png"
-import wedding from "../assets/ceremony/wedding.png"
 import cakeChampagne from "../assets/ceremony/cake-champagne.jpg"
 import jakeErikKayti from "../assets/ceremony/jake-erik-kayti.jpg"
 import justMarried from "../assets/ceremony/just-married.jpg"
+import kaytiCarry from "../assets/ceremony/kayti-carry.jpg"
+import wedding from "../assets/ceremony/wedding.png"
 
 const Ceremony = () => {
   return (
@@ -36,6 +37,13 @@ const Ceremony = () => {
             className="mb-8 h-auto w-72"
           />
         </div>
+        <div className="flex justify-center">
+          <img
+            src={kaytiCarry}
+            alt="Kayti being held up by all the boys"
+            className="mb-8 h-auto w-80"
+          />
+        </div>
         <p>
           The bride and groom had a wonderful weekend and are thankful to their
           family and friends for creating exactly the wedding they envisioned.
@@ -45,7 +53,7 @@ const Ceremony = () => {
           <img
             src={cakeChampagne}
             alt="Cake, cupcakes, and champagne flute display adorned with wildflowers and taper candles"
-            className="mb-8 h-auto w-72"
+            className="mb-8 h-auto w-80"
           />
         </div>
         <div className="flex justify-center">
