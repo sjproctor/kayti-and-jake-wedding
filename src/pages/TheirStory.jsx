@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
 import NavigationBarPage from "../components/NavigationBarPage"
+import PictureModal from "../components/PictureModal"
 import flowerLogo from "../assets/graphics/flower-logo.png"
 import beach from "../assets/beach.jpeg"
 import festival from "../assets/festival.jpeg"
 import graduation from "../assets/graduation.jpeg"
-import greenField from "../assets/green-field.jpeg"
 import jasmine from "../assets/jasmine.jpeg"
 import patio from "../assets/patio.jpeg"
 import proposal from "../assets/proposal.jpeg"
@@ -26,10 +26,10 @@ const TheirStory = () => {
           <h2 className="font-moontime text-7xl md:text-9xl">Their Story</h2>
         </div>
       </div>
-      <div className="py-8">
+      <div className="py-10">
         <p className="gray-header-text">All About Kayti + Jake</p>
       </div>
-      <div className="m-auto w-11/12 md:mb-96 md:w-2/3">
+      <div className="m-auto w-11/12 md:mb-96 lg:w-1/2">
         <p className="mb-4 text-justify">
           You know when you think of Kayti, or when you think of Jake, or when
           you think of Kayti and Jake together, and the thing that comes to mind
@@ -37,12 +37,10 @@ const TheirStory = () => {
           <em>they are so nice</em>? Well, turns out their story is pretty nice,
           too.
         </p>
-        <div className="mb-4 flex justify-center md:float-right md:ml-4">
-          <img
-            src={greenField}
-            alt="Kayti in Jake's arms in a field of green grass"
-            className="h-auto w-64"
-            loading="lazy"
+        <div className="mb-4 flex h-auto w-64 justify-center md:float-right md:ml-4">
+          <PictureModal
+            source={festival}
+            altText="Kayti and Jake at a music festival"
           />
         </div>
         <p className="mb-4 text-justify">
@@ -54,13 +52,11 @@ const TheirStory = () => {
           for a Halloween party in 1993. Kayti attended in her most favorite
           costume, Princess Jasmine.
         </p>
-        <div className="mb-4 flex justify-center md:float-left md:mr-4 ">
+        <div className="mb-4 flex h-auto w-64 justify-center md:float-left md:mr-4">
           <div>
-            <img
-              src={jasmine}
-              alt="Kayti in a Princess Jasmine halloween costume on the Dahlgren's porch"
-              className="h-auto w-64"
-              loading="lazy"
+            <PictureModal
+              source={jasmine}
+              altText="Kayti in a Princess Jasmine halloween costume on the Dahlgren's porch"
             />
             <p className="w-64 text-xs text-gray">
               Kayti on the Dahlgren&apos;s porch in her favorite Halloween
@@ -76,14 +72,6 @@ const TheirStory = () => {
           other around town. Kayti loved seeing Jake and getting one of his
           signature hugs.
         </p>
-        <div className="mb-4 flex justify-center md:float-right md:ml-4">
-          <img
-            src={festival}
-            alt="Kayti and Jake at a music festival"
-            className="h-auto w-64"
-            loading="lazy"
-          />
-        </div>
         <p className="mb-4 text-justify">
           In 2021, Jake had back surgery and Kayti reached out during his
           convalescence with an invitation for a short walk to catch up and
@@ -93,12 +81,10 @@ const TheirStory = () => {
           a life-changing relationship. They both intended to continue on their
           respective paths, but there was no denying it. They were smitten.
         </p>
-        <div className="mb-4 flex justify-center md:float-left md:mr-4">
-          <img
-            src={patio}
-            alt="Kayti and Jake sitting on a patio with a mountain view in the background"
-            className="mb-4 w-64 md:float-right md:ml-4"
-            loading="lazy"
+        <div className="mb-4 flex h-auto w-64 justify-center md:float-left md:mr-4">
+          <PictureModal
+            source={patio}
+            altText="Kayti and Jake sitting on a patio with a mountain view in the background"
           />
         </div>
         <p className="mb-4 text-justify">
@@ -109,13 +95,11 @@ const TheirStory = () => {
           began happily merging their lives. In the summer of 2022, Kayti
           finished her graduate degree and moved into Jake&apos;s house.
         </p>
-        <div className="mb-4 flex justify-center md:float-right md:ml-4">
+        <div className="mb-4 flex h-auto w-64 justify-center md:float-right md:ml-4">
           <div>
-            <img
-              src={graduation}
-              alt="Kayti and Jake at BSU after Kayti's graduation commencement"
-              className="h-auto w-64"
-              loading="lazy"
+            <PictureModal
+              source={graduation}
+              altText="Kayti and Jake at BSU after Kayti's graduation commencement"
             />
             <p className="w-64 text-xs text-gray">
               Kayti and Jake at BSU after Kayti&apos;s graduation commencement,
@@ -133,13 +117,11 @@ const TheirStory = () => {
           top of the structure, 130 feet from the valley floor, Jake proposed.
           Kayti, of course, said yes!
         </p>
-        <div className="mb-4 flex justify-center md:float-left md:mr-4">
+        <div className="mb-4 flex h-auto w-64 justify-center md:float-left md:mr-4">
           <div>
-            <img
-              src={proposal}
-              alt="Jake on one knee proposing to Kayti on the top of the Xunantunich monument"
-              className="h-auto w-64"
-              loading="lazy"
+            <PictureModal
+              source={proposal}
+              altText="Jake on one knee proposing to Kayti on the top of the Xunantunich monument"
             />
             <p className="w-64 text-xs text-gray">
               Jake proposing to Kayti on the top of the Xunantunich monument in
@@ -148,22 +130,20 @@ const TheirStory = () => {
           </div>
         </div>
         <p className="mb-4 text-justify">
-          Kayti and Jake will have a small wedding&nbsp;
-          <Link to="/ceremony">ceremony</Link> in the mountains near Garden
-          Valley, Idaho in early June. This will be followed by a celebratory
-          gathering with extended family and friends on August 31, 2024 in
-          Boise, Idaho. They&apos;re so grateful for the love and support their
-          friends and family have shown through the years. Every twist and turn
-          has led to this moment and they could not be more excited for the next
-          chapter of their lives. It is all very nice.
+          Kayti and Jake were married in a small wedding&nbsp;
+          <Link to="/ceremony">ceremony</Link> on the banks of the Middle Fork
+          of the Payette river near Garden Valley, Idaho on June 8th, 2024. They
+          will be celebrating with extended family and friends on August 31,
+          2024, in Boise, Idaho. They&apos;re so grateful for the love and
+          support their friends and family have shown through the years. Every
+          twist and turn has led to this moment and they are so excited to start
+          the next chapter of their lives. It is all very nice.
         </p>
-        <div className="mb-4 flex justify-center md:float-right md:ml-4">
+        <div className="mb-4 flex h-auto w-64 justify-center md:float-right md:ml-4">
           <div>
-            <img
-              src={ring}
-              alt="Jake on one knee proposing to Kayti on the top of the Xunantunich monument"
-              className="h-auto w-64"
-              loading="lazy"
+            <PictureModal
+              source={ring}
+              altText="Kayti wearing her new engagement ring next to a hibiscus"
             />
             <p className="w-64 text-xs text-gray">
               Kayti&apos;s moss agate engagement ring was handmade by Jake.
