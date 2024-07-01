@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom"
 import NavigationBarPage from "../components/NavigationBarPage"
+import PictureModal from "../components/PictureModal"
 import treeLogo from "../assets/graphics/tree-logo.png"
 import babyNecktie from "../assets/pets/baby-necktie.jpg"
 import goodDogs from "../assets/pets/good-dogs.jpg"
 import kaytiBaby from "../assets/pets/kayti-baby.jpeg"
+import lolaJakeNap from "../assets/pets/lola-jake-nap.jpeg"
 import lolaPatio from "../assets/pets/lola-patio.jpg"
 import lolaWrap from "../assets/pets/lola-wrap.png"
 import sleepingLola from "../assets/pets/sleeping-lola.jpeg"
@@ -37,80 +39,75 @@ const Pets = () => {
 
       <div className="mb-4 flex flex-wrap justify-center">
         <div>
-          <div>
-            <img
-              src={babyNecktie}
-              alt="Baby Dog sleeping on a wooden deck wearing a necktie that says 'I Do Too'"
-              className="mx-2 h-auto w-64"
-              loading="lazy"
+          <div className="mx-2 h-auto w-64">
+            <PictureModal
+              source={babyNecktie}
+              altText="Baby Dog sleeping on a wooden deck wearing a necktie that says 'I Do Too'"
             />
             <p className="mb-2 w-64 text-center text-xs text-gray">
               Baby Dog in her wedding attire.
             </p>
           </div>
-          <div>
-            <img
-              src={toastDishwasher}
-              alt="Toast kitty in the dishwasher"
-              className="mx-2 h-auto w-64"
-              loading="lazy"
+          <div className="mx-2 h-auto w-64">
+            <PictureModal
+              source={toastDishwasher}
+              altText="Toast kitty in the dishwasher"
             />
             <p className="mb-2 w-64 text-center text-xs text-gray">
               Toast kitty in the dishwasher.
             </p>
           </div>
-          <div>
-            <img
-              src={kaytiBaby}
-              alt="Kayti and Baby Dog chilling on a trampoline"
-              className="mx-2 h-auto w-64"
-              loading="lazy"
+          <div className="mx-2 h-auto w-64">
+            <PictureModal
+              source={kaytiBaby}
+              altText="Kayti and Baby Dog chilling on a trampoline"
             />
             <p className="mb-2 w-64 text-center text-xs text-gray">
               Kayti and Baby Dog.
             </p>
           </div>
+          <div className="mx-2 h-auto w-64">
+            <PictureModal
+              source={lolaJakeNap}
+              altText="Jake and Lola taking a cuddly nap"
+            />
+            <p className="mb-2 w-64 text-center text-xs text-gray">
+              Lola cuddles.
+            </p>
+          </div>
         </div>
         <div>
-          <div>
-            <img
-              src={goodDogs}
-              alt="Tux, Lola, Bowie, and Jager in their wedding neckties"
-              className="mx-2 h-auto w-64"
-              loading="lazy"
+          <div className="mx-2 h-auto w-64">
+            <PictureModal
+              source={goodDogs}
+              altText="Tux, Lola, Bowie, and Jager in their wedding neckties"
             />
             <p className="mb-2 w-64 text-center text-xs text-gray">
               Good dogs in their wedding neckties.
             </p>
           </div>
-          <div>
-            <img
-              src={sleepingLola}
-              alt="Lola dog sleeping on a couch piled with pillows"
-              className="mx-2 h-auto w-64"
-              loading="lazy"
+          <div className="mx-2 h-auto w-64">
+            <PictureModal
+              source={sleepingLola}
+              altText="Lola dog sleeping on a couch piled with pillows"
             />
             <p className="mb-2 w-64 text-center text-xs text-gray">
               Sleeping Lola dog.
             </p>
           </div>
-          <div>
-            <img
-              src={tuxBurrito}
-              alt="Tux wrapped in a blanket burrito"
-              className="mx-2 h-auto w-64"
-              loading="lazy"
+          <div className="mx-2 h-auto w-64">
+            <PictureModal
+              source={tuxBurrito}
+              altText="Tux wrapped in a blanket burrito"
             />
             <p className="mb-2 w-64 text-center text-xs text-gray">
               Tux burrito.
             </p>
           </div>
-          <div>
-            <img
-              src={lolaPatio}
-              alt="Lola on the cabin patio"
-              className="mx-2 h-auto w-64"
-              loading="lazy"
+          <div className="mx-2 h-auto w-64">
+            <PictureModal
+              source={lolaPatio}
+              altText="Lola on the cabin patio"
             />
             <p className="mb-2 w-64 text-center text-xs text-gray">
               Lola at the wedding.

@@ -27,6 +27,7 @@ import kaytiIceCream from "../assets/baby-pics/kayti-ice-cream.jpg"
 import kaytiLucy from "../assets/baby-pics/kayti-lucy.jpg"
 import kaytiSarahDad from "../assets/baby-pics/kayti-sarah-dad.jpg"
 import kaytiTub from "../assets/baby-pics/kayti-tub.jpg"
+import greenField from "../assets/green-field.jpeg"
 
 const PhotoGallery = () => {
   const columnOne = [
@@ -81,6 +82,11 @@ const PhotoGallery = () => {
     {
       image: downtown,
       alt: "Kayti and Jake kissing under a structure at Treefort",
+      text: ""
+    },
+    {
+      image: greenField,
+      alt: "Kayti in Jake's arms",
       text: ""
     },
     {
