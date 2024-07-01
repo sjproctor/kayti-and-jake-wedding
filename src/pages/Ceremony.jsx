@@ -45,6 +45,19 @@ const Ceremony = () => {
           />
         </div>
         <p>
+          Kayti and Jake asked long time friend and partner-in-law, Erik
+          Engstrom, to perform the marriage ceremony. Erik was very honored to
+          accept and was ordained by the top Google search result.
+        </p>
+        <br />
+        <div className="flex justify-center">
+          <img
+            src={jakeErikKayti}
+            alt="Selfie of Jake, Erik, and Kayti in front of the river"
+            className="mb-8 h-auto w-72"
+          />
+        </div>
+        <p>
           The bride and groom had a wonderful weekend and are thankful to their
           family and friends for creating exactly the wedding they envisioned.
         </p>
@@ -63,24 +76,10 @@ const Ceremony = () => {
             className="mb-8 h-auto w-72"
           />
         </div>
-        <h3 className="text-lg font-extrabold">Officiant Erik</h3>
-        <p>
-          Kayti and Jake asked long time friend and partner-in-law, Erik
-          Engstrom, to perform the marriage ceremony. Erik was very honored to
-          accept and was ordained by the top Google search result.
-        </p>
-        <br />
         <div className="flex justify-center">
           <img
             src={license}
             alt="Kayti and Jake holding their newly acquired marriage license"
-            className="mb-8 h-auto w-72"
-          />
-        </div>
-        <div className="flex justify-center">
-          <img
-            src={jakeErikKayti}
-            alt="Selfie of Jake, Erik, and Kayti in front of the river"
             className="mb-8 h-auto w-72"
           />
         </div>
