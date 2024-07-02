@@ -24,7 +24,7 @@ const FAQ = () => {
         </h3>
         <p>Great, I have some answers.</p>
         <br />
-        <h3 className="text-lg font-extrabold">So, when is the wedding?</h3>
+        <h3 className="text-lg font-extrabold">So, when&apos;s the wedding?</h3>
         <p>
           Kayti and Jake tied the knot in a small ceremony on June 8th, 2024.
           They are throwing a party to celebrate with family and friends on
@@ -57,7 +57,7 @@ const FAQ = () => {
           <AnchorLink href="#rsvp" className="px-1">
             Click here
           </AnchorLink>
-          to RSVP by July 1, 2024. (IYKYK 🎂)
+          to RSVP.
         </p>
         <br />
         <h3 className="text-lg font-extrabold">What&apos;s the party vibe?</h3>
