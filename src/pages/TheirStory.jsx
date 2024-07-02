@@ -130,9 +130,9 @@ const TheirStory = () => {
           </div>
         </div>
         <p className="mb-4 text-justify">
-          Kayti and Jake were married in a small wedding&nbsp;
+          Kayti and Jake were married in a small&nbsp;
           <Link to="/ceremony">ceremony</Link> on the banks of the Middle Fork
-          of the Payette river near Garden Valley, Idaho on June 8th, 2024. They
+          of the Payette River near Garden Valley, Idaho on June 8th, 2024. They
           will be celebrating with extended family and friends on August 31,
           2024, in Boise, Idaho. They&apos;re so grateful for the love and
           support their friends and family have shown through the years. Every
