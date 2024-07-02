@@ -30,8 +30,8 @@ const PartyTime = () => {
           <AnchorLink href="#rsvp" className="px-1">
             submit your RSVP
           </AnchorLink>
-          by July 1, 2024. (Happy birthday, Kayti!) If your RSVP status changes,
-          please resubmit the form and add a note.
+          as soon as possible. If your RSVP status changes, please resubmit the
+          form and add a note.
         </p>
         <p className="py-2">
           <b>Attire: </b>We&apos;ll be outside on the grass and it&apos;s gonna
