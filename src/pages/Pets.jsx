@@ -2,7 +2,9 @@ import { Link } from "react-router-dom"
 import NavigationBarPage from "../components/NavigationBarPage"
 import PictureModal from "../components/PictureModal"
 import treeLogo from "../assets/graphics/tree-logo.png"
+import allTheLip from "../assets/pets/all-the-lip.jpeg"
 import babyNecktie from "../assets/pets/baby-necktie.jpg"
+import bestPicEver from "../assets/pets/best-pic-ever.jpeg"
 import goodDogs from "../assets/pets/good-dogs.jpg"
 import kaytiBaby from "../assets/pets/kayti-baby.jpeg"
 import lolaJakeNap from "../assets/pets/lola-jake-nap.jpeg"
@@ -39,6 +41,15 @@ const Pets = () => {
 
       <div className="mb-4 flex flex-wrap justify-center">
         <div>
+          <div className="mx-2 h-auto w-64">
+            <PictureModal
+              source={goodDogs}
+              altText="Tux, Lola, Bowie, and Jager in their wedding neckties"
+            />
+            <p className="mb-2 w-64 text-center text-xs text-gray">
+              Good dogs in their wedding neckties.
+            </p>
+          </div>
           <div className="mx-2 h-auto w-64">
             <PictureModal
               source={babyNecktie}
@@ -79,11 +90,11 @@ const Pets = () => {
         <div>
           <div className="mx-2 h-auto w-64">
             <PictureModal
-              source={goodDogs}
-              altText="Tux, Lola, Bowie, and Jager in their wedding neckties"
+              source={bestPicEver}
+              altText="Bowie, Lola, Tux, and Jager posing correctly. Baby Dog being a dork."
             />
             <p className="mb-2 w-64 text-center text-xs text-gray">
-              Good dogs in their wedding neckties.
+              One of these things is not like the others.
             </p>
           </div>
           <div className="mx-2 h-auto w-64">
@@ -111,6 +122,15 @@ const Pets = () => {
             />
             <p className="mb-2 w-64 text-center text-xs text-gray">
               Lola at the wedding.
+            </p>
+          </div>
+          <div className="mx-2 h-auto w-64">
+            <PictureModal
+              source={allTheLip}
+              altText="Lola's face on Kayti's lap."
+            />
+            <p className="mb-2 w-64 text-center text-xs text-gray">
+              Friday nights at home with Lola.
             </p>
           </div>
         </div>
