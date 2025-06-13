@@ -11,7 +11,9 @@ export default {
         moontime: ["Moontime", "Brush Script MT", "serif"],
         alice: ["Alice", "Times New Roman", "serif"],
         garamond: ["Garamond", "serif"],
-        montserrat: ["Montserrat", "Garamond", "sans-serif"]
+        montserratThin: ["Montserrat Thin", "Garamond", "sans-serif"],
+        montserratRegular: ["Montserrat Regular", "Garamond", "sans-serif"],
+        marykate: ["Marykate", "Garamond", "sans-serif"]
       },
       screens: {
         xs: "350px",

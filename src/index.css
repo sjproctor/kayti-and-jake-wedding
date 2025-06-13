@@ -10,15 +10,23 @@
   }
   @font-face {
     font-family: "Alice";
-    src: url("../fonts/Alice-Regular.ttf");
+    src: url("../fonts/alice-regular.ttf");
   }
   @font-face {
-    font-family: "Montserrat";
-    src: url("../fonts/Montserrat.ttf");
+    font-family: "Montserrat Thin";
+    src: url("../fonts/montserrat-thin.ttf");
+  }
+  @font-face {
+    font-family: "Montserrat Regular";
+    src: url("../fonts/montserrat-regular.ttf");
   }
   @font-face {
     font-family: "Garamond";
-    src: url("../fonts/EBGaramond-Medium.ttf");
+    src: url("../fonts/garamond-medium.ttf");
+  }
+  @font-face {
+    font-family: "Marykate";
+    src: url("../fonts/marykate-regular.ttf");
   }
 }
 
@@ -26,11 +34,14 @@
   .gray-header-text {
     @apply m-2 text-center font-alice text-xl uppercase text-gray md:text-2xl;
   }
+  .gray-header-text-babysaur {
+    @apply m-2 text-center font-montserratRegular text-xl uppercase text-gray md:text-2xl;
+  }
 }
 
 :root {
   margin: 0;
-  font-family: Montserrat;
+  font-family: Garamond;
   font-size: 14pt;
   width: 100vw;
 }
