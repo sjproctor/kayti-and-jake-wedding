@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Footer from "../components/Footer"
 import NavigationBarPage from "../components/NavigationBarPage"
 import PictureModal from "../components/PictureModal"
 import treeLogo from "../assets/graphics/tree-logo.png"
@@ -143,6 +144,7 @@ const Pets = () => {
           className="mb-8 h-auto w-28"
         />
       </div>
+      <Footer />
     </>
   )
 }

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import emailjs from "@emailjs/browser"
 import flowerLogo from "../assets/graphics/flower-logo.png"
 import belizeGolfCart from "../assets/belize-golf-cart.jpeg"
+import Footer from "../components/Footer"
 import NavigationBarPage from "../components/NavigationBarPage"
 
 const Contact = () => {
@@ -255,6 +256,7 @@ const Contact = () => {
           alt="Kayti and Jake wedding logo"
         />
       </div>
+      <Footer />
     </>
   )
 }

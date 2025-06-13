@@ -1,3 +1,4 @@
+import Footer from "../components/Footer"
 import NavigationBarScroll from "../components/NavigationBarScroll"
 import AboveTheFold from "../sections/AboveTheFold"
 import Celebration from "../sections/Celebration"
@@ -20,6 +21,7 @@ const Main = () => {
       <FAQ />
       <Reservation />
       <PartyTime />
+      <Footer />
     </>
   )
 }

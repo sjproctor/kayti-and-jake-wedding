@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Footer from "../components/Footer"
 import NavigationBarPage from "../components/NavigationBarPage"
 import PictureModal from "../components/PictureModal"
 import flowerLogo from "../assets/graphics/flower-logo.png"
@@ -177,6 +178,7 @@ const TheirStory = () => {
           alt="Kayti and Jake wedding logo"
         />
       </div>
+      <Footer />
     </>
   )
 }

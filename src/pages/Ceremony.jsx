@@ -1,3 +1,4 @@
+import Footer from "../components/Footer"
 import NavigationBarPage from "../components/NavigationBarPage"
 import marryMe from "../assets/marry-me.jpeg"
 import license from "../assets/license.jpeg"
@@ -91,6 +92,7 @@ const Ceremony = () => {
           className="mb-8 h-auto w-28"
         />
       </div>
+      <Footer />
     </div>
   )
 }

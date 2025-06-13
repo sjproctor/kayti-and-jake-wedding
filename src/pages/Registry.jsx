@@ -1,3 +1,4 @@
+import Footer from "../components/Footer"
 import NavigationBarPage from "../components/NavigationBarPage"
 import mountain from "../assets/mountain.jpeg"
 
@@ -75,6 +76,7 @@ const Registry = () => {
         <p>Boise, Idaho 83705</p>
         <br />
       </div>
+      <Footer />
     </>
   )
 }

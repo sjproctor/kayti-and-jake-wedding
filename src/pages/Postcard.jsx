@@ -1,5 +1,6 @@
 import postcardBack from "../assets/postcard-mailer/postcard-back.png"
 import postcardFront from "../assets/postcard-mailer/postcard-front.png"
+import Footer from "../components/Footer"
 import NavigationBarPage from "../components/NavigationBarPage"
 import jsPDF from "jspdf"
 
@@ -54,6 +55,7 @@ const Postcard = () => {
           className="h-auto w-max border-2"
         />
       </div>
+      <Footer />
     </>
   )
 }

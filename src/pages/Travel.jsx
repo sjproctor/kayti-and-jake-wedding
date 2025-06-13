@@ -1,4 +1,5 @@
 import airplane from "../assets/airplane.jpeg"
+import Footer from "../components/Footer"
 import NavigationBarPage from "../components/NavigationBarPage"
 import HotelDetails from "./travelSections/HotelDetails"
 import TravelDetails from "./travelSections/TravelDetails"
@@ -23,6 +24,7 @@ const Travel = () => {
         <TravelDetails />
         <AdventureDetails />
       </div>
+      <Footer />
     </>
   )
 }
