@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom"
+import Babysaur from "./pages/Babysaur"
 import Ceremony from "./pages/Ceremony"
 import Contact from "./pages/Contact"
-import Footer from "./components/Footer"
 import Main from "./pages/Main"
 import Pets from "./pages/Pets"
 import PhotoGallery from "./pages/PhotoGallery"
@@ -16,6 +16,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/about" element={<TheirStory />} />
+        <Route path="/babysaur" element={<Babysaur />} />
         <Route path="/ceremony" element={<Ceremony />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/pets" element={<Pets />} />
@@ -25,7 +26,6 @@ const App = () => {
         <Route path="/travel" element={<Travel />} />
         <Route path="*" element={<Pets />} />
       </Routes>
-      <Footer />
     </>
   )
 }
