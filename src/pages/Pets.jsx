@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import Footer from "../components/Footer"
 import NavigationBarPage from "../components/NavigationBarPage"
-import PictureModal from "../components/PictureModal"
+import PictureModal from "../utilities/PictureModal"
 import treeLogo from "../assets/graphics/tree-logo.png"
 import allTheLip from "../assets/pets/all-the-lip.jpeg"
 import babyNecktie from "../assets/pets/baby-necktie.jpg"

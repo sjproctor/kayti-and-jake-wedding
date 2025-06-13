@@ -1,6 +1,6 @@
 import Footer from "../components/Footer"
 import NavigationBarPage from "../components/NavigationBarPage"
-import PictureModal from "../components/PictureModal"
+import PictureModal from "../utilities/PictureModal"
 import flowerLogo from "../assets/graphics/flower-logo.png"
 import belizeBoat from "../assets/belize-boat.jpeg"
 import bench from "../assets/bench.jpeg"

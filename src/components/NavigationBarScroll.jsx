@@ -1,12 +1,13 @@
-import NavigationScrollLogo from "./NavigationScrollLogo"
-import PageLink from "./PageLink"
-import ScrollLink from "./ScrollLink"
+import NavigationScrollLogo from "../utilities/NavigationScrollLogo"
+import PageLink from "../utilities/PageLink"
+import ScrollLink from "../utilities/ScrollLink"
 import { Navbar } from "flowbite-react"
+import leafLogo from "../assets/graphics/leaf-decoration.png"
 
 const NavigationBarScroll = () => {
   return (
     <Navbar fluid>
-      <NavigationScrollLogo />
+      <NavigationScrollLogo source={leafLogo} className="mr-2 w-20 hover:cursor-pointer" altText="Kayti and Jake wedding logo" />
       <div>
         <Navbar.Toggle />
       </div>

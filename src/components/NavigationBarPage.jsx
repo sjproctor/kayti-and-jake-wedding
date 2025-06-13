@@ -1,5 +1,5 @@
 import NavigationPageLogo from "./NavigationPageLogo"
-import PageLink from "./PageLink"
+import PageLink from "../utilities/PageLink"
 import { Navbar } from "flowbite-react"
 
 const NavigationBarPage = () => {
