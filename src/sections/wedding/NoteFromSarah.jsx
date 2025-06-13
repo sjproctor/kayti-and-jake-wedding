@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import flowerLogo from "../assets/graphics/flower-logo.png"
-import sarah from "../assets/sarah.jpeg"
+import flowerLogo from "../../assets/graphics/flower-logo.png"
+import sarah from "../../assets/sarah.jpeg"
 
 const NoteFromSarah = () => {
   return (

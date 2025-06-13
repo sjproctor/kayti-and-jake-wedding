@@ -1,4 +1,4 @@
-import leafLogo from "../assets/graphics/leaf-decoration.png"
+import leafLogo from "../../assets/graphics/leaf-decoration.png"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const Celebration = () => {

@@ -1,8 +1,8 @@
 import { useState } from "react"
 import { useForm } from "react-hook-form"
 import emailjs from "@emailjs/browser"
-import camping from "../assets/camping.jpeg"
-import flowerLogo from "../assets/graphics/flower-logo.png"
+import camping from "../../assets/camping.jpeg"
+import flowerLogo from "../../assets/graphics/flower-logo.png"
 
 const Reservation = () => {
   const [yesStatus, setYesStatus] = useState("hidden")

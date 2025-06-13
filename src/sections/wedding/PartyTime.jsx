@@ -1,8 +1,8 @@
 import AnchorLink from "react-anchor-link-smooth-scroll"
-import Timeline from "../components/Timeline"
-import dlWedding from "../assets/dl-wedding.jpeg"
-import treeLogo from "../assets/graphics/tree-logo.png"
-import GoogleMap from "../components/GoogleMap"
+import Timeline from "../../components/Timeline"
+import dlWedding from "../../assets/dl-wedding.jpeg"
+import treeLogo from "../../assets/graphics/tree-logo.png"
+import GoogleMap from "../../components/GoogleMap"
 
 const PartyTime = () => {
   return (

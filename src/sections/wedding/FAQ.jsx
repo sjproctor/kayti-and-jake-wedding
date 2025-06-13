@@ -1,7 +1,7 @@
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import { Link } from "react-router-dom"
-import belize from "../assets/belize.jpeg"
-import treeLogo from "../assets/graphics/tree-logo.png"
+import belize from "../../assets/belize.jpeg"
+import treeLogo from "../../assets/graphics/tree-logo.png"
 
 const FAQ = () => {
   return (

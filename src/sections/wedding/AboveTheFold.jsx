@@ -1,5 +1,5 @@
-import hero from "../assets/hero.jpeg"
-import heroMobile from "../assets/hero-mobile.jpeg"
+import hero from "../../assets/hero.jpeg"
+import heroMobile from "../../assets/hero-mobile.jpeg"
 
 const AboveTheFold = () => {
   return (

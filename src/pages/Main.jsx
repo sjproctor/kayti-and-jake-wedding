@@ -1,12 +1,12 @@
 import Footer from "../components/Footer"
 import NavigationBarScroll from "../components/NavigationBarScroll"
-import AboveTheFold from "../sections/AboveTheFold"
-import Celebration from "../sections/Celebration"
-import FAQ from "../sections/FAQ"
-import NoteFromSarah from "../sections/NoteFromSarah"
-import PartyTime from "../sections/PartyTime"
-import Reservation from "../sections/Reservation"
-import Welcome from "../sections/Welcome"
+import AboveTheFold from "../sections/wedding/AboveTheFold"
+import Celebration from "../sections/wedding/Celebration"
+import FAQ from "../sections/wedding/FAQ"
+import NoteFromSarah from "../sections/wedding/NoteFromSarah"
+import PartyTime from "../sections/wedding/PartyTime"
+import Reservation from "../sections/wedding/Reservation"
+import Welcome from "../sections/wedding/Welcome"
 
 const Main = () => {
   return (

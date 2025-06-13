@@ -1,9 +1,9 @@
 import airplane from "../assets/airplane.jpeg"
 import Footer from "../components/Footer"
 import NavigationBarPage from "../components/NavigationBarPage"
-import HotelDetails from "./travelSections/HotelDetails"
-import TravelDetails from "./travelSections/TravelDetails"
-import AdventureDetails from "./travelSections/AdventureDetails"
+import HotelDetails from "../sections/travel/HotelDetails"
+import TravelDetails from "../sections/travel/TravelDetails"
+import AdventureDetails from "../sections/travel/AdventureDetails"
 
 const Travel = () => {
   return (
