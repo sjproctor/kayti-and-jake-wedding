@@ -1,9 +1,8 @@
-import React, { Suspense } from "react"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import Timeline from "../components/Timeline"
 import dlWedding from "../assets/dl-wedding.jpeg"
 import treeLogo from "../assets/graphics/tree-logo.png"
-const GoogleMap = React.lazy(() => import("../components/GoogleMap"))
+import GoogleMap from "../components/GoogleMap"
 
 const PartyTime = () => {
   return (
@@ -91,29 +90,27 @@ const PartyTime = () => {
         <h3 className="text-lg font-extrabold" id="map">
           Current seven day weather forecast
         </h3>
-        <Suspense fallback={<p>loading...</p>}>
-          <a
-            className="weatherwidget-io"
-            href="https://forecast7.com/en/43d62n116d21/boise/?unit=us"
-            data-label_1="BOISE"
-            data-label_2="WEATHER"
-            data-theme="original"
-          >
-            Seven Day Boise Weather Forecast
-          </a>
-          {
-            !(function (dom, script, widget) {
-              let scriptTag,
-                scriptModule = dom.getElementsByTagName(script)[0]
-              if (!dom.getElementById(widget)) {
-                scriptTag = dom.createElement(script)
-                scriptTag.widget = widget
-                scriptTag.src = "https://weatherwidget.io/js/widget.min.js"
-                scriptModule.parentNode.insertBefore(scriptTag, scriptModule)
-              }
-            })(document, "script", "weatherwidget-io-js")
-          }
-        </Suspense>
+        <a
+          className="weatherwidget-io"
+          href="https://forecast7.com/en/43d62n116d21/boise/?unit=us"
+          data-label_1="BOISE"
+          data-label_2="WEATHER"
+          data-theme="original"
+        >
+          Seven Day Boise Weather Forecast
+        </a>
+        {
+          !(function (dom, script, widget) {
+            let scriptTag,
+              scriptModule = dom.getElementsByTagName(script)[0]
+            if (!dom.getElementById(widget)) {
+              scriptTag = dom.createElement(script)
+              scriptTag.widget = widget
+              scriptTag.src = "https://weatherwidget.io/js/widget.min.js"
+              scriptModule.parentNode.insertBefore(scriptTag, scriptModule)
+            }
+          })(document, "script", "weatherwidget-io-js")
+        }
         <br />
         <h3 className="text-lg font-extrabold" id="map">
           Look, a map!
@@ -123,9 +120,7 @@ const PartyTime = () => {
       </div>
       <br />
       <div className="w-screen">
-        <Suspense fallback={<p>loading...</p>}>
-          <GoogleMap />
-        </Suspense>
+        <GoogleMap />
       </div>
       <div className="flex justify-center">
         <img
