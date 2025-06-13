@@ -1,11 +1,14 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import { useForm } from "react-hook-form"
 import { Link } from "react-router-dom"
 import emailjs from "@emailjs/browser"
 import FooterBabysaur from "../components/FooterBabysaur"
 import GoogleMap from "../components/GoogleMap"
+import SetFaviconAndTabTitle from "../utilities/SetFaviconAndTabTitle"
 import clouds from "../assets/babysaur/clouds.png"
 import rainbow from "../assets/babysaur/rainbow.png"
+
+const favicon = "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦕</text></svg>"
 
 const Babysaur = () => {
   const [submissionAlert, setSubmissionAlert] = useState({
@@ -13,12 +16,6 @@ const Babysaur = () => {
     header: "",
     body: ""
   })
-
-  useEffect(() => {
-    document.title = "KJ + Babysaur"
-    document.querySelector("link[rel='icon']").href =
-      "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦕</text></svg>"
-  }, [])
 
   const {
     register,
@@ -61,6 +58,7 @@ const Babysaur = () => {
 
   return (
     <div className="font-montserratRegular">
+      <SetFaviconAndTabTitle tabTitle="KJ + Babysaur" favicon={favicon}/>
       <div className="flex justify-center">
         <img
           src={rainbow}
