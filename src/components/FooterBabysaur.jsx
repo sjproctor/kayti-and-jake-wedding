@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import rainbow from "../assets/babysaur/rainbow.png"
+import babysaur from "../assets/baby-pics/babysaur.png"
 
 const FooterBabysaur = () => {
   return (
@@ -18,9 +18,9 @@ const FooterBabysaur = () => {
           </p>
         </div>
         <img
-          src={rainbow}
+          src={babysaur}
           className="mb-4 h-20 hover:cursor-pointer md:h-28"
-          alt="hand-drawn rainbow"
+          alt="graphic of a blue baby dinosaur hatching from a speckled egg"
         />
       </div>
     </>

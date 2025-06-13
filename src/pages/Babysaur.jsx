@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react"
 import { useForm } from "react-hook-form"
 import { Link } from "react-router-dom"
 import emailjs from "@emailjs/browser"
-
 import FooterBabysaur from "../components/FooterBabysaur"
 import rainbow from "../assets/babysaur/rainbow.png"
 
@@ -249,9 +248,6 @@ const Contact = () => {
         </p>
       </div>
       <div className="w-screen">
-
-
-
       </div>
       <FooterBabysaur />
     </>
