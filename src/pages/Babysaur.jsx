@@ -123,7 +123,7 @@ const Babysaur = () => {
           />
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="bg-white px-16 py-8"
+            className="bg-white md:px-16 px-4 md:py-8 py-2"
           >
             <fieldset className="group">
               <input
@@ -235,7 +235,7 @@ const Babysaur = () => {
               />
               <div className="text-left">
                 <label htmlFor="message" className="text-sm text-gray">
-                  Add an optional message for Kayti & Jake
+                  Optional message for Kayti & Jake
                 </label>
               </div>
             </fieldset>
