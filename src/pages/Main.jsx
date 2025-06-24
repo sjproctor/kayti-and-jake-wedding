@@ -7,11 +7,15 @@ import NoteFromSarah from "../sections/wedding/NoteFromSarah"
 import PartyTime from "../sections/wedding/PartyTime"
 import Reservation from "../sections/wedding/Reservation"
 import Welcome from "../sections/wedding/Welcome"
+import { Link } from "react-router-dom"
 
 const Main = () => {
   return (
     <>
       <div className="sticky top-0 z-10">
+        <div className="p-2 text-center">
+          <Link to="/babysaur">Click here</Link> for baby shower info!
+        </div>
         <NavigationBarScroll />
       </div>
       <AboveTheFold />
