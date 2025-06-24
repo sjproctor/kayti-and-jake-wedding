@@ -31,7 +31,7 @@ export default {
       }
     },
     colors: {
-      cream: "#f9f5f2",
+      cream: "#fbd3b1",
       greenGold: "#b2935b",
       greenGoldLight: "#ded1b8",
       blackFont: "#121f32",
