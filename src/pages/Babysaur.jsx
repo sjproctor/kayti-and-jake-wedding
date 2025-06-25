@@ -106,7 +106,7 @@ const Babysaur = () => {
       </div>
       <div className="m-auto w-11/12 pt-8 text-center md:w-1/2">
         <h2 className="gray-header-text-babysaur">Party Agenda</h2>
-        <p></p>
+        <p>Check back soon for agenda, more details, and registry!</p>
         <br />
       </div>
       <div className="bg-cream">
