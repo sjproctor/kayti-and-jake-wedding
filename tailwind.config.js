@@ -43,7 +43,8 @@ export default {
       poppy: "#CA4E46",
       brightGold: "#ECBB80",
       lightGold: "#F6DFC3",
-      babyBlue: "#b6e4df"
+      babysaurLightBlue: "#b6e4df",
+      babysaurDarkBlue: "#414757"
     },
     opacity: {
       50: ".50",
