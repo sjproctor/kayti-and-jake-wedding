@@ -12,7 +12,7 @@ const AboveTheFold = () => {
           className="h-[calc(w-screen * 2)] w-screen opacity-50"
         />
       </picture>
-      <div className="absolute left-0 right-0 top-20 md:top-12">
+      <div className="absolute left-0 right-0 top-24 md:top-14">
         <h1 className="font-moontime text-6xl sm:text-7xl md:text-9xl">
           Kayti and Jake
         </h1>

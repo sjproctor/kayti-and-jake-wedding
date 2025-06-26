@@ -13,7 +13,8 @@ const Main = () => {
   return (
     <>
       <div className="sticky top-0 z-10">
-        <div className="p-2 text-center">
+        <div className="p-2 text-center bg-lightGold">
+          <span>🦕&nbsp;&nbsp;</span>
           <Link to="/babysaur">Click here</Link> for baby shower info!
         </div>
         <NavigationBarScroll />
