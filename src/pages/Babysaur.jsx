@@ -7,6 +7,9 @@ import FormSubmissionAlert from "../utilities/forms/FormSubmissionAlert"
 import SetFaviconAndTabTitle from "../utilities/SetFaviconAndTabTitle"
 import clouds from "../assets/babysaur/clouds.png"
 import rainbow from "../assets/babysaur/rainbow.png"
+import pennantBanner from "../assets/babysaur/pennant-banner.png"
+import babyDot from "../assets/babysaur/baby-dot.png"
+import babyDotBackground from "../assets/babysaur/baby-dot-background.png"
 
 const favicon =
   "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦕</text></svg>"
@@ -69,44 +72,86 @@ const Babysaur = () => {
   }
 
   return (
-    <div className="font-montserratRegular">
+    <div className="font-montserratRegular text-babysaurDarkBlue">
       <SetFaviconAndTabTitle tabTitle="KJ + Babysaur" favicon={favicon} />
       <div className="flex justify-center">
         <img
           src={rainbow}
-          className="m-4 h-auto w-40"
+          className="m-2 h-auto w-40"
           alt="hand-drawn rainbow"
         />
       </div>
       <div
         style={{ backgroundImage: `url(${clouds})`, backgroundSize: "cover" }}
-        className="text-center"
+        className="py-16 text-center"
       >
-        <h1 className="font-marykate m-4 text-center text-4xl md:text-6xl">
+        <h1 className="font-marykate text-center text-4xl md:text-6xl">
           Baby Dahlgren
         </h1>
-        <div className="m-auto w-11/12 pb-12 text-center md:w-1/2">
+        <div className="m-auto w-11/12 text-center md:w-1/2">
           <h3 className="text-lg font-extrabold">
             Kayti & Jake are prego, y'all!
           </h3>
-          <br />
-          <p>
+          <p className="my-8">
             Baby Boy is due mid-October and his parents-to-be could not be more
-            excited. We hope you can join us in celebrating the new addition to
+            excited. We hope you can join us to celebrating the new addition to
             our family.
           </p>
-          <br />
-          <p>
-            As is on brand for Team KJ, this will be a casual, coed drop-in kind
-            of gathering. We'll be hanging out in the backyard with food,
-            drinks, and yard games. Pop in as suits your schedule, bring the
-            family, stay as long as you would like.
-          </p>
+          <div className="flex items-center justify-center bg-cream lg:text-xl">
+            <div className="m-1 w-32 lg:m-6">
+              <p>Saturday</p>
+            </div>
+            <div className="border-babysaurDarkBlue h-16 border-r-2 border-solid lg:h-24"></div>
+            <div className="m-7">
+              <p>July</p>
+              <p className="font-garamond text-3xl/none tracking-widest lg:text-6xl/none">
+                26
+              </p>
+              <p>2025</p>
+            </div>
+            <div className="border-babysaurDarkBlue h-16 border-l-2  border-solid lg:h-24"></div>
+            <div className="m-1 w-32 lg:m-6">
+              <p>2 - 5 pm</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="m-auto w-11/12 pt-8 text-center md:w-1/2">
-        <h2 className="gray-header-text-babysaur">Party Agenda</h2>
-        <p>Check back soon for agenda, more details, and registry!</p>
+      <div className="m-auto w-11/12 py-4 text-center md:w-1/2 lg:pb-12">
+        <div className="relative mb-8">
+          <img
+            src={pennantBanner}
+            alt="pennant banner graphic"
+            className="w-full"
+          />
+          <h2 className="gray-header-text-babysaur absolute inset-0 flex items-center justify-center pb-16">
+            Party Details
+          </h2>
+        </div>
+        <p>
+          As is on brand for Team KJ, this will be a casual, coed drop-in kind
+          of gathering.
+        </p>
+        <div className="flex justify-center">
+          <img src={babyDot} alt="dot icon" className="m-4 h-4" />
+        </div>
+        <p>Come hang out in the backyard with food, drinks, and yard games.</p>
+        <div className="flex justify-center">
+          <img src={babyDot} alt="dot icon" className="m-4 h-4" />
+        </div>
+        <p>
+          Pop in as suits your schedule, bring the family, stay as long as you
+          would like.
+        </p>
+        <div className="flex justify-center">
+          <img src={babyDot} alt="dot icon" className="m-4 h-4" />
+        </div>
+        <p>
+          Kayti & Jake are registered{" "}
+          <a href="https://my.babylist.com/kayti-dahlgren" target="_blank">
+            here
+          </a>
+          .
+        </p>
         <br />
       </div>
       <div className="bg-cream">
@@ -117,13 +162,13 @@ const Babysaur = () => {
           </p>
           <br />
           <FormSubmissionAlert
-            submissionBackgroundColor="bg-babyBlue"
+            submissionBackgroundColor="bg-white"
             submissionAlert={submissionAlert}
             setSubmissionAlert={setSubmissionAlert}
           />
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="bg-white md:px-16 px-4 md:py-8 py-2"
+            className="bg-white px-4 py-2 md:px-16 md:py-8"
           >
             <fieldset className="group">
               <input
@@ -131,7 +176,7 @@ const Babysaur = () => {
                 type="text"
                 name="name"
                 autoComplete="name"
-                className="bg-transparent focus:border-blue-600 peer block w-full appearance-none border-0 border-b-2 px-0 py-2.5 text-sm text-gray focus:outline-none focus:ring-0"
+                className="bg-transparent focus:border-blue-600 peer block w-full appearance-none border-0 border-b-2 border-r-0 px-0 py-2.5 text-sm text-gray focus:outline-none focus:ring-0"
                 {...register("name", {
                   required: true
                 })}
@@ -153,7 +198,7 @@ const Babysaur = () => {
                 type="email"
                 name="email"
                 autoComplete="email"
-                className="bg-transparent focus:border-blue-600 peer block w-full appearance-none border-0 border-b-2 px-0 py-2.5 text-sm text-gray focus:outline-none focus:ring-0"
+                className="bg-transparent focus:border-blue-600 peer block w-full appearance-none border-0 border-b-2 border-r-0 px-0 py-2.5 text-sm text-gray focus:outline-none focus:ring-0"
                 {...register("email", {
                   required: true
                 })}
@@ -215,7 +260,7 @@ const Babysaur = () => {
                 type="number"
                 name="guests"
                 autoComplete="guests"
-                className="bg-transparent focus:border-blue-600 peer block w-1/6 appearance-none border-0 border-b-2 px-0 py-2.5 text-center text-sm text-gray focus:outline-none focus:ring-0"
+                className="bg-transparent focus:border-blue-600 peer block w-1/6 appearance-none border-0 border-b-2 border-r-0 px-0 py-2.5 text-center text-sm text-gray focus:outline-none focus:ring-0"
                 {...register("guests")}
               />
               <div className="text-left">
@@ -230,7 +275,7 @@ const Babysaur = () => {
                 name="message"
                 id="message"
                 autoComplete="message"
-                className="bg-transparent focus:border-blue-600 peer block w-full appearance-none border-0 border-b-2 px-0 py-2.5 text-sm text-gray focus:outline-none focus:ring-0"
+                className="bg-transparent focus:border-blue-600 peer block w-full appearance-none border-0 border-b-2 border-r-0 px-0 py-2.5 text-sm text-gray focus:outline-none focus:ring-0"
                 {...register("message")}
               />
               <div className="text-left">
@@ -250,14 +295,21 @@ const Babysaur = () => {
           </form>
         </div>
       </div>
-      <br />
-      <div className="text-center">
-        <h3 className="text-lg font-extrabold">The Dahlgren House</h3>
-        <p>2707 Malibu Road</p>
-        <p>Boise, Idaho 83705</p>
+      <div
+        style={{
+          backgroundImage: `url(${babyDotBackground})`,
+          backgroundSize: "cover"
+        }}
+        className="py-16 text-center"
+      >
+        <div className="bg-white m-auto w-11/12 py-4 md:w-1/2 lg:pb-12">
+          <h2 className="gray-header-text-babysaur">Location</h2>
+          <h3 className="text-lg font-extrabold">The Dahlgren House</h3>
+          <p>2707 Malibu Road</p>
+          <p>Boise, Idaho 83705</p>
+        </div>
       </div>
-      <br />
-      <div className="w-screen">
+      <div className="mb-12">
         <GoogleMap />
       </div>
       <FooterBabysaur />
