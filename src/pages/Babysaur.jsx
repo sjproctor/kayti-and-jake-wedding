@@ -5,11 +5,12 @@ import FooterBabysaur from "../components/FooterBabysaur"
 import GoogleMap from "../components/GoogleMap"
 import FormSubmissionAlert from "../utilities/forms/FormSubmissionAlert"
 import SetFaviconAndTabTitle from "../utilities/SetFaviconAndTabTitle"
+import ScrollLink from "../utilities/ScrollLink"
 import clouds from "../assets/babysaur/clouds.png"
 import rainbow from "../assets/babysaur/rainbow.png"
 import pennantBanner from "../assets/babysaur/pennant-banner.png"
 import babyDot from "../assets/babysaur/baby-dot.png"
-import babyDotBackground from "../assets/babysaur/baby-dot-background.png"
+import babyStars from "../assets/babysaur/baby-stars.png"
 
 const favicon =
   "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦕</text></svg>"
@@ -74,27 +75,29 @@ const Babysaur = () => {
   return (
     <div className="font-montserratRegular text-babysaurDarkBlue">
       <SetFaviconAndTabTitle tabTitle="KJ + Babysaur" favicon={favicon} />
-      <div className="flex justify-center">
-        <img
-          src={rainbow}
-          className="m-2 h-auto w-40"
-          alt="hand-drawn rainbow"
-        />
-      </div>
       <div
         style={{ backgroundImage: `url(${clouds})`, backgroundSize: "cover" }}
         className="py-16 text-center"
       >
-        <h1 className="font-marykate text-center text-4xl md:text-6xl">
+        <h1 className="font-marykate text-center text-5xl md:text-7xl">
           Baby Dahlgren
         </h1>
         <div className="m-auto w-11/12 text-center md:w-1/2">
-          <h3 className="text-lg font-extrabold">
-            Kayti & Jake are prego, y'all!
-          </h3>
+          <div className="flex justify-center">
+            <img
+              src={rainbow}
+              className="mb-8 h-auto w-40"
+              alt="hand-drawn rainbow"
+            />
+          </div>
+          <div className="-rotate-40">
+            <h3 className="font-marykate text-2xl font-extrabold md:text-3xl">
+              Kayti & Jake are prego, y&apos;all!
+            </h3>
+          </div>
           <p className="my-8">
             Baby Boy is due mid-October and his parents-to-be could not be more
-            excited. We hope you can join us to celebrating the new addition to
+            excited. We hope you can join us to celebrate the new addition to
             our family.
           </p>
           <div className="flex items-center justify-center bg-cream lg:text-xl">
@@ -116,7 +119,7 @@ const Babysaur = () => {
           </div>
         </div>
       </div>
-      <div className="m-auto w-11/12 py-4 text-center md:w-1/2 lg:pb-12">
+      <div className="m-auto w-11/12 py-4 text-center md:w-1/3 lg:pb-12">
         <div className="relative mb-8">
           <img
             src={pennantBanner}
@@ -128,37 +131,41 @@ const Babysaur = () => {
           </h2>
         </div>
         <p>
-          As is on brand for Team KJ, this will be a casual, coed drop-in kind
-          of gathering.
+          The shower will be a coed, family friendly hangout. Everyone is
+          welcome!
         </p>
         <div className="flex justify-center">
-          <img src={babyDot} alt="dot icon" className="m-4 h-4" />
-        </div>
-        <p>Come hang out in the backyard with food, drinks, and yard games.</p>
-        <div className="flex justify-center">
-          <img src={babyDot} alt="dot icon" className="m-4 h-4" />
+          <img src={babyDot} alt="dot icon" className="m-6 h-4" />
         </div>
         <p>
-          Pop in as suits your schedule, bring the family, stay as long as you
-          would like.
+          We will be out in Kayti & Jake&apos;s beautiful backyard enjoying
+          food, drinks, and playing yard games.
         </p>
         <div className="flex justify-center">
-          <img src={babyDot} alt="dot icon" className="m-4 h-4" />
+          <img src={babyDot} alt="dot icon" className="m-6 h-4 rotate-90" />
         </div>
         <p>
-          Kayti & Jake are registered{" "}
-          <a href="https://my.babylist.com/kayti-dahlgren" target="_blank">
-            here
-          </a>
-          .
+          We know life is busy! You are welcome to stay the whole time or pop in
+          for a quick hello.
         </p>
+        <div className="flex justify-center">
+          <img src={babyDot} alt="dot icon" className="m-6 h-4 rotate-45" />
+        </div>
+        <p>2707 Malibu Road</p>
+        <p className="pb-2">Boise, Idaho 83705</p>
+        <ScrollLink
+          linkName="See Google map"
+          location="#googleMap"
+          className="font-montserratRegular text-babysaurDarkBlue"
+        />
         <br />
       </div>
       <div className="bg-cream">
         <div className="m-auto w-11/12 py-8 text-center md:w-1/2">
           <h2 className="gray-header-text-babysaur">RSVP</h2>
-          <p>
-            Drop a quick RSVP so we can get the right amount of food and drinks.
+          <p className="lg:px-16">
+            Please drop a quick RSVP so we can get the right amount of food and
+            drinks.
           </p>
           <br />
           <FormSubmissionAlert
@@ -297,19 +304,22 @@ const Babysaur = () => {
       </div>
       <div
         style={{
-          backgroundImage: `url(${babyDotBackground})`,
-          backgroundSize: "cover"
+          backgroundImage: `url(${babyStars})`
         }}
-        className="py-16 text-center"
+        className="h-80 bg-cover py-16 text-center"
       >
-        <div className="bg-white m-auto w-11/12 py-4 md:w-1/2 lg:pb-12">
-          <h2 className="gray-header-text-babysaur">Location</h2>
-          <h3 className="text-lg font-extrabold">The Dahlgren House</h3>
-          <p>2707 Malibu Road</p>
-          <p>Boise, Idaho 83705</p>
+        <div className="m-auto w-11/12 py-4 md:w-1/2 lg:pb-12">
+          <h2 className="gray-header-text-babysaur">Registry</h2>
+          <p>
+            Kayti & Jake are registered{" "}
+            <a href="https://my.babylist.com/kayti-dahlgren" target="_blank">
+              here
+            </a>
+            .
+          </p>
         </div>
       </div>
-      <div className="mb-12">
+      <div className="mb-12 mt-8" id="googleMap">
         <GoogleMap />
       </div>
       <FooterBabysaur />
