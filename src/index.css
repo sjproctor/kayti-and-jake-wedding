@@ -35,10 +35,16 @@
     @apply m-2 text-center font-alice text-xl uppercase text-gray md:text-2xl;
   }
   .gray-header-text-babysaur {
-    @apply font-montserratRegular m-2 text-center text-2xl uppercase text-gray md:text-3xl;
+    @apply m-2 text-center font-montserratRegular text-2xl uppercase text-gray md:text-3xl;
+  }
+  .gray-header-text-babysaur-small {
+    @apply m-2 text-center font-montserratRegular text-lg uppercase text-gray md:text-xl;
   }
   .scrollLinkNavigation {
     @apply block border-b px-3 py-2 font-alice text-xs uppercase text-gray no-underline md:border-0 md:p-0;
+  }
+  .pageLayout {
+    @apply m-auto w-11/12 md:w-1/2;
   }
 }
 

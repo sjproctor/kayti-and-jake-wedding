@@ -44,7 +44,8 @@ export default {
       brightGold: "#ECBB80",
       lightGold: "#F6DFC3",
       babysaurLightBlue: "#b6e4df",
-      babysaurDarkBlue: "#414757"
+      babysaurDarkBlue: "#414757",
+      babysaurPeach: "#f8e9dd"
     },
     opacity: {
       50: ".50",
