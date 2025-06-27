@@ -1,12 +1,9 @@
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import PropTypes from "prop-types"
 
-const ScrollLink = ({ linkName, location }) => {
+const ScrollLink = ({ linkName, location, className }) => {
   return (
-    <AnchorLink
-      href={location}
-      className="md:hover:bg-transparent block border-b px-3 py-2 font-alice text-xs uppercase text-gray no-underline hover:cursor-pointer md:border-0 md:p-0"
-    >
+    <AnchorLink href={location} className={className}>
       {linkName}
     </AnchorLink>
   )
@@ -15,6 +12,10 @@ const ScrollLink = ({ linkName, location }) => {
 ScrollLink.propTypes = {
   linkName: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired
+}
+
+ScrollLink.defaultProps = {
+  className: "scrollLinkNavigation"
 }
 
 export default ScrollLink
