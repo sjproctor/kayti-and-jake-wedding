@@ -7,7 +7,9 @@ const AboveTheFold = () => {
       style={{ backgroundImage: `url(${babyClouds})` }}
       className="bg-cover py-16"
     >
-      <h1 className="font-marykate text-5xl md:text-7xl">Baby Dahlgren</h1>
+      <h1 className="text-center font-marykate text-5xl md:text-7xl">
+        Baby Dahlgren
+      </h1>
       <div className="standardPageLayout">
         <div className="flex justify-center">
           <img

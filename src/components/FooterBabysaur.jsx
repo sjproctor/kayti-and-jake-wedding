@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const FooterBabysaur = () => {
   return (
     <>
-      <hr className="m-4 text-lightGray" />
+      <hr className="m-8 text-lightGray" />
 
       <div className="flex justify-between">
         <div className="my-2 ml-4 text-xs text-gray md:text-base lg:ml-8">
@@ -19,7 +19,7 @@ const FooterBabysaur = () => {
         </div>
         <NavigationScrollLogo
           source={babysaur}
-          className="mb-4 mr-4 h-12 hover:cursor-pointer md:h-20"
+          className="mb-4 mr-8 h-10 hover:cursor-pointer md:h-20"
           altText="graphic of a blue baby dinosaur hatching from a speckled egg"
         />
       </div>

@@ -11,7 +11,7 @@ const favicon =
 
 const Babysaur = () => {
   return (
-    <div className="babysaur-base">
+    <div className="babysaur-font-base">
       <SetFaviconAndTabTitle tabTitle="KJ + Babysaur" favicon={favicon} />
       <AboveTheFold />
       <PartyDetails />
