@@ -111,7 +111,7 @@ const Reservation = () => {
           </p>
         </div>
       </div>
-      <p className="gray-header-text">Please respond ASAP</p>
+      <p className="header-lg">Please respond by July 1st, 2024</p>
       <div className="bg-lightGray p-4">
         <div className={submissionAlert.visibility}>
           <div

@@ -28,7 +28,7 @@ const TheirStory = () => {
         </div>
       </div>
       <div className="py-10">
-        <p className="gray-header-text">All About Kayti + Jake</p>
+        <p className="header-lg">All About Kayti + Jake</p>
       </div>
       <div className="m-auto w-11/12 md:mb-96 lg:w-1/2">
         <p className="mb-4 text-justify">
@@ -153,7 +153,7 @@ const TheirStory = () => {
         </div>
       </div>
       <div className="m-auto w-11/12 text-center md:w-1/2">
-        <p className="gray-header-text">Photo Gallery</p>
+        <p className="header-lg">Photo Gallery</p>
         <p>
           These two are so adorable, right? <Link to="/photos">Click here</Link>
           &nbsp; for more pictures of the lovely couple.

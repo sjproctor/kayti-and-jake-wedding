@@ -19,9 +19,9 @@ const PartyTime = () => {
           </h2>
         </div>
       </div>
-      <p className="gray-header-text">Celebration Schedule</p>
+      <p className="header-lg">Celebration Schedule</p>
       <Timeline />
-      <p className="gray-header-text">Details, Details, Details</p>
+      <p className="header-lg">Details, Details, Details</p>
       <div className="mx-auto w-11/12 pt-4 text-center md:w-2/3">
         <h3 className="text-lg font-extrabold">What to know before...</h3>
         <p className="py-2">
@@ -86,7 +86,7 @@ const PartyTime = () => {
           </AnchorLink>
         </p>
         <br />
-        <p className="gray-header-text">Resources</p>
+        <p className="header-lg">Resources</p>
         <h3 className="text-lg font-extrabold" id="map">
           Current seven day weather forecast
         </h3>

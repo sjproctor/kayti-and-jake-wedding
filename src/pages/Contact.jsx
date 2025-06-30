@@ -66,7 +66,7 @@ const Contact = () => {
           <h2 className="font-moontime text-6xl md:text-9xl">Contact Me</h2>
         </div>
       </div>
-      <p className="gray-header-text">Well, Hey There!</p>
+      <p className="header-lg">Well, Hey There!</p>
       <div className="m-auto w-11/12 text-center md:w-1/2">
         <h3 className="text-lg font-extrabold">Questions and Feedback</h3>
         <p>
@@ -218,7 +218,7 @@ const Contact = () => {
           .
         </p>
         <br />
-        <p className="gray-header-text">Some Obligatory Stuff</p>
+        <p className="header-lg">Some Obligatory Stuff</p>
         <h3 className="text-lg font-extrabold">
           The &ldquo;Be Cool&rdquo; Reminder
         </h3>

@@ -4,7 +4,7 @@ const AdventureDetails = () => {
   return (
     <div className="text-center">
       <div className="m-auto w-11/12 text-center md:w-1/2">
-        <p className="gray-header-text">Boise Adventures</p>
+        <p className="header-lg">Boise Adventures</p>
       </div>
       <div className="mx-8 mt-8 flex flex-wrap justify-around">
         <div className="my-4 md:w-1/4">

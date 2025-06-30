@@ -2,7 +2,7 @@ const HotelDetails = () => {
   return (
     <div className="text-center">
       <div className="m-auto w-11/12 text-center md:w-1/2">
-        <p className="gray-header-text">Hotels</p>
+        <p className="header-lg">Hotels</p>
         <p>
           We have blocks of standard rooms reserved at the Grove Hotel and Home2
           Suites by Hilton in downtown Boise for Friday, August 30 through

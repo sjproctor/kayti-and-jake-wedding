@@ -2,7 +2,7 @@ const TravelDetails = () => {
   return (
     <div className="text-center">
       <div className="m-auto w-11/12 text-center md:w-1/2">
-        <p className="gray-header-text">Travel to Boise</p>
+        <p className="header-lg">Travel to Boise</p>
       </div>
       <div className="mx-8 flex flex-wrap justify-around">
         <div className="my-4 md:w-1/4">
