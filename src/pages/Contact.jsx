@@ -67,7 +67,7 @@ const Contact = () => {
         </div>
       </div>
       <p className="header-lg">Well, Hey There!</p>
-      <div className="m-auto w-11/12 text-center md:w-1/2">
+      <div className="standardPageLayout">
         <h3 className="text-lg font-extrabold">Questions and Feedback</h3>
         <p>
           If you are having issues with the website, need technical help, have

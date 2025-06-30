@@ -152,7 +152,7 @@ const TheirStory = () => {
           </div>
         </div>
       </div>
-      <div className="m-auto w-11/12 text-center md:w-1/2">
+      <div className="standardPageLayout">
         <p className="header-lg">Photo Gallery</p>
         <p>
           These two are so adorable, right? <Link to="/photos">Click here</Link>

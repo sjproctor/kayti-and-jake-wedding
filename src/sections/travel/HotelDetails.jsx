@@ -1,7 +1,7 @@
 const HotelDetails = () => {
   return (
     <div className="text-center">
-      <div className="m-auto w-11/12 text-center md:w-1/2">
+      <div className="standardPageLayout">
         <p className="header-lg">Hotels</p>
         <p>
           We have blocks of standard rooms reserved at the Grove Hotel and Home2

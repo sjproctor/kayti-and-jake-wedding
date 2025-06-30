@@ -23,7 +23,7 @@ const Ceremony = () => {
       <h2 className="text-center font-moontime text-7xl md:text-9xl">
         Ceremony
       </h2>
-      <div className="m-auto w-11/12 text-center md:w-1/2">
+      <div className="standardPageLayout">
         <h3 className="text-lg font-extrabold">The Wedding</h3>
         <p>
           Kayti and Jake tied the knot in a small ceremony on June 8th, 2024, on

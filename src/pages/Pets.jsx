@@ -22,7 +22,7 @@ const Pets = () => {
       <h2 className="text-center font-moontime text-6xl md:text-9xl">
         Secret Pet Page
       </h2>
-      <div className="m-auto w-11/12 text-center md:w-1/2">
+      <div className="standardPageLayout">
         <p>Oh hey! You found the best page of all!</p>
         <p>
           If you got here by accident, Lola Moon will take you back to the main

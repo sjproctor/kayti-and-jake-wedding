@@ -3,7 +3,7 @@ import flowerLogo from "../../assets/graphics/flower-logo.png"
 const AdventureDetails = () => {
   return (
     <div className="text-center">
-      <div className="m-auto w-11/12 text-center md:w-1/2">
+      <div className="standardPageLayout">
         <p className="header-lg">Boise Adventures</p>
       </div>
       <div className="mx-8 mt-8 flex flex-wrap justify-around">
