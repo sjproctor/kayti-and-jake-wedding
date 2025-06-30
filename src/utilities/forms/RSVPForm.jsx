@@ -1,7 +1,10 @@
 import { useState } from "react"
 import { useForm } from "react-hook-form"
 import emailjs from "@emailjs/browser"
+import FormField from "./FormField"
 import FormSubmissionAlert from "./FormSubmissionAlert"
+import RadioField from "./RadioField"
+
 
 const RSVPForm = () => {
   const [submissionAlert, setSubmissionAlert] = useState({
@@ -18,16 +21,17 @@ const RSVPForm = () => {
     formState: { errors }
   } = useForm()
 
+  const handleAttendanceChange = (attending) => {
+    setWillBeAttending(attending ? "" : "hidden")
+  }
+
   const onSubmit = async (data) => {
     const { name, email, status, guests, message } = data
-    let finalMessage = message
-    if (message.length === 0) {
-      finalMessage = "No message included"
-    }
-    let finalGuests = guests
-    if (status === "Will not be attending") {
-      finalGuests = 0
-    }
+
+    // Process form data
+    const finalMessage = message.length === 0 ? "No message included" : message
+    const finalGuests = status === "Will not be attending" ? 0 : guests
+
     try {
       const templateParams = {
         name,
@@ -36,20 +40,21 @@ const RSVPForm = () => {
         guests: finalGuests,
         message: finalMessage
       }
+
       await emailjs.send(
         "service_izpa2uz",
         "template_6y4jg0s",
         templateParams,
         "opwB1tSgZJHytVdTC"
-        // RSVP template for kj.partytime
       )
+
       setSubmissionAlert({
         visibility: "",
         header: "Success!",
         body: "Thank you for your RSVP."
       })
-    } catch (e) {
-      console.log(e)
+    } catch (error) {
+      console.error("Email submission error:", error)
       setSubmissionAlert({
         visibility: "",
         header: "Oops!",
@@ -57,8 +62,10 @@ const RSVPForm = () => {
       })
     } finally {
       reset()
+      setWillBeAttending("hidden")
     }
   }
+
   return (
     <>
       <FormSubmissionAlert
@@ -70,124 +77,83 @@ const RSVPForm = () => {
         onSubmit={handleSubmit(onSubmit)}
         className="bg-white px-4 py-2 md:px-16 md:py-8"
       >
-        <fieldset className="group">
-          <input
-            id="name"
-            type="text"
-            name="name"
-            autoComplete="name"
-            className="bg-transparent focus:border-blue-600 peer block w-full appearance-none border-0 border-b-2 border-r-0 px-0 py-2.5 text-sm text-gray focus:outline-none focus:ring-0"
-            {...register("name", {
-              required: true
-            })}
-          />
-          <div className="text-left">
-            <label htmlFor="name" className="text-sm text-gray">
-              Your name(s) *
-            </label>
-          </div>
-          {errors.name && errors.name.type === "required" && (
-            <p className="text-left text-sm text-error">
-              Please enter your name
-            </p>
-          )}
-        </fieldset>
-        <fieldset className="group">
-          <input
-            id="email"
-            type="email"
-            name="email"
-            autoComplete="email"
-            className="bg-transparent focus:border-blue-600 peer block w-full appearance-none border-0 border-b-2 border-r-0 px-0 py-2.5 text-sm text-gray focus:outline-none focus:ring-0"
-            {...register("email", {
-              required: true
-            })}
-          />
-          <div className="text-left">
-            <label htmlFor="email" className="text-sm text-gray">
-              Your preferred email *
-            </label>
-          </div>
-          {errors.email && errors.email.type === "required" && (
-            <p className="text-left text-sm text-error">
-              Please enter your preferred email
-            </p>
-          )}
-        </fieldset>
+        <FormField
+          id="name"
+          type="text"
+          name="name"
+          label="Your name(s)"
+          required
+          autoComplete="name"
+          register={register}
+          errors={errors}
+        />
+
+        <FormField
+          id="email"
+          type="email"
+          name="email"
+          label="Your preferred email"
+          required
+          autoComplete="email"
+          register={register}
+          errors={errors}
+        />
+
         <br />
+
         <fieldset className="group">
-          <div className="flex justify-start">
-            <input
-              id="yes"
-              type="radio"
-              name="status"
-              value="Will be attending"
-              className="mr-2 h-4"
-              onClick={() => setWillBeAttending("")}
-              {...register("status", {
-                required: true
-              })}
-            />
-            <label htmlFor="yes" className="text-sm text-gray">
-              Yes, count me/us in
-            </label>
-          </div>
-          <div className="flex justify-start">
-            <input
-              id="no"
-              type="radio"
-              name="status"
-              value="Will not be attending"
-              className="mr-2 h-4"
-              onClick={() => setWillBeAttending("hidden")}
-              {...register("status", {
-                required: true
-              })}
-            />
-            <label htmlFor="no" className="text-sm text-gray">
-              No, sending well wishes
-            </label>
-          </div>
+          <RadioField
+            id="yes"
+            value="Will be attending"
+            label="Yes, count me/us in"
+            name="status"
+            onClick={() => handleAttendanceChange(true)}
+            register={register}
+            errors={errors}
+          />
+          <RadioField
+            id="no"
+            value="Will not be attending"
+            label="No, sending well wishes"
+            name="status"
+            onClick={() => handleAttendanceChange(false)}
+            register={register}
+            errors={errors}
+          />
           {errors.status && errors.status.type === "required" && (
             <p className="text-left text-sm text-error">
               Please select a response
             </p>
           )}
         </fieldset>
+
         <fieldset className={`group ${willBeAttending}`}>
-          <input
+          <FormField
             id="guests"
             type="number"
             name="guests"
+            label="Number of guests"
             autoComplete="guests"
-            className="bg-transparent focus:border-blue-600 peer block w-1/6 appearance-none border-0 border-b-2 border-r-0 px-0 py-2.5 text-center text-sm text-gray focus:outline-none focus:ring-0"
-            {...register("guests")}
+            className="w-1/6 text-center"
+            register={register}
+            errors={errors}
           />
-          <div className="text-left">
-            <label htmlFor="guests" className="text-sm text-gray">
-              Number of guests
-            </label>
-          </div>
         </fieldset>
-        <fieldset className="group">
-          <input
-            type="text"
-            name="message"
-            id="message"
-            autoComplete="message"
-            className="bg-transparent focus:border-blue-600 peer block w-full appearance-none border-0 border-b-2 border-r-0 px-0 py-2.5 text-sm text-gray focus:outline-none focus:ring-0"
-            {...register("message")}
-          />
-          <div className="text-left">
-            <label htmlFor="message" className="text-sm text-gray">
-              Optional message for Kayti & Jake
-            </label>
-          </div>
-        </fieldset>
+
+        <FormField
+          id="message"
+          type="text"
+          name="message"
+          label="Optional message for Kayti & Jake"
+          autoComplete="message"
+          register={register}
+          errors={errors}
+        />
+
         <div className="text-center">
           <button
+            type="submit"
             className="mt-10 rounded-md border bg-cream px-4 py-2 text-gray shadow-2xl hover:bg-white active:translate-y-0.5"
-            onClick={handleSubmit}
           >
             Submit
           </button>
