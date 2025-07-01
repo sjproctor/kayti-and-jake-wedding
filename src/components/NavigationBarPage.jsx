@@ -1,10 +1,15 @@
 import NavigationPageLogo from "./NavigationPageLogo"
 import PageLink from "../utilities/PageLink"
 import { Navbar } from "flowbite-react"
+import { Link } from "react-router-dom"
 
 const NavigationBarPage = () => {
   return (
     <div className="sticky top-0 z-10">
+      <div className="bg-lightGold p-2 text-center">
+        <span>🦕&nbsp;&nbsp;</span>
+        <Link to="/babysaur">Click here</Link> for baby shower info!
+      </div>
       <Navbar fluid>
         <NavigationPageLogo />
         <div>
