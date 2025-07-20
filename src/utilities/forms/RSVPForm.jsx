@@ -5,7 +5,6 @@ import FormField from "./FormField"
 import FormSubmissionAlert from "./FormSubmissionAlert"
 import RadioField from "./RadioField"
 
-
 const RSVPForm = () => {
   const [submissionAlert, setSubmissionAlert] = useState({
     visibility: "hidden",
@@ -28,7 +27,7 @@ const RSVPForm = () => {
   const onSubmit = async (data) => {
     const { name, email, status, guests, message } = data
 
-    // Process form data
+
     const finalMessage = message.length === 0 ? "No message included" : message
     const finalGuests = status === "Will not be attending" ? 0 : guests
 
@@ -84,6 +83,7 @@ const RSVPForm = () => {
           label="Your name(s)"
           required
           autoComplete="name"
+          className="w-full"
           register={register}
           errors={errors}
         />
@@ -95,6 +95,7 @@ const RSVPForm = () => {
           label="Your preferred email"
           required
           autoComplete="email"
+          className="w-full"
           register={register}
           errors={errors}
         />
@@ -146,6 +147,7 @@ const RSVPForm = () => {
           name="message"
           label="Optional message for Kayti & Jake"
           autoComplete="message"
+          className="w-full"
           register={register}
           errors={errors}
         />

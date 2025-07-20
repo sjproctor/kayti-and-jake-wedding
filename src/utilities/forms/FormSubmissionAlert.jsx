@@ -1,5 +1,3 @@
-import React, { useState } from "react"
-
 const FormSubmissionAlert = ({ submissionBackgroundColor, submissionAlert, setSubmissionAlert }) => {
   return (
     <div className={submissionAlert.visibility}>

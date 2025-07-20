@@ -5,7 +5,7 @@ const FormField = ({
   label,
   required = false,
   autoComplete,
-  className = "w-full",
+  className,
   register,
   errors,
   ...props
